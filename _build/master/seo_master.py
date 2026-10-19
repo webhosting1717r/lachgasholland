@@ -412,6 +412,7 @@ def body_stad(body, path, c):
     for cls in ("text-xs text-gray-400", "text-xs font-semibold text-gray-400", "mm-h text-gray-400", "pf-note text-xs text-gray-400", "mb-8 text-sm text-gray-400"):
         body = re.sub(r'<p class="%s"([^>]*)>' % re.escape(cls), lambda m, cls=cls: '<p class="%s"%s>' % (cls.replace("gray-400", "gray-500"), m.group(1)), body)
     body = re.sub(r'<dt class="text-gray-400"([^>]*)>', r'<dt class="text-gray-500"\1>', body)
+    body = re.sub(r'(<th\b[^>]*class="[^"]*?)text-gray-400', r'\1text-gray-500', body)
     # lightbox-afbeelding met afmetingen
     body = re.sub(r'<img loading="lazy" decoding="async" id="image-lightbox-img" src="" alt="" class="([^"]*)"\s*/?>',
                   r'<img loading="lazy" decoding="async" id="image-lightbox-img" src="" alt="" width="1200" height="800" class="\1">', body)
