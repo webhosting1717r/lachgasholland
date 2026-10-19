@@ -84,6 +84,13 @@ def main():
     sys.path.insert(0, os.path.join(HERE, "speed"))
     import apply_speed
     apply_speed.apply(ROOT, "brabant")
+    # master-standaard (SEO, schema, toegankelijkheid, verfijning) als laatste pas, zodat elke herbouw dezelfde standaard oplevert
+    for cand in (os.path.join(HERE, "master"), os.path.join(os.path.dirname(HERE), "master")):
+        if os.path.exists(os.path.join(cand, "seo_master.py")):
+            sys.path.insert(0, cand)
+            break
+    import seo_master
+    seo_master.apply_site(ROOT, C.SITE)
     print("%d pagina's gebouwd in %s" % (len(out), ROOT))
 
 

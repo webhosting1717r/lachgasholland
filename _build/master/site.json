@@ -1,0 +1,39 @@
+{
+ "key": "holland",
+ "brand": "Lachgas Holland",
+ "host": "lachgasholland.nl",
+ "site": "https://lachgasholland.nl",
+ "word": "Holland",
+ "wa": "31630159143",
+ "mail": "info@lachgasholland.nl",
+ "keyword": "lachgas holland",
+ "alt_names": [
+  "lachgasholland.nl"
+ ],
+ "home_title": "Lachgas Holland | Lachgas bestellen, bezorgd via WhatsApp",
+ "html_lang": "nl",
+ "hl": "nl",
+ "lang": "nl-NL",
+ "locale": "nl_NL",
+ "country": "NL",
+ "payment": "Contant, Tikkie",
+ "same_as": [],
+ "extra_service": [],
+ "family": "prov",
+ "domain": "https://lachgasholland.nl",
+ "area_dirs": [
+  "lachgas-bezorgen"
+ ],
+ "city": null,
+ "region": "Nederland",
+ "region_long": "heel Nederland",
+ "geo_region": "NL",
+ "place": "Nederland",
+ "geo": null,
+ "theme": "#1c1917",
+ "accent": "#1e4fb8",
+ "og": "/assets/og-lachgas-holland.png",
+ "logo": "/assets/icon-512.png",
+ "apple": "/assets/apple-touch-icon.png",
+ "og_alt": "Lachgas Holland: lachgas bestellen in heel Nederland, bezorgd via WhatsApp"
+}

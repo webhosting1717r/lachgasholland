@@ -1,5 +1,5 @@
 /* Service worker: statische bestanden cache-first, pagina's stale-while-revalidate. Versie wisselt per build. */
-var VERSION = "d1d9c4def6";
+var VERSION = "81c181b8ef";
 var STATIC = "static-" + VERSION, PAGES = "pages-" + VERSION;
 var PRECACHE = ["/","/js/site.js","/js/nav.js","/fonts/manrope.woff2"];
 var PAGE_LIMIT = 150;
