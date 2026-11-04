@@ -29,7 +29,7 @@ def load_content(cdir):
         pages[k] = first(k)
     hubs = collect("HUBS")
     return dict(home=first("HOME"), regions=hubs, places=collect("AREAS"), articles=collect("ARTICLES"), services=collect("SERVICE_PAGES"),
-                faq_topics=collect("FAQ_TOPICS"), tanks=first("TANKS"), pages=pages, topic_hubs=collect("TOPIC_HUBS"))
+                faq_topics=collect("FAQ_TOPICS"), tanks=first("TANKS"), pages=pages, topic_hubs=collect("TOPIC_HUBS"), sub_places=collect("SUB_AREAS"))
 
 
 def write(rel, data, binary=False):
