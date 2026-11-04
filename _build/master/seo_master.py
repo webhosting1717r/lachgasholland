@@ -50,6 +50,10 @@ CSS_END = "/*master-end*/"
 
 VERCEL = {
     "trailingSlash": True,
+    "redirects": [
+        {"source": "/lachgas-bezorgen/amsterdam/sarphatipark-8", "destination": "/lachgas-bezorgen/amsterdam/sarphatipark/", "permanent": True},
+        {"source": "/lachgas-bezorgen/amsterdam/sarphatipark-8/", "destination": "/lachgas-bezorgen/amsterdam/sarphatipark/", "permanent": True},
+    ],
     "headers": [
         {"source": "/(.*)", "headers": [
             {"key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains"},

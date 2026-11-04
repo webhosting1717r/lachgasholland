@@ -1,5 +1,17 @@
 {
   "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/lachgas-bezorgen/amsterdam/sarphatipark-8",
+      "destination": "/lachgas-bezorgen/amsterdam/sarphatipark/",
+      "permanent": true
+    },
+    {
+      "source": "/lachgas-bezorgen/amsterdam/sarphatipark-8/",
+      "destination": "/lachgas-bezorgen/amsterdam/sarphatipark/",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",

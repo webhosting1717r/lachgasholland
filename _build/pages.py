@@ -138,35 +138,46 @@ class Site:
         subs = self.subs_by_parent.get(p["slug"])
         if not subs:
             return ""
-        items = [(sub_href(p["slug"], sp["slug"]), "%s, %s" % (sp["name"], sp["buurt"]), sp["card"], "Bekijk het adres") for sp in subs]
-        return section(sec_head("Adressen", "Bezorgpagina's voor adressen in %s" % p["name"], "Woon of logeer je op een van deze adressen of in de buurt ervan? Dan vind je hier alles over bezorging ter plekke.") + cards(items))
+        items = [(sub_href(p["slug"], sp["slug"]), sp["name"]) for sp in subs]
+        return section(sec_head("Buurten", "Lachgas bezorgen per buurt in %s" % p["name"], "Elke buurt heeft een eigen pagina met straten, bereikbaarheid en veelgestelde vragen. Zelfde service, zelfde indicatie.") + chips(items))
+
+    def sub_link(self, parent, slug):
+        for sp in self.subs_by_parent.get(parent, []):
+            if sp["slug"] == slug:
+                return (sub_href(parent, slug), sp["name"])
+        return None
 
     def sub_place_page(self, sp):
         p = self.place_by[sp["parent"]]
         r = self.region_by[p["region"]]
         path = sub_href(p["slug"], sp["slug"])
         parent_path = area_href(p["slug"])
+        waar = sp["waar"]
         crumbs = [("Home", "/"), ("Bezorggebied", "/bezorggebied/"), (r["name"], "/bezorggebied/%s/" % r["slug"]), (p["name"], parent_path), (sp["name"], None)]
-        facts = [("Plaats", p["name"]), ("Buurt", "%s (%s)" % (sp["buurt"], sp["stadsdeel"]) if sp.get("stadsdeel") else sp["buurt"]), ("Levertijd", sp["levertijd"]),
-                 ("Bestellen", "24/7 via WhatsApp"), ("Betalen", "Contant of Tikkie bij levering")]
-        wa_text = "Hoi, ik wil graag lachgas bestellen op %s in %s." % (sp["name"], p["name"])
-        side = ('<aside class="hero-card" style="position:sticky;top:84px"><h2>Lachgas bezorgen op %s</h2><dl>%s</dl><a class="btn btn-wa" href="%s" target="_blank" rel="noopener">%s WhatsApp ons</a></aside>'
-                % (esc(sp["name"]), "".join("<div><dt>%s</dt><dd>%s</dd></div>" % (esc(k), esc(v)) for k, v in facts), C.wa_link(wa_text), ICON["wa"]))
-        intro = para(sp["intro"]) + '<p><strong>Straten rond %s:</strong> %s.</p>' % (esc(sp["name"]), esc(sp["straten"].rstrip(".")))
-        near = [(parent_path, "Heel %s" % p["name"])] + [self.place_link(s) for s in sp.get("nearby", []) if s in self.place_by] + [("/bezorggebied/%s/" % r["slug"], "Heel %s" % r["name"])]
+        facts = [("Plaats", p["name"]), ("Stadsdeel", sp["stadsdeel"]), ("Levertijd", sp["levertijd"]), ("Bestellen", "24/7 via WhatsApp"), ("Betalen", "Contant of Tikkie bij levering")]
+        wa_text = "Hoi, ik wil graag lachgas bestellen %s, %s." % (waar, p["name"])
+        side = ('<aside class="hero-card" style="position:sticky;top:84px"><h2>Lachgas bezorgen %s</h2><dl>%s</dl><a class="btn btn-wa" href="%s" target="_blank" rel="noopener">%s WhatsApp ons</a></aside>'
+                % (esc(waar), "".join("<div><dt>%s</dt><dd>%s</dd></div>" % (esc(k), esc(v)) for k, v in facts), C.wa_link(wa_text), ICON["wa"]))
+        intro = para(sp["intro"]) + '<p><strong>Straten en buurten %s:</strong> %s.</p>' % (esc(waar), esc(sp["straten"].rstrip(".")))
+        near = [(parent_path, "Heel %s" % p["name"])]
+        for slug in sp.get("nearby", []):
+            link = self.sub_link(p["slug"], slug) or (self.place_link(slug) if slug in self.place_by else None)
+            if link: near.append(link)
+        near.append(("/bezorggebied/%s/" % r["slug"], "Heel %s" % r["name"]))
         body = (page_head(crumbs, "Bezorggebied", sp["h1"], sp["lead"])
                 + section('<div class="two"><div class="prose">%s</div>%s</div>' % (intro, side))
-                + section(sec_head("Assortiment", "Lachgastanks in %s" % sp["buurt"], "Verzegeld geleverd, prijs vooraf bevestigd via WhatsApp.") + products(), alt=True)
-                + section('<div class="narrow">' + sec_head("Vragen", "Veelgestelde vragen over lachgas rond %s" % sp["name"]) + faq(sp["faq"]) + "</div>")
+                + section(sec_head("Assortiment", "Lachgastanks %s" % waar, "Verzegeld geleverd, prijs vooraf bevestigd via WhatsApp.") + products(), alt=True)
+                + section('<div class="narrow">' + sec_head("Vragen", "Veelgestelde vragen over lachgas %s" % waar) + faq(sp["faq"]) + "</div>")
                 + section(sec_head("In de buurt", "Wij bezorgen ook hier") + chips(near), alt=True)
                 + cta(wa_text=wa_text))
         area = {"@type": "Place", "name": "%s, %s" % (sp["name"], p["name"]),
-                "address": {"@type": "PostalAddress", "streetAddress": sp["name"], "addressLocality": p["name"], "addressRegion": r["name"], "addressCountry": "NL"}}
+                "address": {"@type": "PostalAddress", "addressLocality": p["name"], "addressRegion": r["name"], "addressCountry": "NL"},
+                "containedInPlace": {"@type": "City", "name": p["name"]}}
         if sp.get("lat"):
             area["geo"] = {"@type": "GeoCoordinates", "latitude": sp["lat"], "longitude": sp["lon"]}
         self.add(path=path, title=sp["title"], description=sp["description"], body=body, priority="0.7", changefreq="weekly",
-                 schemas=[C.crumbs_schema([c for c in crumbs[:-1]] + [(sp["name"], path)]),
-                          dict(C.service_schema("Lachgas bezorgen op %s, %s" % (sp["name"], p["name"]), sp["description"], path, p["name"], "City"), areaServed=area),
+                 schemas=[C.crumbs_schema(crumbs[:-1] + [(sp["name"], path)]),
+                          dict(C.service_schema("Lachgas bezorgen %s, %s" % (waar, p["name"]), sp["description"], path, p["name"], "City"), areaServed=area),
                           C.faq_schema(sp["faq"])])
 
     # -- informatie ----------------------------------------------------------
@@ -290,7 +301,7 @@ class Site:
             for s in r["places"]:
                 if s not in self.place_by: continue
                 items.append(self.place_link(s))
-                items += [(sub_href(s, sp["slug"]), "%s, %s" % (sp["name"], self.place_by[s]["name"])) for sp in self.subs_by_parent.get(s, [])]
+                items += [(sub_href(s, sp["slug"]), "%s (%s)" % (sp["name"], self.place_by[s]["name"])) for sp in self.subs_by_parent.get(s, [])]
             groups.append(("Plaatsen in %s" % r["name"], items))
         groups += [("Lachgas tanks", [("/lachgas-tanks/%s/" % t["slug"], t["h1"]) for t in self.tanks["TANKS"]]),
                    ("Informatie", [("/informatie/%s/" % a["slug"], a["h1"]) for a in self.articles]),
