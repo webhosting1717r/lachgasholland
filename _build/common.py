@@ -225,9 +225,21 @@ def crumbs(items):
     return '<nav aria-label="Kruimelpad"><ol class="crumbs">%s</ol></nav>' % "".join(lis)
 
 
-def page_head(crumb_items, kicker, h1, lead):
-    return ('<section class="phead"><div class="wrap">%s<span class="kicker">%s</span><h1>%s</h1><p class="lead">%s</p></div></section>'
-            % (crumbs(crumb_items), esc(kicker), esc(h1), lead))
+def hero_srcset(base):
+    """base: pad zonder extensie, bijv. /assets/amsterdam-gracht (bestanden <base>.webp 1600x900 en <base>-800.webp 800x450)."""
+    return "%s-800.webp 800w, %s.webp 1600w" % (base, base)
+
+
+def hero_preload(base):
+    return '<link rel="preload" as="image" href="%s.webp" imagesrcset="%s" imagesizes="100vw" fetchpriority="high">' % (base, hero_srcset(base))
+
+
+def page_head(crumb_items, kicker, h1, lead, image=None):
+    """image: basispad van een achtergrondafbeelding achter de titel (zie hero_srcset); decoratief, dus lege alt."""
+    bg = ('<div class="phead-bg" aria-hidden="true"><img src="%s.webp" srcset="%s" sizes="100vw" width="1600" height="900" alt="" fetchpriority="high" decoding="async"></div>'
+          % (image, hero_srcset(image))) if image else ""
+    return ('<section class="phead%s">%s<div class="wrap">%s<span class="kicker">%s</span><h1>%s</h1><p class="lead">%s</p></div></section>'
+            % (" phead-img" if image else "", bg, crumbs(crumb_items), esc(kicker), esc(h1), lead))
 
 
 def section(inner, alt=False, id_=None):

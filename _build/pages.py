@@ -122,14 +122,15 @@ class Site:
                 % (esc(p["name"]), "".join("<div><dt>%s</dt><dd>%s</dd></div>" % (esc(k), esc(v)) for k, v in facts), C.wa_link("Hoi, ik wil graag lachgas bestellen in %s." % p["name"]), ICON["wa"]))
         intro = para(p["intro"]) + '<p><strong>%s in %s:</strong> %s.</p>' % ("Wijken en buurten" if p.get("kind") in ("stad", "wijk") else "Kernen en buurten", esc(p["name"]), esc((p.get("kernen") or p.get("wijken", "")).rstrip(".")))
         near = [self.place_link(s) for s in p["nearby"] if s in self.place_by] + [("/bezorggebied/%s/" % r["slug"], "Heel %s" % r["name"])]
-        body = (page_head(crumbs, "Bezorggebied", p["h1"], p["lead"])
+        hero = p.get("hero")
+        body = (page_head(crumbs, "Bezorggebied", p["h1"], p["lead"], image=hero)
                 + section('<div class="two"><div class="prose">%s</div>%s</div>' % (intro, side))
                 + section(sec_head("Assortiment", "Lachgastanks in %s" % p["name"], "Verzegeld geleverd, prijs vooraf bevestigd via WhatsApp.") + products(), alt=True)
                 + section('<div class="narrow">' + sec_head("Vragen", "Veelgestelde vragen over lachgas in %s" % p["name"]) + faq(p["faq"]) + "</div>")
                 + self.sub_places_section(p)
                 + section(sec_head("In de buurt", "Wij bezorgen ook hier") + chips(near), alt=True)
                 + cta(wa_text="Hoi, ik wil graag lachgas bestellen in %s." % p["name"]))
-        self.add(path=path, title=p["title"], description=p["description"], body=body, priority="0.8", changefreq="weekly",
+        self.add(path=path, title=p["title"], description=p["description"], body=body, priority="0.8", changefreq="weekly", preload=C.hero_preload(hero) if hero else "",
                  schemas=[C.crumbs_schema([("Home", "/"), ("Bezorggebied", "/bezorggebied/"), (r["name"], "/bezorggebied/%s/" % r["slug"]), (p["name"], path)]),
                           dict(C.service_schema("Lachgas bezorgen in %s" % p["name"], p["description"], path, p["name"], "City"), **({"areaServed": {"@type": "City", "name": p["name"], "geo": {"@type": "GeoCoordinates", "latitude": p["lat"], "longitude": p["lon"]}}} if p.get("lat") else {})),
                           C.faq_schema(p["faq"])])
@@ -164,7 +165,8 @@ class Site:
             link = self.sub_link(p["slug"], slug) or (self.place_link(slug) if slug in self.place_by else None)
             if link: near.append(link)
         near.append(("/bezorggebied/%s/" % r["slug"], "Heel %s" % r["name"]))
-        body = (page_head(crumbs, "Bezorggebied", sp["h1"], sp["lead"])
+        hero = sp.get("hero", p.get("hero"))
+        body = (page_head(crumbs, "Bezorggebied", sp["h1"], sp["lead"], image=hero)
                 + section('<div class="two"><div class="prose">%s</div>%s</div>' % (intro, side))
                 + section(sec_head("Assortiment", "Lachgastanks %s" % waar, "Verzegeld geleverd, prijs vooraf bevestigd via WhatsApp.") + products(), alt=True)
                 + section('<div class="narrow">' + sec_head("Vragen", "Veelgestelde vragen over lachgas %s" % waar) + faq(sp["faq"]) + "</div>")
@@ -175,7 +177,7 @@ class Site:
                 "containedInPlace": {"@type": "City", "name": p["name"]}}
         if sp.get("lat"):
             area["geo"] = {"@type": "GeoCoordinates", "latitude": sp["lat"], "longitude": sp["lon"]}
-        self.add(path=path, title=sp["title"], description=sp["description"], body=body, priority="0.7", changefreq="weekly",
+        self.add(path=path, title=sp["title"], description=sp["description"], body=body, priority="0.7", changefreq="weekly", preload=C.hero_preload(hero) if hero else "",
                  schemas=[C.crumbs_schema(crumbs[:-1] + [(sp["name"], path)]),
                           dict(C.service_schema("Lachgas bezorgen %s, %s" % (waar, p["name"]), sp["description"], path, p["name"], "City"), areaServed=area),
                           C.faq_schema(sp["faq"])])

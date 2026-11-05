@@ -2,6 +2,7 @@
 # Noord-Holland: 12 plaatsen voor lachgasholland.nl (gebied-schema uit BRIEF_TEMPLATE.md, aangevuld met "region" en "gemeente").
 AREAS = [
 {"slug": "amsterdam", "name": "Amsterdam", "kind": "stad", "region": "noord-holland", "gemeente": "Amsterdam",
+ "hero": "/assets/amsterdam-gracht",
  "title": "Lachgas bestellen Amsterdam | Bezorgd via WhatsApp",
  "description": "Lachgas bestellen in Amsterdam? Lachgastanks 2KG, 4KG en 10KG verzegeld bezorgd van Noord tot Zuidoost, meestal binnen 15 tot 25 minuten. Alleen 18+.",
  "h1": "Lachgas bezorgen in Amsterdam",
