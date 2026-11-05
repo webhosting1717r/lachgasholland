@@ -48,6 +48,7 @@ ul,ol{margin:0 0 1em;padding-left:1.25em}
 
 
 @media(min-width:900px){.nav{display:flex}.menu{display:none}}
+@media(max-width:359px){.hdr .wrap{gap:10px}.hdr .btn-sm span{display:none}.hdr .btn-sm{padding-left:12px;padding-right:12px}}
 /* hero */
 .hero{padding:56px 0 48px;background:linear-gradient(180deg,#fff 0%,var(--bg) 100%)}
 .hero-grid{display:grid;gap:36px;align-items:center}

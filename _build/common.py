@@ -199,7 +199,7 @@ def header(path):
     return ('<a class="skip" href="#inhoud">Direct naar inhoud</a><header class="hdr"><div class="wrap">'
             '<a class="logo" href="/" aria-label="%s, naar de homepage"><b>L</b><span>Lachgas <em>%s</em></span></a>'
             '<nav class="nav" aria-label="Hoofdmenu">%s</nav>'
-            '<div style="display:flex;gap:10px;align-items:center"><a class="btn btn-wa btn-sm" href="%s" target="_blank" rel="noopener">%s<span>WhatsApp</span></a>'
+            '<div style="display:flex;gap:10px;align-items:center"><a class="btn btn-wa btn-sm" href="%s" target="_blank" rel="noopener" aria-label="WhatsApp ons">%s<span>WhatsApp</span></a>'
             '<details class="menu"><summary aria-label="Menu openen">%s</summary>%s</details></div>'
             '</div></header>' % (BRAND, esc(BRAND_EM), links, wa_link(), ICON["wa"], ICON["menu"], mobile_menu(path)))
 
