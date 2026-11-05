@@ -72,6 +72,19 @@ VERCEL = {
 }
 
 
+def vercel_cfg(c):
+    """VERCEL-sjabloon plus hostregels: de Vercel-aliassen uit site.json ("vercel_hosts") sturen permanent door naar de
+    canonieke host (c["site"]), en elke *.vercel.app-host (ook preview-deployments) krijgt X-Robots-Tag: noindex,
+    zodat Google nooit een tweede kopie van de site indexeert. De canonieke host zelf raakt deze regels niet."""
+    cfg = json.loads(json.dumps(VERCEL))
+    hosts = [h for h in c.get("vercel_hosts", []) if h and h != c["site"].split("//", 1)[-1]]
+    cfg["redirects"] = [{"source": "/(.*)", "has": [{"type": "host", "value": h.replace(".", "\\.")}], "destination": c["site"] + "/$1", "permanent": True}
+                        for h in hosts] + cfg.get("redirects", [])
+    cfg["headers"] = [{"source": "/(.*)", "has": [{"type": "host", "value": ".*\\.vercel\\.app"}],
+                       "headers": [{"key": "X-Robots-Tag", "value": "noindex"}]}] + cfg.get("headers", [])
+    return cfg
+
+
 def read(p):
     with open(p, encoding="utf-8") as f:
         return f.read()
@@ -567,7 +580,7 @@ def apply_cfg(repo, c):
     swp = os.path.join(repo, "sw.js")
     if os.path.exists(swp):
         write(swp, re.sub(r'var VERSION = "[^"]*"', 'var VERSION = "%s"' % sw_version(repo), read(swp)))
-    write(os.path.join(repo, "vercel.json"), json.dumps(VERCEL, indent=2) + "\n")
+    write(os.path.join(repo, "vercel.json"), json.dumps(vercel_cfg(c), indent=2) + "\n")
     write(os.path.join(repo, ".vercelignore"), "_build\n")
     print("%s: %d pagina's, %d aangepast, %d titels gewijzigd%s" % (key, stats["pages"], stats["changed"], len(stats["titles"]),
                                                                    (" (" + ", ".join(stats["changed_paths"]) + ")") if 0 < stats["changed"] <= 6 else ""))

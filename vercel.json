@@ -2,6 +2,17 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "lachgasholland\\.vercel\\.app"
+        }
+      ],
+      "destination": "https://lachgasholland.nl/$1",
+      "permanent": true
+    },
+    {
       "source": "/lachgas-bezorgen/amsterdam/sarphatipark-8",
       "destination": "/lachgas-bezorgen/amsterdam/sarphatipark/",
       "permanent": true
@@ -13,6 +24,21 @@
     }
   ],
   "headers": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": ".*\\.vercel\\.app"
+        }
+      ],
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
+    },
     {
       "source": "/(.*)",
       "headers": [

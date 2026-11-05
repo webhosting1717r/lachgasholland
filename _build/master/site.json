@@ -35,5 +35,8 @@
  "og": "/assets/og-lachgas-holland.png",
  "logo": "/assets/icon-512.png",
  "apple": "/assets/apple-touch-icon.png",
- "og_alt": "Lachgas Holland: lachgas bestellen in heel Nederland, bezorgd via WhatsApp"
+ "og_alt": "Lachgas Holland: lachgas bestellen in heel Nederland, bezorgd via WhatsApp",
+ "vercel_hosts": [
+  "lachgasholland.vercel.app"
+ ]
 }
