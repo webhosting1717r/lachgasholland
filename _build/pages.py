@@ -59,6 +59,10 @@ class Site:
                 % (esc(H["kicker"]), H["h1"], H["lead"], C.wa_link(), ICON["wa"], "".join("<li>%s</li>" % c for c in H["checks"]),
                    esc(H["card_title"]), "".join("<div><dt>%s</dt><dd>%s</dd></div>" % (esc(k), esc(v)) for k, v in H["card_facts"]), C.wa_link(), ICON["wa"]))
         usp = C.usp_strip(H["usps"])
+        sp = H.get("spotlight")
+        spot = section('<div class="two spotlight"><div class="prose"><span class="kicker">%s</span><h2>%s</h2><p>%s</p><p><a class="btn btn-dark" href="%s">%s</a></p></div>'
+                       '<div><h3>%s</h3>%s</div></div>'
+                       % (esc(sp["kicker"]), esc(sp["h2"]), sp["text"], sp["href"], esc(sp["cta"]), esc(sp["chips_h3"]), chips(sp["chips"]))) if sp else ""
         reg = section(sec_head("Bezorggebied", H["regions_h2"], H["regions_text"]) + cards([("/bezorggebied/%s/" % r["slug"], r["name"], r["card"], "Bekijk de regio") for r in self.regions], 4, "pin")
                       + '<div style="margin-top:22px;text-align:center"><a class="btn btn-dark" href="/bezorggebied/">%s</a></div>' % esc(C.ALL_PLACES_LABEL))
         top = section(sec_head("Steden", H["cities_h2"], H["cities_text"]) + chips([self.place_link(s) for s in H["city_slugs"] if s in self.place_by], dark=True), alt=True)
@@ -70,7 +74,7 @@ class Site:
         fq = section('<div class="narrow">' + sec_head("Veelgestelde vragen", H["faq_h2"], H["faq_text"]) + faq(H["faq"]) + '<p style="text-align:center;margin-top:18px"><a href="/veelgestelde-vragen/"><strong>Alle veelgestelde vragen &rarr;</strong></a></p></div>')
         svc_items = [("/service/%s/" % self.svc_by[sl]["slug"], self.svc_by[sl]["h1"], self.svc_by[sl]["description"]) for sl in ("zakelijk-bestellen", "bezorgvoorwaarden", "bestelling-wijzigen-of-annuleren", "veilig-bestellen-oplichting-herkennen") if sl in self.svc_by]
         svc = section(sec_head("Service", "Zakelijk, voorwaarden en wijzigen", C.SVC_TEXT) + cards(svc_items, 2, "clock")) if svc_items else ""
-        body = hero + usp + reg + top + tanks + how + why + info + svc + fq + cta()
+        body = hero + usp + spot + reg + top + tanks + how + why + info + svc + fq + cta()
         self.add(path="/", title=H["title"], description=H["description"], body=body, schemas=[C.faq_schema(H["faq"])], priority="1.0", changefreq="weekly",
                  preload="")
 

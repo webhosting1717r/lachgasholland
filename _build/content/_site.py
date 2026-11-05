@@ -19,6 +19,7 @@ SITECFG = {
     "WA_TEXT": "Hoi, ik wil graag lachgas bestellen.",
     "OG_IMAGE": "/assets/og-lachgas-holland.png",
     "CNAME": "lachgasholland.nl",
+    "FOOTER_PLACES": [("/lachgas-bezorgen/amsterdam/", "Lachgas bezorgen Amsterdam")],
     "MANIFEST_DESC": "Lachgas Holland: lachgastanks bezorgd in heel Nederland, bestellen via WhatsApp.",
     "LLMS_BLURB": "bezorgt lachgastanks aan volwassenen (18+) in heel Nederland, in alle twaalf provincies. Bestellen via WhatsApp, prijs vooraf bevestigd, betalen bij levering.",
     "WA_NUMBER": "447441484283",

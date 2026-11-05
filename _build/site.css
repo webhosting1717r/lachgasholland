@@ -162,6 +162,9 @@ a.card:hover{text-decoration:none;transform:translateY(-2px);box-shadow:0 14px 3
 .pill-row{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 0}
 .pill{font-size:.8125rem;padding:4px 10px;border-radius:999px;background:var(--brand-soft);color:var(--brand);font-weight:600}
 .two{display:grid;gap:28px}
+.spotlight .kicker{display:inline-block;background:var(--brand-soft);color:var(--brand);border-radius:999px;padding:4px 12px;font-size:.8125rem;font-weight:700;margin-bottom:10px}
+.spotlight h3{font-size:1.125rem;margin:0 0 12px}
+.prose .btn,.prose .btn:hover{text-decoration:none}
 @media(min-width:900px){.two{grid-template-columns:1fr 1fr;align-items:start}}
 .map-list{display:grid;gap:10px}
 .map-list a{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;background:#fff;border:1px solid var(--line);border-radius:10px;color:var(--ink);font-weight:600}

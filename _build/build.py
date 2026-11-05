@@ -53,7 +53,7 @@ def main():
     seen = set()
     for pg in out:
         assert pg["path"] not in seen, "dubbel pad " + pg["path"]; seen.add(pg["path"])
-    ctx = {"footer_regions": [("/bezorggebied/%s/" % r["slug"], r["name"]) for r in c["regions"]] + [("/bezorggebied/", "Alle plaatsen")],
+    ctx = {"footer_regions": list(getattr(C, "FOOTER_PLACES", [])) + [("/bezorggebied/%s/" % r["slug"], r["name"]) for r in c["regions"]] + [("/bezorggebied/", "Alle plaatsen")],
            "footer_info": [("/informatie/%s/" % h["slug"], h["h1"]) for h in c.get("topic_hubs", [])] + [("/informatie/%s/" % a["slug"], a["h1"]) for a in c["articles"][:4]] + [("/informatie/", "Alle informatie"), ("/veelgestelde-vragen/", "Veelgestelde vragen")],
            "footer_service": [("/service/%s/" % s["slug"], s["h1"]) for s in c["services"][:4]] + [("/service/%s/" % sl, t) for sl, t in (("zakelijk-bestellen", "Zakelijk bestellen"), ("bezorgvoorwaarden", "Bezorgvoorwaarden"), ("bestelling-wijzigen-of-annuleren", "Wijzigen of annuleren"), ("veilig-bestellen-oplichting-herkennen", "Veilig bestellen")) if any(x["slug"] == sl for x in c["services"])] + [("/lachgas-tanks/", "Lachgas tanks"), ("/over-ons/", "Over ons"), ("/contact/", "Contact")]}
     for pg in out:
