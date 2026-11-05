@@ -310,8 +310,12 @@ def build_head(doc_head, c, path, url, noindex, schemas, extra_preload=None):
     items = parse_head(doc_head)
     title = desc = robots = ogtype = theme = ""
     styles, scripts_other, fonts, img_preloads, icons, extra = [], [], [], [], {}, []
+    page_og = {}
     for tag, raw in items:
         a = attrs(raw)
+        if tag == "meta" and (a.get("property") or "").lower() in ("og:image", "og:image:width", "og:image:height", "og:image:alt"):
+            page_og[a["property"].lower()] = H.unescape(a.get("content", ""))
+            continue
         if tag == "title":
             title = strip_tags(re.sub(r"</?title[^>]*>", "", raw))
         elif tag == "style":
@@ -352,7 +356,10 @@ def build_head(doc_head, c, path, url, noindex, schemas, extra_preload=None):
     desc = trim_desc(H.unescape(desc))
     ogtype = ogtype or "website"
     theme = theme or c["theme"]
-    og_img = c["site"] + c["og"]
+    og_img, og_w, og_h, og_alt = c["site"] + c["og"], "1200", "630", c["og_alt"]
+    if page_og.get("og:image") and page_og["og:image"] != og_img:
+        # pagina met eigen kopafbeelding (bijv. Amsterdam): die gaat voor op de standaard og-afbeelding
+        og_img, og_w, og_h, og_alt = page_og["og:image"], page_og.get("og:image:width") or og_w, page_og.get("og:image:height") or og_h, page_og.get("og:image:alt") or og_alt
     out = ['<meta charset="utf-8">', '<meta name="viewport" content="width=device-width, initial-scale=1">', "<title>%s</title>" % esc(title),
            '<meta name="description" content="%s">' % esc(desc), '<meta name="robots" content="%s">' % (ROBOTS_NOINDEX if noindex else ROBOTS_INDEX)]
     if not noindex:
@@ -361,10 +368,10 @@ def build_head(doc_head, c, path, url, noindex, schemas, extra_preload=None):
             '<meta property="og:title" content="%s">' % esc(title), '<meta property="og:description" content="%s">' % esc(desc)]
     if not noindex:
         out.append('<meta property="og:url" content="%s">' % url)
-    out += ['<meta property="og:image" content="%s">' % og_img, '<meta property="og:image:width" content="1200">', '<meta property="og:image:height" content="630">',
-            '<meta property="og:image:alt" content="%s">' % esc(c["og_alt"]),
+    out += ['<meta property="og:image" content="%s">' % og_img, '<meta property="og:image:width" content="%s">' % og_w, '<meta property="og:image:height" content="%s">' % og_h,
+            '<meta property="og:image:alt" content="%s">' % esc(og_alt),
             '<meta name="twitter:card" content="summary_large_image">', '<meta name="twitter:title" content="%s">' % esc(title),
-            '<meta name="twitter:description" content="%s">' % esc(desc), '<meta name="twitter:image" content="%s">' % og_img, '<meta name="twitter:image:alt" content="%s">' % esc(c["og_alt"]),
+            '<meta name="twitter:description" content="%s">' % esc(desc), '<meta name="twitter:image" content="%s">' % og_img, '<meta name="twitter:image:alt" content="%s">' % esc(og_alt),
             '<meta name="theme-color" content="%s">' % theme, '<meta name="geo.region" content="%s">' % c["geo_region"], '<meta name="geo.placename" content="%s">' % esc(c["place"])]
     ic = [re.sub(r"\s*/>$", ">", raw) for raw in icons.values()]
     if not any("favicon.svg" in x for x in ic):

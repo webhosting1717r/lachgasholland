@@ -123,6 +123,14 @@ a.card:hover{text-decoration:none;transform:translateY(-2px);box-shadow:0 14px 3
 .faq summary::after{content:"+";color:var(--muted);font-weight:400;font-size:1.25rem;line-height:1}
 .faq details[open] summary::after{content:"\2212"}
 .faq .a{padding:0 20px 18px;color:var(--ink-2);font-size:.9625rem}
+.card .chips{margin-top:12px}
+.card-img{display:grid;place-items:center;padding:14px}
+.card-img img{max-width:200px;height:auto;display:block}
+.prijzen table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.prijzen th,.prijzen td{padding:12px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.prijzen th{font-size:.8125rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.prijzen tr:last-child td{border-bottom:0}
+.prijzen .note{color:var(--muted);font-size:.9375rem;margin-top:12px}
 .steps{counter-reset:s;display:grid;gap:16px}
 @media(min-width:800px){.steps{grid-template-columns:repeat(3,1fr)}}
 .steps div{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:22px 22px 22px 64px;position:relative}

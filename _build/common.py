@@ -230,6 +230,11 @@ def hero_srcset(base):
     return "%s-800.webp 800w, %s.webp 1600w" % (base, base)
 
 
+def hero_og(base, alt):
+    """og:image-gegevens voor een pagina met een kopafbeelding (1600x900 webp); None als er geen hero is."""
+    return {"url": SITE + base + ".webp", "width": 1600, "height": 900, "alt": alt} if base else None
+
+
 def hero_preload(base):
     return '<link rel="preload" as="image" href="%s.webp" imagesrcset="%s" imagesizes="(max-width:860px) 100vw, 720px" fetchpriority="high">' % (base, hero_srcset(base))
 
@@ -332,16 +337,19 @@ def render(page, ctx):
         schemas = [business_schema(), website_schema()] + schemas
     ld = "".join('<script type="application/ld+json">%s</script>' % json.dumps(s, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/") for s in schemas)
     robots = page.get("robots", "index,follow,max-image-preview:large")
-    og_img = SITE + OG_IMAGE
+    og = page.get("og_image") or {"url": SITE + OG_IMAGE, "width": 1200, "height": 630, "alt": ""}
+    og_img = og["url"]
+    og_tags = ('<meta property="og:image" content="%s"><meta property="og:image:width" content="%d"><meta property="og:image:height" content="%d">' % (og_img, og["width"], og["height"])
+               + ('<meta property="og:image:alt" content="%s">' % esc(og["alt"]) if og.get("alt") else ""))
     preload = page.get("preload", "")
     head = ('<!DOCTYPE html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
             '<title>%s</title><meta name="description" content="%s"><meta name="robots" content="%s"><link rel="canonical" href="%s">'
             '<link rel="alternate" hreflang="nl" href="%s"><link rel="alternate" hreflang="x-default" href="%s">'
-            '<meta property="og:type" content="%s"><meta property="og:site_name" content="%s"><meta property="og:locale" content="nl_NL"><meta property="og:title" content="%s"><meta property="og:description" content="%s"><meta property="og:url" content="%s"><meta property="og:image" content="%s"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">'
+            '<meta property="og:type" content="%s"><meta property="og:site_name" content="%s"><meta property="og:locale" content="nl_NL"><meta property="og:title" content="%s"><meta property="og:description" content="%s"><meta property="og:url" content="%s">%s'
             '<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="%s"><meta name="twitter:description" content="%s"><meta name="twitter:image" content="%s">'
             '<meta name="theme-color" content="%s"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon.ico" sizes="32x32 48x48"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png"><link rel="manifest" href="/manifest.webmanifest">'
             '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>%s<style>%s%s</style>%s%s</head>'
-            % (esc(title), esc(desc), robots, url, url, url, page.get("og_type", "website"), BRAND, esc(title), esc(desc), url, og_img, esc(title), esc(desc), og_img,
+            % (esc(title), esc(desc), robots, url, url, url, page.get("og_type", "website"), BRAND, esc(title), esc(desc), url, og_tags, esc(title), esc(desc), og_img,
                THEME, preload, FONTS, CSS, ld, SPEC))
     body = header(path) + '<main id="inhoud">' + page["body"] + "</main>" + footer(ctx["footer_regions"], ctx["footer_info"], ctx["footer_service"])
     return head + "<body>" + body + "</body></html>\n"

@@ -123,17 +123,49 @@ class Site:
         intro = para(p["intro"]) + '<p><strong>%s in %s:</strong> %s.</p>' % ("Wijken en buurten" if p.get("kind") in ("stad", "wijk") else "Kernen en buurten", esc(p["name"]), esc((p.get("kernen") or p.get("wijken", "")).rstrip(".")))
         near = [self.place_link(s) for s in p["nearby"] if s in self.place_by] + [("/bezorggebied/%s/" % r["slug"], "Heel %s" % r["name"])]
         hero = p.get("hero")
+        x = self.place_extras(p)
         body = (page_head(crumbs, "Bezorggebied", p["h1"], p["lead"], image=hero)
                 + section('<div class="two"><div class="prose">%s</div>%s</div>' % (intro, side))
+                + x.get("prijzen", "")
                 + section(sec_head("Assortiment", "Lachgastanks in %s" % p["name"], "Verzegeld geleverd, prijs vooraf bevestigd via WhatsApp.") + products(), alt=True)
+                + x.get("steps", "") + x.get("stadsdelen", "") + x.get("ontvangst", "") + x.get("regels", "")
                 + section('<div class="narrow">' + sec_head("Vragen", "Veelgestelde vragen over lachgas in %s" % p["name"]) + faq(p["faq"]) + "</div>")
-                + self.sub_places_section(p)
+                + ("" if p.get("stadsdelen") else self.sub_places_section(p))
                 + section(sec_head("In de buurt", "Wij bezorgen ook hier") + chips(near), alt=True)
                 + cta(wa_text="Hoi, ik wil graag lachgas bestellen in %s." % p["name"]))
         self.add(path=path, title=p["title"], description=p["description"], body=body, priority="0.8", changefreq="weekly", preload=C.hero_preload(hero) if hero else "",
+                 og_image=C.hero_og(hero, p["h1"]),
                  schemas=[C.crumbs_schema([("Home", "/"), ("Bezorggebied", "/bezorggebied/"), (r["name"], "/bezorggebied/%s/" % r["slug"]), (p["name"], path)]),
                           dict(C.service_schema("Lachgas bezorgen in %s" % p["name"], p["description"], path, p["name"], "City"), **({"areaServed": {"@type": "City", "name": p["name"], "geo": {"@type": "GeoCoordinates", "latitude": p["lat"], "longitude": p["lon"]}}} if p.get("lat") else {})),
                           C.faq_schema(p["faq"])])
+
+    def place_extras(self, p):
+        """Optionele verdiepende blokken voor een plaatspagina (de Amsterdam-hub gebruikt ze): prijzen, stappen, stadsdelen,
+        wat je ontvangt en regels. Velden ontbreken -> blok ontbreekt, dus andere plaatsen veranderen niet."""
+        name, out = p["name"], {}
+        if p.get("prijzen"):
+            pr = p["prijzen"]
+            rows = "".join("<tr><td><strong>%s</strong></td><td>%s</td><td>%s</td></tr>" % (esc(r[0]), esc(r[1]), r[2]) for r in pr["rows"])
+            out["prijzen"] = section('<div class="narrow prijzen">' + sec_head("Prijzen", pr.get("h2") or "Lachgas prijzen in %s" % name, pr.get("intro"))
+                                     + '<table><thead><tr><th>Formaat</th><th>Prijs</th><th>Toelichting</th></tr></thead><tbody>%s</tbody></table>' % rows
+                                     + ('<p class="note">%s</p>' % pr["note"] if pr.get("note") else "") + "</div>")
+        if p.get("steps"):
+            out["steps"] = section(sec_head("Werkwijze", "Zo bestel je lachgas in %s" % name) + steps([(st["titel"], st["tekst"]) for st in p["steps"]]))
+        if p.get("stadsdelen"):
+            blocks = []
+            for sd in p["stadsdelen"]:
+                links = [l for l in (self.sub_link(p["slug"], b) for b in sd["buurten"]) if l]
+                blocks.append('<div class="card"><h3>%s</h3><p>%s</p>%s</div>' % (esc(sd["naam"]), sd["tekst"], chips(links) if links else ""))
+            out["stadsdelen"] = section(sec_head("Stadsdelen", "Lachgas bezorgen per stadsdeel in %s" % name, "Elke buurt heeft een eigen pagina met straten, bereikbaarheid en veelgestelde vragen.")
+                                        + '<div class="grid g2 stadsdelen">%s</div>' % "".join(blocks), alt=True)
+        if p.get("ontvangst"):
+            img = ('<div class="card card-img"><img src="/assets/lachgastank-2kg.webp" srcset="/assets/lachgastank-2kg-300.webp 300w, /assets/lachgastank-2kg.webp 480w" sizes="(max-width:640px) 60vw, 200px" width="480" height="640" alt="%s" loading="lazy" decoding="async"></div>'
+                   % esc("Verzegelde lachgastank 2KG zoals bezorgd in %s" % name))
+            items = "".join('<div class="card"><h3>%s</h3><p>%s</p></div>' % (esc(o["titel"]), o["tekst"]) for o in p["ontvangst"])
+            out["ontvangst"] = section(sec_head("Aan de deur", "Wat je ontvangt in %s" % name) + '<div class="grid g3 ontvangst">%s%s</div>' % (img, items))
+        if p.get("regels"):
+            out["regels"] = section('<div class="narrow prose">' + sec_head("Regels", "Regels voor lachgas in %s" % name) + para(p["regels"]) + "</div>", alt=True)
+        return out
 
     def sub_places_section(self, p):
         subs = self.subs_by_parent.get(p["slug"])
@@ -178,6 +210,7 @@ class Site:
         if sp.get("lat"):
             area["geo"] = {"@type": "GeoCoordinates", "latitude": sp["lat"], "longitude": sp["lon"]}
         self.add(path=path, title=sp["title"], description=sp["description"], body=body, priority="0.7", changefreq="weekly", preload=C.hero_preload(hero) if hero else "",
+                 og_image=C.hero_og(hero, sp["h1"]),
                  schemas=[C.crumbs_schema(crumbs[:-1] + [(sp["name"], path)]),
                           dict(C.service_schema("Lachgas bezorgen %s, %s" % (waar, p["name"]), sp["description"], path, p["name"], "City"), areaServed=area),
                           C.faq_schema(sp["faq"])])
