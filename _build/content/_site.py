@@ -36,8 +36,8 @@ SITECFG = {
     "MM_REGION_TITLE": "Provincies",
     "CTA_H2": "Bestellen in jouw provincie?",
     "CTA_TEXT": "Stuur een WhatsApp met je woonplaats, het formaat en het gewenste moment. Een bezorger in jouw regio krijgt de rit zodra jij de prijs en het tijdvak hebt bevestigd.",
-    "PRODUCT_DESCS": ["Compact en overzichtelijk voor een klein gezelschap; verzegeld geleverd in heel Nederland.", "De tussenmaat voor een verjaardag of huisfeest met een grotere groep.", "Voor een groot huisfeest of een lang weekend, zonder de logistiek van de 10KG.", "Voor een groot feest met veel gasten; viermaal de inhoud van de 2KG, zonder reservering.", "Voor grote feesten op een privéadres, uitsluitend na overleg via WhatsApp."],
-    "PF_TEXT": "Voor een avond met een klein gezelschap is dit de logische keuze. Een bezorger uit jouw regio levert de tank verzegeld af en de prijs staat vooraf vast in de chat.",
-    "PF_FACTS": [("Inhoud", "2 kilo lachgas"), ("Levering", "Verzegeld, in heel Nederland"), ("Levertijd", "Meestal binnen 15 tot 25 min"), ("Betalen", "Contant of via Tikkie")],
+    "PRODUCT_DESCS": ["Eén verzegelde FastGas-tank van 2KG: compact, voor een klein gezelschap.", "Set van twee FastGas-tanks van 2KG, samen 4 kilo: de tussenmaat voor een verjaardag of huisfeest.", "Set van drie FastGas-tanks van 2KG, samen 6 kilo: voor een groot huisfeest of een lang weekend.", "Set van vier FastGas-tanks van 2KG, samen 8 kilo: voor een groot feest met veel gasten.", "Set van vijf FastGas-tanks van 2KG, samen 10 kilo: voor grote feesten op een privéadres."],
+    "PF_TEXT": "Eén verzegelde FastGas-tank van 2KG: de logische keuze voor een avond met een klein gezelschap. Een bezorger uit jouw regio levert hem verzegeld af en de prijs staat vooraf vast in de chat.",
+    "PF_FACTS": [("Inhoud", "2 kilo lachgas (FastGas)"), ("Levering", "Verzegeld, in heel Nederland"), ("Levertijd", "Meestal binnen 15 tot 25 min"), ("Betalen", "Contant of via Tikkie")],
     "ARTICLE_BOX": "deze tekst is opgesteld en nagelezen door %s en wordt herzien wanneer wetgeving of inzichten veranderen. Wij bezorgen uitsluitend aan volwassenen en geven nergens instructies voor gebruik.",
 }
