@@ -29,6 +29,8 @@ TANKS = {
     'TANKS': [
         {
             'slug': '2kg',
+            'image': '/assets/lachgastank-2kg-foto',
+            'image_alt': 'Lachgastank 2KG van Lachgas Holland, verzegeld geleverd: 2 kilo N2O',
             'title': 'Lachgastank 2KG, verzegeld thuisbezorgd | Lachgas Holland',
             'description': 'De lachgastank 2KG van Lachgas Holland bevat 2 kilo N2O en past bij een klein gezelschap. Verzegeld bezorgd in alle provincies, betalen bij levering, 18+.',
             'h1': 'Lachgastank 2KG',
@@ -61,6 +63,8 @@ TANKS = {
         },
         {
             'slug': '4kg',
+            'image': '/assets/lachgastank-4kg',
+            'image_alt': 'Lachgastank 4KG van Lachgas Holland, verzegeld geleverd: 4 kilo N2O',
             'title': 'Lachgastank 4KG voor een volle avond | Lachgas Holland',
             'description': 'Lachgastank 4KG met 4 kilo N2O, het formaat voor meer gasten of een lange avond. Verzegeld bezorgd in heel Nederland, bestellen via WhatsApp, alleen 18+.',
             'h1': 'Lachgastank 4KG',
@@ -93,6 +97,8 @@ TANKS = {
         },
         {
             'slug': '6kg',
+            'image': '/assets/lachgastank-6kg',
+            'image_alt': 'Lachgastank 6KG van Lachgas Holland, verzegeld geleverd: 6 kilo N2O',
             'title': 'Lachgastank 6KG voor een groot huisfeest | Lachgas Holland',
             'description': 'Lachgastank 6KG met 6 kilo N2O: het formaat tussen 4KG, 6KG en 10KG in, voor een groot huisfeest of een lang weekend. Verzegeld bezorgd via WhatsApp, alleen 18+.',
             'h1': 'Lachgastank 6KG',
@@ -125,6 +131,8 @@ TANKS = {
         },
         {
             'slug': '10kg',
+            'image': '/assets/lachgastank-10kg',
+            'image_alt': 'Lachgastank 10KG van Lachgas Holland, verzegeld geleverd: 10 kilo N2O',
             'title': 'Lachgastank 10KG voor grote feesten | Lachgas Holland',
             'description': 'Lachgastank 10KG met 10 kilo N2O voor een groot feest op een privéadres. Verzegeld bezorgd in heel Nederland, liefst een dag vooraf reserveren. Alleen 18+.',
             'h1': 'Lachgastank 10KG',

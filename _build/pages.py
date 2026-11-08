@@ -333,14 +333,16 @@ class Site:
     def tank_page(self, t):
         path = "/lachgas-tanks/%s/" % t["slug"]
         crumbs = [("Home", "/"), ("Lachgas tanks", "/lachgas-tanks/"), (t["h1"], None)]
-        photo = ('<div class="pf-img"><img src="/assets/lachgastank-2kg.webp" srcset="/assets/lachgastank-2kg-300.webp 300w, /assets/lachgastank-2kg.webp 480w" sizes="200px" width="480" height="640" alt="Verzegelde lachgastank 2KG van %s" loading="lazy" decoding="async"></div>' % esc(C.BRAND)) if t["slug"] == "2kg" else ""
+        img = t.get("image")
+        photo = ('<div class="tank-foto"><picture><source type="image/avif" srcset="%s-480.avif 480w, %s.avif 960w" sizes="(max-width:860px) 100vw, 520px"><img src="%s.webp" srcset="%s-480.webp 480w, %s.webp 960w" sizes="(max-width:860px) 100vw, 520px" width="960" height="640" alt="%s" decoding="async"></picture></div>'
+                 % (img, img, img, img, img, esc(t.get("image_alt") or t["h1"]))) if img else ""
         facts = '<aside class="hero-card" style="position:sticky;top:84px">' + photo + '<h2>%s</h2><dl>%s</dl><a class="btn btn-wa" href="%s" target="_blank" rel="noopener">%s Bestel via WhatsApp</a></aside>' % (
             esc(t["h1"]), "".join("<div><dt>%s</dt><dd>%s</dd></div>" % (esc(k), esc(v)) for k, v in t["facts"]), C.wa_link("Hoi, ik wil graag een %s bestellen." % t["h1"].lower()), ICON["wa"])
         body = (page_head(crumbs, "Lachgastank", t["h1"], t["lead"]) + section('<div class="two">%s%s</div>' % (article_body(t["sections"], t.get("note"), with_toc=False), facts))
                 + section('<div class="narrow">' + sec_head("Vragen", "Veelgestelde vragen over de %s" % t["h1"].lower()) + faq(t["faq"]) + "</div>", alt=True)
                 + section(sec_head("Andere formaten", "Vergelijk met de andere tanks") + chips([("/lachgas-tanks/%s/" % x["slug"], x["h1"]) for x in self.tanks["TANKS"] if x["slug"] != t["slug"]] + [("/lachgas-tanks/", "Alle tanks vergelijken")])) + cta())
         schema = {"@context": "https://schema.org", "@type": "Product", "name": t["h1"], "description": t["description"], "url": C.SITE + path, "brand": {"@type": "Brand", "name": C.BRAND},
-                  **({"image": C.SITE + "/assets/lachgastank-2kg.webp"} if t["slug"] == "2kg" else {}),
+                  **({"image": C.SITE + img + ".webp"} if img else {}),
                   "offers": {"@type": "Offer", "availability": "https://schema.org/InStock", "priceCurrency": "EUR", "url": C.SITE + path, "seller": {"@id": C.SITE + "/#business"}, "priceSpecification": {"@type": "PriceSpecification", "priceCurrency": "EUR", "description": "Prijs op aanvraag via WhatsApp"}}}
         self.add(path=path, title=t["title"], description=t["description"], body=body, priority="0.8",
                  schemas=[C.crumbs_schema([("Home", "/"), ("Lachgas tanks", "/lachgas-tanks/"), (t["h1"], path)]), schema, C.faq_schema(t["faq"])])
