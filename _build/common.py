@@ -40,7 +40,7 @@ MM_REGION_LINKS = [("/bezorggebied/west-brabant/", "West-Brabant"), ("/bezorggeb
 MM_REGION_TITLE = "Regio's"
 CTA_H2 = "Klaar om te bestellen?"
 CTA_TEXT = "Stuur ons een WhatsApp-bericht met je plaats, de gewenste maat en het tijdstip. Je krijgt direct de prijs en het levermoment terug."
-PRODUCT_DESCS = ["Compact formaat voor een kleiner gezelschap. Verzegeld geleverd.", "Het middenformaat voor een avond met een grotere groep.", "Voor grotere feesten en evenementen, in overleg geleverd."]
+PRODUCT_DESCS = ["Compact formaat voor een kleiner gezelschap. Verzegeld geleverd.", "Het middenformaat voor een avond met een grotere groep.", "Voor grotere feesten en evenementen, in overleg geleverd.", "Voor een groot huisfeest of een lang weekend."]
 PF_TEXT = "Het compacte formaat voor een kleiner gezelschap. Je krijgt de tank verzegeld aan de deur, met de prijs vooraf bevestigd via WhatsApp."
 PF_FACTS = [("Inhoud", "2 kilo lachgas (N2O)"), ("Levering", "Verzegeld, aan de deur"), ("Levertijd", "Meestal binnen 15 tot 25 min"), ("Betalen", "Contant of Tikkie bij levering")]
 ARTICLE_BOX = "deze pagina is geschreven en nagekeken door het team van %s en wordt bijgewerkt als regels of inzichten veranderen. Wij leveren uitsluitend aan volwassenen van 18 jaar en ouder en geven bewust geen gebruiksinstructies."
@@ -160,7 +160,7 @@ MM_ICON = {
 MM_TILES = [("/lachgas-tanks/", "Lachgas tanks", "tank"), ("/bezorggebied/", "Bezorggebied", "pin"), ("/informatie/", "Informatie", "book"), ("/veelgestelde-vragen/", "Veelgestelde vragen", "chat")]
 def _mm_groups():
     return [
-        ("Bestellen", [("/lachgas-tanks/2kg/", "Lachgastank 2KG"), ("/lachgas-tanks/4kg/", "Lachgastank 4KG"), ("/lachgas-tanks/10kg/", "Lachgastank 10KG"),
+        ("Bestellen", [("/lachgas-tanks/2kg/", "Lachgastank 2KG"), ("/lachgas-tanks/4kg/", "Lachgastank 4KG"), ("/lachgas-tanks/6kg/", "Lachgastank 6KG"), ("/lachgas-tanks/10kg/", "Lachgastank 10KG"),
                        ("/service/bestellen-via-whatsapp/", "Zo werkt bestellen"), ("/service/betalen-bij-levering/", "Betalen bij levering"), ("/service/zakelijk-bestellen/", "Zakelijk bestellen")]),
         (MM_REGION_TITLE, list(MM_REGION_LINKS) + [("/service/bezorgtijden-per-regio/", "Bezorgtijden")]),
         ("Informatie", [("/informatie/veiligheid-en-gezondheid/", "Veiligheid en gezondheid"), ("/informatie/regels-en-wetgeving/", "Regels en wetgeving"),
@@ -294,8 +294,9 @@ def cta(h2=None, text=None, wa_text=None):
 def products(intro=None):
     items = [("2KG", "/lachgas-tanks/2kg/", "Lachgastank 2KG", PRODUCT_DESCS[0]),
              ("4KG", "/lachgas-tanks/4kg/", "Lachgastank 4KG", PRODUCT_DESCS[1]),
-             ("10KG", "/lachgas-tanks/10kg/", "Lachgastank 10KG", PRODUCT_DESCS[2])]
-    return ('<div class="grid g3 products">%s</div>' % "".join('<a class="card" href="%s"><span class="size">%s</span><h3>%s</h3><p>%s</p><span class="more">Bekijk de tank &rarr;</span></a>' % (h, s, t, d) for s, h, t, d in items))
+             ("6KG", "/lachgas-tanks/6kg/", "Lachgastank 6KG", PRODUCT_DESCS[2]),
+             ("10KG", "/lachgas-tanks/10kg/", "Lachgastank 10KG", PRODUCT_DESCS[3])]
+    return ('<div class="grid g4 products">%s</div>' % "".join('<a class="card" href="%s"><span class="size">%s</span><h3>%s</h3><p>%s</p><span class="more">Bekijk de tank &rarr;</span></a>' % (h, s, t, d) for s, h, t, d in items))
 
 
 def toc(headings):

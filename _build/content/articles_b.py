@@ -12,7 +12,7 @@ ARTICLES = [
             {
                 "h2": "Wat je in handen hebt: een drukhouder",
                 "paragraphs": [
-                    """Een lachgastank van 2KG, 4KG of 10KG is een stalen cilinder waarin distikstofmonoxide grotendeels als vloeistof zit opgeslagen, met een laag gas erboven. Zolang er vloeistof in zit, bepaalt niet de vulgraad maar de temperatuur hoeveel druk er op de wand staat: bij kamertemperatuur al ruim vijftig bar, en bij opwarming loopt dat snel op. Alle adviezen op deze pagina komen uit dat ene feit voort. De kraan bovenop is het kwetsbaarste onderdeel; zolang die heel en dicht blijft, gebeurt er niets. Lachgas Holland levert elke tank verzegeld, zodat je bij ontvangst kunt zien dat er sinds het vullen niemand aan heeft gezeten.""",
+                    """Een lachgastank van 2KG, 4KG, 6KG of 10KG is een stalen cilinder waarin distikstofmonoxide grotendeels als vloeistof zit opgeslagen, met een laag gas erboven. Zolang er vloeistof in zit, bepaalt niet de vulgraad maar de temperatuur hoeveel druk er op de wand staat: bij kamertemperatuur al ruim vijftig bar, en bij opwarming loopt dat snel op. Alle adviezen op deze pagina komen uit dat ene feit voort. De kraan bovenop is het kwetsbaarste onderdeel; zolang die heel en dicht blijft, gebeurt er niets. Lachgas Holland levert elke tank verzegeld, zodat je bij ontvangst kunt zien dat er sinds het vullen niemand aan heeft gezeten.""",
                 ],
                 "bullets": [],
             },
@@ -173,7 +173,7 @@ ARTICLES = [
             {
                 "h2": "Een tank: één cilinder met een kraan",
                 "paragraphs": [
-                    """Een tank is een hervulbare stalen cilinder met een kraan bovenop, gevuld met 2, 4 of 10 kilo N2O. Het gas zit er grotendeels vloeibaar in, onder dezelfde druk als in een patroon, alleen in één grote hoeveelheid in plaats van honderden kleine. De kraan laat zich openen en weer sluiten, zodat de inhoud niet in één keer vrijkomt. Tanks worden gevuld door gespecialiseerde gasbedrijven en krijgen daarna een zegel over de kraan. Lachgas Holland bezorgt uitsluitend deze drie formaten, verzegeld, en verkoopt geen patronen of crackers. Welk formaat bij welke situatie past, lees je op <a href="/lachgas-tanks/">onze tankpagina’s</a>.""",
+                    """Een tank is een hervulbare stalen cilinder met een kraan bovenop, gevuld met 2, 4 of 10 kilo N2O. Het gas zit er grotendeels vloeibaar in, onder dezelfde druk als in een patroon, alleen in één grote hoeveelheid in plaats van honderden kleine. De kraan laat zich openen en weer sluiten, zodat de inhoud niet in één keer vrijkomt. Tanks worden gevuld door gespecialiseerde gasbedrijven en krijgen daarna een zegel over de kraan. Lachgas Holland bezorgt uitsluitend deze vier formaten, verzegeld, en verkoopt geen patronen of crackers. Welk formaat bij welke situatie past, lees je op <a href="/lachgas-tanks/">onze tankpagina’s</a>.""",
                 ],
                 "bullets": [],
             },

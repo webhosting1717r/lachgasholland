@@ -36,7 +36,7 @@ SITECFG = {
     "MM_REGION_TITLE": "Provincies",
     "CTA_H2": "Bestellen in jouw provincie?",
     "CTA_TEXT": "Stuur een WhatsApp met je woonplaats, het formaat en het gewenste moment. Een bezorger in jouw regio krijgt de rit zodra jij de prijs en het tijdvak hebt bevestigd.",
-    "PRODUCT_DESCS": ["Compact en overzichtelijk voor een klein gezelschap; verzegeld geleverd in heel Nederland.", "De tussenmaat voor een verjaardag of huisfeest met een grotere groep.", "Voor grote feesten op een privéadres, uitsluitend na overleg via WhatsApp."],
+    "PRODUCT_DESCS": ["Compact en overzichtelijk voor een klein gezelschap; verzegeld geleverd in heel Nederland.", "De tussenmaat voor een verjaardag of huisfeest met een grotere groep.", "Voor een groot huisfeest of een lang weekend, zonder de logistiek van de 10KG.", "Voor grote feesten op een privéadres, uitsluitend na overleg via WhatsApp."],
     "PF_TEXT": "Voor een avond met een klein gezelschap is dit de logische keuze. Een bezorger uit jouw regio levert de tank verzegeld af en de prijs staat vooraf vast in de chat.",
     "PF_FACTS": [("Inhoud", "2 kilo lachgas"), ("Levering", "Verzegeld, in heel Nederland"), ("Levertijd", "Meestal binnen 15 tot 25 min"), ("Betalen", "Contant of via Tikkie")],
     "ARTICLE_BOX": "deze tekst is opgesteld en nagelezen door %s en wordt herzien wanneer wetgeving of inzichten veranderen. Wij bezorgen uitsluitend aan volwassenen en geven nergens instructies voor gebruik.",

@@ -3,13 +3,13 @@
 AREAS = [
 {"slug": "eindhoven", "name": "Eindhoven", "kind": "stad", "region": "noord-brabant", "gemeente": "Eindhoven",
  "title": "Lachgas bestellen Eindhoven | Bezorgd via WhatsApp",
- "description": "Lachgas bestellen in Eindhoven? Lachgastanks 2KG, 4KG en 10KG verzegeld aan huis in Woensel, Strijp en Stratum, meestal binnen 15 tot 25 minuten. 18+.",
+ "description": "Lachgas bestellen in Eindhoven? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld aan huis in Woensel, Strijp en Stratum, meestal binnen 15 tot 25 minuten. 18+.",
  "h1": "Lachgas bezorgen in Eindhoven",
  "lead": "Een bezorger in de regio Eindhoven brengt je verzegelde lachgastank aan huis, van Meerhoven tot Blixembosch. Prijs en tijdvak hoor je vooraf via WhatsApp.",
  "intro": [
   "Eindhoven is de grootste stad van Noord-Brabant en bestaat uit zeven stadsdelen: Centrum, Woensel-Noord, Woensel-Zuid, Stratum, Tongelre, Gestel en Strijp. Daarbinnen liggen buurten als Blixembosch, de Achtse Barrier, Meerhoven, Strijp-S, Vaartbroek en het Witte Dorp, en ook het dorp Acht hoort bij de gemeente. Op elk privéadres in die wijken bezorgen wij lachgastanks. Je stuurt via WhatsApp je straat, huisnummer en de gewenste maat; wij antwoorden met de prijs en een tijdvak. Zodra je akkoord geeft, gaat een bezorger uit de regio op weg.",
   "Rond de stad ligt de Randweg Eindhoven met de A2, A58 en A67, en binnen de stad verbinden de Ring en de Kennedylaan de stadsdelen met elkaar. Omdat onze bezorgers verspreid over de regio actief zijn, hoef je nooit te wachten tot iemand vanuit een ander deel van het land is aangereden: in Eindhoven staat je tank meestal binnen 15 tot 25 minuten voor de deur. Tijdens Dutch Design Week, GLOW of een thuiswedstrijd van PSV in het Philips Stadion kan het verkeer rond het centrum vastlopen; in dat geval laten we het vooraf via WhatsApp weten.",
-  "Een studentenhuis bij de TU/e, een huiskamerfeest in een jaren-dertigwoning in het Witte Dorp of een borrel in een loft op Strijp-S: de juiste maat hangt af van de groep en de duur van de avond. In ons <a href=\"/lachgas-tanks/\">overzicht van lachgastanks</a> staan de 2KG, 4KG en 10KG met uitleg per formaat. Je betaalt contant of via Tikkie bij levering en de bezorger vraagt om een geldig identiteitsbewijs, want we leveren uitsluitend aan volwassenen van 18 jaar of ouder. Lees voor je bestelt ook onze <a href=\"/informatie/lachgas-bijwerkingen-en-eerste-hulp/\">uitleg over bijwerkingen en eerste hulp</a>."],
+  "Een studentenhuis bij de TU/e, een huiskamerfeest in een jaren-dertigwoning in het Witte Dorp of een borrel in een loft op Strijp-S: de juiste maat hangt af van de groep en de duur van de avond. In ons <a href=\"/lachgas-tanks/\">overzicht van lachgastanks</a> staan de 2KG, 4KG, 6KG en 10KG met uitleg per formaat. Je betaalt contant of via Tikkie bij levering en de bezorger vraagt om een geldig identiteitsbewijs, want we leveren uitsluitend aan volwassenen van 18 jaar of ouder. Lees voor je bestelt ook onze <a href=\"/informatie/lachgas-bijwerkingen-en-eerste-hulp/\">uitleg over bijwerkingen en eerste hulp</a>."],
  "wijken": "Centrum, Woensel-Noord, Woensel-Zuid, Stratum, Tongelre, Gestel, Strijp, Meerhoven, Blixembosch, Acht",
  "levertijd": "meestal binnen 15 tot 25 minuten",
  "faq": [
@@ -20,7 +20,7 @@ AREAS = [
 
 {"slug": "tilburg", "name": "Tilburg", "kind": "stad", "region": "noord-brabant", "gemeente": "Tilburg",
  "title": "Lachgas bestellen Tilburg | Bezorgd via WhatsApp",
- "description": "Lachgas bestellen in Tilburg? Verzegelde lachgastanks 2KG, 4KG en 10KG thuisbezorgd in de Reeshof en Oud-Noord, meestal binnen 15 tot 25 minuten. 18+.",
+ "description": "Lachgas bestellen in Tilburg? Verzegelde lachgastanks 2KG, 4KG, 6KG en 10KG thuisbezorgd in de Reeshof en Oud-Noord, meestal binnen 15 tot 25 minuten. 18+.",
  "h1": "Lachgas bezorgen in Tilburg",
  "lead": "Lachgastanks aan de deur in heel Tilburg, van de Reeshof tot Berkel-Enschot en Udenhout. Stuur een appje met je adres en je krijgt direct de prijs en een tijdvak.",
  "intro": [
@@ -37,13 +37,13 @@ AREAS = [
 
 {"slug": "breda", "name": "Breda", "kind": "stad", "region": "noord-brabant", "gemeente": "Breda",
  "title": "Lachgas bestellen Breda | Bezorgd via WhatsApp",
- "description": "Lachgas bestellen in Breda? Lachgastanks 2KG, 4KG en 10KG verzegeld bezorgd van de Haagse Beemden tot het Ginneken, meestal binnen 15 tot 25 minuten. 18+.",
+ "description": "Lachgas bestellen in Breda? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld bezorgd van de Haagse Beemden tot het Ginneken, meestal binnen 15 tot 25 minuten. 18+.",
  "h1": "Lachgas bezorgen in Breda",
  "lead": "Een bezorger uit de regio Breda brengt je lachgastank aan huis, van Princenhage tot Teteringen. Via WhatsApp bevestigen we eerst de prijs en het tijdvak.",
  "intro": [
   "Breda ligt aan de Mark, met een historische binnenstad binnen de singels en daaromheen wijken met een eigen karakter: het Ginneken en de Zandberg aan de zuidkant, Princenhage en Tuinzigt in het westen, Belcrum en de Haagse Beemden ten noorden van het spoor, Brabantpark en Heusdenhout richting de A27. De dorpen Prinsenbeek, Teteringen, Bavel en Ulvenhout horen ook bij de gemeente. Overal daar bezorgen wij lachgastanks op een privéadres. Je appt je adres en de maat die je wilt; wij reageren met de prijs en een tijdvak, en pas na jouw akkoord vertrekt een bezorger.",
   "De A16 en de A27 omsluiten de stad aan de west- en oostkant, de A58 sluit aan bij knooppunt Galder en de Noordelijke Rondweg verbindt de wijken boven het centrum. Doordat onze bezorgers in de regio zelf rondrijden, kunnen we in Breda een indicatie geven van meestal binnen 15 tot 25 minuten, ongeacht in welke wijk je woont. Op vrijdag- en zaterdagavond is het druk rond de Havermarkt en het Chasséveld, en tijdens Breda Jazz Festival of carnaval in Kielegat zijn delen van het centrum afgesloten; als dat je tijdvak beïnvloedt, hoor je dat vooraf van ons.",
-  "Een housewarming in een appartement in de Belcrum, een tuinfeest in Bavel of een rustige avond in een rijtjeshuis in de Haagse Beemden: het aantal mensen en de duur bepalen welke maat verstandig is. Op de pagina met <a href=\"/lachgas-tanks/\">lachgastanks</a> vergelijk je de 2KG, 4KG en 10KG. Afrekenen doe je bij levering, contant of via Tikkie, nooit vooraf. De bezorger controleert je identiteitsbewijs: onder de 18 krijg je geen tank. Twijfel je of de combinatie met drinken verstandig is, lees dan eerst ons artikel over <a href=\"/informatie/lachgas-en-alcohol/\">lachgas en alcohol</a>."],
+  "Een housewarming in een appartement in de Belcrum, een tuinfeest in Bavel of een rustige avond in een rijtjeshuis in de Haagse Beemden: het aantal mensen en de duur bepalen welke maat verstandig is. Op de pagina met <a href=\"/lachgas-tanks/\">lachgastanks</a> vergelijk je de 2KG, 4KG, 6KG en 10KG. Afrekenen doe je bij levering, contant of via Tikkie, nooit vooraf. De bezorger controleert je identiteitsbewijs: onder de 18 krijg je geen tank. Twijfel je of de combinatie met drinken verstandig is, lees dan eerst ons artikel over <a href=\"/informatie/lachgas-en-alcohol/\">lachgas en alcohol</a>."],
  "wijken": "Centrum, Belcrum, Ginneken, Princenhage, Haagse Beemden, Brabantpark, Heusdenhout, Tuinzigt, Prinsenbeek, Teteringen",
  "levertijd": "meestal binnen 15 tot 25 minuten",
  "faq": [
@@ -54,7 +54,7 @@ AREAS = [
 
 {"slug": "s-hertogenbosch", "name": "’s-Hertogenbosch", "kind": "stad", "region": "noord-brabant", "gemeente": "’s-Hertogenbosch",
  "title": "Lachgas bestellen ’s-Hertogenbosch | Bezorgd via WhatsApp",
- "description": "Lachgas bestellen in ’s-Hertogenbosch? Lachgastanks 2KG, 4KG en 10KG verzegeld bezorgd in Rosmalen en Maaspoort, meestal binnen 15 tot 25 minuten. 18+.",
+ "description": "Lachgas bestellen in ’s-Hertogenbosch? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld bezorgd in Rosmalen en Maaspoort, meestal binnen 15 tot 25 minuten. 18+.",
  "h1": "Lachgas bezorgen in ’s-Hertogenbosch",
  "lead": "Lachgastanks aan huis in Den Bosch en Rosmalen, van het Paleiskwartier tot De Groote Wielen. Eén WhatsApp-bericht en je weet de prijs en het tijdvak.",
  "intro": [
@@ -71,13 +71,13 @@ AREAS = [
 
 {"slug": "helmond", "name": "Helmond", "kind": "stad", "region": "noord-brabant", "gemeente": "Helmond",
  "title": "Lachgas bestellen Helmond | Bezorgd via WhatsApp",
- "description": "Lachgas bestellen in Helmond? Verzegelde lachgastanks 2KG, 4KG en 10KG bezorgd in Brandevoort en Dierdonk, meestal binnen 15 tot 25 minuten. 18+.",
+ "description": "Lachgas bestellen in Helmond? Verzegelde lachgastanks 2KG, 4KG, 6KG en 10KG bezorgd in Brandevoort en Dierdonk, meestal binnen 15 tot 25 minuten. 18+.",
  "h1": "Lachgas bezorgen in Helmond",
  "lead": "Van Mierlo-Hout tot Rijpelberg: lachgastanks aan huis in heel Helmond. Prijs en tijdvak krijg je vooraf via WhatsApp, betalen doe je bij levering.",
  "intro": [
   "Helmond ligt aan de Zuid-Willemsvaart, met het kasteel en het winkelgebied rond de Markt als middelpunt. De stad is opgebouwd uit duidelijk herkenbare wijken: Helmond-Noord en Helmond-Oost, Helmond-West met Mierlo-Hout, de nieuwere buurten Brandevoort en Dierdonk, en Brouwhuis en Rijpelberg aan de oostzijde van het kanaal. Ook Stiphout en Suytkade bij het station horen erbij. Op elk privéadres in deze wijken brengen onze bezorgers lachgastanks. Via WhatsApp geef je je adres en de gewenste maat door; je ontvangt de prijs en een tijdvak en geeft daarna akkoord.",
   "De A270 verbindt Helmond met Eindhoven, de N279 loopt langs het kanaal naar Veghel en Asten, en de N270 gaat oostwaarts richting Deurne. Door de stad snijdt de Kasteel-Traverse, die de wijken aan weerszijden van het centrum met elkaar verbindt. Onze bezorgers zitten in de regio zelf, zodat een bestelling in Helmond meestal binnen 15 tot 25 minuten wordt afgeleverd. Op vrijdag- en zaterdagavond, tijdens carnaval van de Keiebijters of bij evenementen in De Warande kan het verkeer rond het centrum trager zijn; wanneer dat je tijdvak raakt, laten we het vooraf weten.",
-  "Of het nu gaat om een feestje in een gezinswoning in Brandevoort, een avond in een appartement op Suytkade of een verjaardag in Stiphout: welk formaat verstandig is, hangt af van je gezelschap en hoe lang de avond duurt. Op onze <a href=\"/lachgas-tanks/\">assortimentspagina</a> staan de 2KG, 4KG en 10KG naast elkaar. Je rekent af bij levering, contant of via Tikkie, en de bezorger vraagt om een geldig ID omdat we niet leveren aan personen onder de 18. Vragen over bestellen of wijzigen staan beantwoord bij de <a href=\"/veelgestelde-vragen/bestellen/\">veelgestelde vragen over bestellen</a>."],
+  "Of het nu gaat om een feestje in een gezinswoning in Brandevoort, een avond in een appartement op Suytkade of een verjaardag in Stiphout: welk formaat verstandig is, hangt af van je gezelschap en hoe lang de avond duurt. Op onze <a href=\"/lachgas-tanks/\">assortimentspagina</a> staan de 2KG, 4KG, 6KG en 10KG naast elkaar. Je rekent af bij levering, contant of via Tikkie, en de bezorger vraagt om een geldig ID omdat we niet leveren aan personen onder de 18. Vragen over bestellen of wijzigen staan beantwoord bij de <a href=\"/veelgestelde-vragen/bestellen/\">veelgestelde vragen over bestellen</a>."],
  "wijken": "Centrum, Helmond-Noord, Helmond-Oost, Helmond-West, Mierlo-Hout, Brandevoort, Dierdonk, Brouwhuis, Rijpelberg, Stiphout",
  "levertijd": "meestal binnen 15 tot 25 minuten",
  "faq": [
@@ -88,13 +88,13 @@ AREAS = [
 
 {"slug": "oss", "name": "Oss", "kind": "stad", "region": "noord-brabant", "gemeente": "Oss",
  "title": "Lachgas bestellen Oss | Bezorgd via WhatsApp",
- "description": "Lachgas bestellen in Oss? Lachgastanks 2KG, 4KG en 10KG verzegeld bezorgd in de Ruwaard, Ussen en Schadewijk, meestal binnen 15 tot 25 minuten. 18+.",
+ "description": "Lachgas bestellen in Oss? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld bezorgd in de Ruwaard, Ussen en Schadewijk, meestal binnen 15 tot 25 minuten. 18+.",
  "h1": "Lachgas bezorgen in Oss",
  "lead": "Lachgastanks aan de deur in Oss en de kernen van Berghem tot Ravenstein. App je adres, ontvang prijs en tijdvak en betaal pas bij levering.",
  "intro": [
   "Oss ligt in het noordoosten van Brabant, tussen de A50, de A59 en de Maas. Het centrum rond de Heuvel en het Walplein wordt omringd door de Ruwaard, de Schadewijk, de Krinkelhoek, Ussen, Horzak en Mettegeupel, en de gemeente telt daarnaast veel kernen: Berghem, Megen, Ravenstein, Lith, Herpen, Geffen en Haren, om er een paar te noemen. In de stad en in al die dorpen bezorgen wij lachgastanks op privéadressen. Je stuurt via WhatsApp je adres en de maat die je wilt; wij komen terug met de prijs en een tijdvak, en zodra jij akkoord geeft vertrekt de bezorger.",
   "Vanaf de A50 leiden de afslagen Oss-Oost en Oss-West de stad in, de A59 ligt aan de noordkant en de N329 is de doorgaande route langs de oostelijke wijken. Omdat onze bezorgers in de regio actief zijn en niet eerst van elders hoeven te komen, geldt voor Oss een indicatie van meestal binnen 15 tot 25 minuten. Tijdens carnaval van de Ossekoppen, op koopavonden en bij evenementen op de Heuvel is het centrum druk en soms afgesloten voor auto’s; houd daar rekening mee en kies dan een adres buiten de afzettingen, wij melden het als een tijdvak daardoor verschuift.",
-  "Een avond in een twee-onder-een-kapwoning in Ussen, een tuinfeest in Berghem of een verjaardag in een dijkhuis in Lith: de keuze tussen 2KG, 4KG en 10KG hangt af van het aantal gasten en hoe lang je doorgaat. Vergelijk de maten op de pagina over <a href=\"/lachgas-tanks/10kg/\">de 10KG-tank</a> en de kleinere formaten. Betalen kan contant of via Tikkie op het moment van levering; vooraf overmaken vragen we nooit. De bezorger controleert je leeftijd en levert alleen aan 18-plussers. Hoe een bestelling van begin tot eind verloopt, lees je in <a href=\"/informatie/eerste-keer-lachgas-bestellen/\">eerste keer lachgas bestellen</a>."],
+  "Een avond in een twee-onder-een-kapwoning in Ussen, een tuinfeest in Berghem of een verjaardag in een dijkhuis in Lith: de keuze tussen 2KG, 4KG, 6KG en 10KG hangt af van het aantal gasten en hoe lang je doorgaat. Vergelijk de maten op de pagina over <a href=\"/lachgas-tanks/10kg/\">de 10KG-tank</a> en de kleinere formaten. Betalen kan contant of via Tikkie op het moment van levering; vooraf overmaken vragen we nooit. De bezorger controleert je leeftijd en levert alleen aan 18-plussers. Hoe een bestelling van begin tot eind verloopt, lees je in <a href=\"/informatie/eerste-keer-lachgas-bestellen/\">eerste keer lachgas bestellen</a>."],
  "wijken": "Centrum, Ruwaard, Schadewijk, Krinkelhoek, Ussen, Horzak, Mettegeupel, Berghem, Ravenstein, Lith",
  "levertijd": "meestal binnen 15 tot 25 minuten",
  "faq": [
@@ -105,7 +105,7 @@ AREAS = [
 
 {"slug": "roosendaal", "name": "Roosendaal", "kind": "stad", "region": "noord-brabant", "gemeente": "Roosendaal",
  "title": "Lachgas bestellen Roosendaal | Bezorgd via WhatsApp",
- "description": "Lachgas bestellen in Roosendaal? Verzegelde lachgastanks 2KG, 4KG en 10KG aan huis in Tolberg en Kortendijk, meestal binnen 15 tot 25 minuten. 18+.",
+ "description": "Lachgas bestellen in Roosendaal? Verzegelde lachgastanks 2KG, 4KG, 6KG en 10KG aan huis in Tolberg en Kortendijk, meestal binnen 15 tot 25 minuten. 18+.",
  "h1": "Lachgas bezorgen in Roosendaal",
  "lead": "Een bezorger in de regio Roosendaal brengt je lachgastank thuis, van Kalsdonk tot Wouw. Prijs en tijdvak bevestigen we vooraf in dezelfde WhatsApp-chat.",
  "intro": [
@@ -122,13 +122,13 @@ AREAS = [
 
 {"slug": "bergen-op-zoom", "name": "Bergen op Zoom", "kind": "stad", "region": "noord-brabant", "gemeente": "Bergen op Zoom",
  "title": "Lachgas bestellen Bergen op Zoom | Bezorgd via WhatsApp",
- "description": "Lachgas bestellen in Bergen op Zoom? Lachgastanks 2KG, 4KG en 10KG verzegeld bezorgd in Gageldonk en Halsteren, meestal binnen 15 tot 25 minuten. 18+.",
+ "description": "Lachgas bestellen in Bergen op Zoom? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld bezorgd in Gageldonk en Halsteren, meestal binnen 15 tot 25 minuten. 18+.",
  "h1": "Lachgas bezorgen in Bergen op Zoom",
  "lead": "Lachgastanks aan huis in Bergen op Zoom, Halsteren en Lepelstraat. Stuur een appje met je adres; prijs en tijdvak komen terug voordat de bezorger vertrekt.",
  "intro": [
   "Bergen op Zoom ligt waar de Brabantse Wal overgaat in de Zeeuwse polders, met het Markiezenhof en de Peperbus als bakens boven de binnenstad. Rondom het centrum liggen Gageldonk en Noordgeest, Meilust en de Warande, Fort-Zeekant en Borgvliet, en aan het water van de Binnenschelde de Bergse Plaat met daarachter de nieuwbouw van De Markiezaten. Halsteren en Lepelstraat maken ook deel uit van de gemeente. Op privéadressen in al deze wijken en kernen bezorgen wij lachgastanks. Je stuurt via WhatsApp je adres en de maat die je zoekt en krijgt de prijs met een tijdvak terug.",
   "Bij knooppunt Zoomland komen de A4 vanuit Zeeland en de A58 vanuit Breda samen, en de Randweg leidt vandaar de wijken in. Onze bezorgers rijden in de regio zelf rond, zodat je ook in Bergen op Zoom rekent op een levering meestal binnen 15 tot 25 minuten. Tijdens Vastenavend in het Krabbegat gaat de binnenstad dagenlang dicht voor auto’s en is het rond de Grote Markt onbegaanbaar druk; ook bij de kermis en op zomerse dagen aan de Binnenschelde is het voller dan anders. Komt je tijdvak daardoor in de knel, dan hoor je dat vooraf van ons via WhatsApp.",
-  "Een avond met vrienden in een appartement aan de Bergse Plaat, een feest in een gezinswoning in Gageldonk of een verjaardag in Halsteren: de juiste maat volgt uit je gezelschap en de duur van de avond. Op onze <a href=\"/lachgas-tanks/\">overzichtspagina van lachgastanks</a> staan 2KG, 4KG en 10KG uitgelegd. Afrekenen doe je aan de deur, contant of via Tikkie, na controle van de verzegeling. We vragen altijd een geldig identiteitsbewijs en leveren alleen aan volwassenen van 18 jaar of ouder. Heb je nog niet eerder bij ons besteld, lees dan hoe je een <a href=\"/informatie/betrouwbare-lachgas-bezorgservice-herkennen/\">betrouwbare bezorgservice herkent</a>."],
+  "Een avond met vrienden in een appartement aan de Bergse Plaat, een feest in een gezinswoning in Gageldonk of een verjaardag in Halsteren: de juiste maat volgt uit je gezelschap en de duur van de avond. Op onze <a href=\"/lachgas-tanks/\">overzichtspagina van lachgastanks</a> staan 2KG, 4KG, 6KG en 10KG uitgelegd. Afrekenen doe je aan de deur, contant of via Tikkie, na controle van de verzegeling. We vragen altijd een geldig identiteitsbewijs en leveren alleen aan volwassenen van 18 jaar of ouder. Heb je nog niet eerder bij ons besteld, lees dan hoe je een <a href=\"/informatie/betrouwbare-lachgas-bezorgservice-herkennen/\">betrouwbare bezorgservice herkent</a>."],
  "wijken": "Centrum, Gageldonk, Noordgeest, Meilust, Warande, Fort-Zeekant, Borgvliet, Bergse Plaat, De Markiezaten, Halsteren",
  "levertijd": "meestal binnen 15 tot 25 minuten",
  "faq": [
@@ -139,13 +139,13 @@ AREAS = [
 
 {"slug": "waalwijk", "name": "Waalwijk", "kind": "stad", "region": "noord-brabant", "gemeente": "Waalwijk",
  "title": "Lachgas bestellen Waalwijk | Bezorgd via WhatsApp",
- "description": "Lachgas bestellen in Waalwijk? Lachgastanks 2KG, 4KG en 10KG verzegeld bezorgd in Baardwijk, Besoijen en Zanddonk, meestal binnen 15 tot 25 minuten. 18+.",
+ "description": "Lachgas bestellen in Waalwijk? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld bezorgd in Baardwijk, Besoijen en Zanddonk, meestal binnen 15 tot 25 minuten. 18+.",
  "h1": "Lachgas bezorgen in Waalwijk",
  "lead": "Lachgastanks thuisbezorgd in Waalwijk, Sprang-Capelle en Waspik. App je adres en de gewenste maat; je krijgt de prijs en een tijdvak terug.",
  "intro": [
   "Waalwijk is de grootste plaats van de Langstraat, het lint van schoen- en leerplaatsen tussen Den Bosch en Geertruidenberg, en ligt ingeklemd tussen de A59 en de Bergsche Maas. Het centrum rond de Grotestraat en het Raadhuisplein wordt omringd door de oude kernen Baardwijk en Besoijen, de woonwijken Bloemenoord, Zanddonk, De Hoef, Meerdijk en Laageinde, en het nieuwere Landgoed Driessen. Sprang-Capelle en Waspik horen sinds de gemeentelijke herindeling ook bij Waalwijk. In al deze delen bezorgen wij lachgastanks op privéadressen; een WhatsApp-bericht met adres en maat is genoeg om de prijs en een tijdvak te ontvangen.",
   "De A59, ook wel de Maasroute, loopt pal langs de noordkant van de stad met afslagen bij Waalwijk-Centrum, Waalwijk-Oost en Waspik, en de N261 verbindt Waalwijk met Tilburg. Onze bezorgers zijn in de regio zelf actief, dus voor Waalwijk geldt een indicatie van meestal binnen 15 tot 25 minuten. Op vrijdag- en zaterdagavond, bij thuiswedstrijden van RKC in het Mandemakers Stadion en tijdens de kermis of carnaval in het centrum kan het rond de Grotestraat druk zijn; als dat gevolgen heeft voor je tijdvak, melden we dat vooraf in de chat. Ook laat op de avond en in het weekend blijft bestellen mogelijk.",
-  "Een verjaardag in een hoekwoning in Zanddonk, een tuinfeest in Waspik of een gezellige avond in een appartement bij de haven: de hoeveelheid gasten en de duur bepalen of een 2KG, 4KG of 10KG het beste past. Bekijk de uitleg per maat op onze <a href=\"/lachgas-tanks/\">pagina over lachgastanks</a>. Betalen doe je pas bij levering, contant of via Tikkie, nadat je de verzegeling hebt gecontroleerd. De bezorger vraagt om een geldig identiteitsbewijs; onder de 18 wordt niet geleverd. Wil je weten wat de dag erna kan brengen, lees dan <a href=\"/informatie/de-dag-na-lachgas/\">de dag na lachgas</a>."],
+  "Een verjaardag in een hoekwoning in Zanddonk, een tuinfeest in Waspik of een gezellige avond in een appartement bij de haven: de hoeveelheid gasten en de duur bepalen of een 2KG, 4KG, 6KG of 10KG het beste past. Bekijk de uitleg per maat op onze <a href=\"/lachgas-tanks/\">pagina over lachgastanks</a>. Betalen doe je pas bij levering, contant of via Tikkie, nadat je de verzegeling hebt gecontroleerd. De bezorger vraagt om een geldig identiteitsbewijs; onder de 18 wordt niet geleverd. Wil je weten wat de dag erna kan brengen, lees dan <a href=\"/informatie/de-dag-na-lachgas/\">de dag na lachgas</a>."],
  "wijken": "Centrum, Baardwijk, Besoijen, Bloemenoord, Zanddonk, De Hoef, Meerdijk, Landgoed Driessen, Sprang-Capelle, Waspik",
  "levertijd": "meestal binnen 15 tot 25 minuten",
  "faq": [

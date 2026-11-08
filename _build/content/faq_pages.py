@@ -13,7 +13,7 @@ FAQ_TOPICS = [
         ],
         'items': [
             ['Hoe bestel ik een lachgastank bij Lachgas Holland?',
-             'Open WhatsApp en stuur ons in één bericht het formaat dat je wilt (2KG, 4KG of 10KG), je volledige adres en het moment waarop je de tank wilt ontvangen. Een bezorger in jouw regio bekijkt de aanvraag, waarna wij de prijs en een tijdvak terugsturen. Pas na jouw akkoord in de chat is de bestelling definitief; alle stappen staan op <a href="/service/bestellen-via-whatsapp/">bestellen via WhatsApp</a>.'],
+             'Open WhatsApp en stuur ons in één bericht het formaat dat je wilt (2KG, 4KG, 6KG of 10KG), je volledige adres en het moment waarop je de tank wilt ontvangen. Een bezorger in jouw regio bekijkt de aanvraag, waarna wij de prijs en een tijdvak terugsturen. Pas na jouw akkoord in de chat is de bestelling definitief; alle stappen staan op <a href="/service/bestellen-via-whatsapp/">bestellen via WhatsApp</a>.'],
             ['Welke gegevens moet ik in mijn eerste bericht zetten?',
              'Straat, huisnummer met toevoeging, postcode en plaats, zodat de bezorger niet hoeft te zoeken. Daarnaast het gewenste formaat en of het om nu of om een later moment gaat. Een voornaam waarnaar aan de deur gevraagd kan worden en een korte aanwijzing over de ingang maken de levering soepeler, maar meer informatie hebben we niet nodig.'],
             ['Hoe weet ik dat mijn bestelling is aangekomen?',
@@ -29,7 +29,7 @@ FAQ_TOPICS = [
             ['Kan iemand anders de bestelling voor mij plaatsen of ontvangen?',
              'De persoon die de tank aanneemt moet zelf achttien jaar of ouder zijn en dat aan de deur kunnen laten zien; wie het bericht stuurt maakt voor ons minder uit. Zet in de chat de naam van de ontvanger en zorg dat die persoon weet in welk tijdvak de bezorger komt. Kan niemand aan de deur een geldig legitimatiebewijs tonen, dan gaat de tank mee terug.'],
             ['Verkopen jullie ook patronen, crackers of andere accessoires?',
-             'Nee, ons assortiment bestaat uitsluitend uit verzegelde lachgastanks in de formaten 2KG, 4KG en 10KG. Patronen en crackers bezorgen we niet, en losse accessoires hebben we evenmin. Op <a href="/lachgas-tanks/">de tankpagina</a> staan de drie formaten naast elkaar, zodat je kunt kiezen wat bij je gelegenheid past.'],
+             'Nee, ons assortiment bestaat uitsluitend uit verzegelde lachgastanks in de formaten 2KG, 4KG, 6KG en 10KG. Patronen en crackers bezorgen we niet, en losse accessoires hebben we evenmin. Op <a href="/lachgas-tanks/">de tankpagina</a> staan de vier formaten naast elkaar, zodat je kunt kiezen wat bij je gelegenheid past.'],
             ['Bewaren jullie mijn gegevens na de bestelling?',
              'We houden alleen bij wat nodig is om de levering goed te laten verlopen en achteraf een vraag te kunnen beantwoorden. Je adres en naam komen niet verder dan de bezorger die bij je langskomt, en we verkopen of delen niets met derden. Hoe we met gegevens omgaan lees je in de <a href="/privacy/">privacyverklaring</a>.'],
             ['Wat als ik na mijn bericht geen reactie krijg?',
@@ -194,7 +194,7 @@ FAQ_INDEX = {
         ['Hoe snel is de tank bij mij?',
          'Overal in Nederland meestal binnen 15 tot 25 minuten na onze bevestiging, omdat er in elke regio een bezorger in de buurt is. Bij drukte op vrijdag- en zaterdagavond, evenementen of slecht weer kan het uitlopen, en dan laten we het vooraf via WhatsApp weten. Meer over hoe we dat organiseren staat op <a href="/service/bezorgtijden-per-regio/">bezorgtijden in heel Nederland</a>.'],
         ['Welk formaat tank moet ik kiezen?',
-         'We bezorgen drie verzegelde formaten: 2KG, 4KG en 10KG, waarbij alleen de netto-inhoud in kilo N2O verschilt. Voor een klein gezelschap thuis is de 2KG meestal passend; de 4KG en 10KG zijn bedoeld voor grotere groepen of een langere gelegenheid. Twijfel je, zeg dan in de chat wat je van plan bent; we adviseren eerlijk en praten je geen groter formaat aan. Vergelijk ze op <a href="/lachgas-tanks/">de tankpagina</a>.'],
+         'We bezorgen drie verzegelde formaten: 2KG, 4KG, 6KG en 10KG, waarbij alleen de netto-inhoud in kilo N2O verschilt. Voor een klein gezelschap thuis is de 2KG meestal passend; de 4KG, 6KG en 10KG zijn bedoeld voor grotere groepen of een langere gelegenheid. Twijfel je, zeg dan in de chat wat je van plan bent; we adviseren eerlijk en praten je geen groter formaat aan. Vergelijk ze op <a href="/lachgas-tanks/">de tankpagina</a>.'],
         ['Moet ik vooraf betalen?',
          'Nee. Je rekent af op het moment dat de tank voor je staat, contant of via Tikkie bij levering, en het bedrag is wat we eerder in de chat hebben bevestigd. Word je om een aanbetaling of overschrijving vooraf gevraagd, dan heb je niet met Lachgas Holland te maken. Alle details staan onder <a href="/veelgestelde-vragen/betalen/">vragen over betalen</a>.'],
         ['Leveren jullie ook aan jongeren onder de achttien?',
@@ -209,7 +209,7 @@ CONTACT = {
     'lead': 'WhatsApp voor alles wat vandaag moet, e-mail voor wat kan wachten. Zo bereik je ons, waar in Nederland je ook zit.',
     'intro': [
         'Alles wat met een bestelling te maken heeft loopt via WhatsApp, en dat geldt voor elke klant in het land, van Den Helder tot Hulst. In één chat staan je aanvraag, onze bevestiging, het tijdvak en het contact met de bezorger die bij jou in de regio rijdt. De chat is dag en nacht bemand, zeven dagen per week, ook tijdens feestdagen. Via de knop op deze pagina open je het gesprek direct, zonder iets over te typen.',
-        'Zet in je eerste bericht meteen waarvoor je ons schrijft: een nieuwe bestelling, een wijziging van een lopende levering, een vraag of een klacht. Gaat het om een bestelling, stuur dan het formaat (2KG, 4KG of 10KG), het volledige adres en het gewenste moment in één keer mee; dan kunnen we direct bevestigen en hoeft niemand te wachten op aanvullende vragen. Voor een wijziging gebruik je dezelfde chat als waarin je besteld hebt, zodat de bezorger meteen ziet om welke levering het gaat.',
+        'Zet in je eerste bericht meteen waarvoor je ons schrijft: een nieuwe bestelling, een wijziging van een lopende levering, een vraag of een klacht. Gaat het om een bestelling, stuur dan het formaat (2KG, 4KG, 6KG of 10KG), het volledige adres en het gewenste moment in één keer mee; dan kunnen we direct bevestigen en hoeft niemand te wachten op aanvullende vragen. Voor een wijziging gebruik je dezelfde chat als waarin je besteld hebt, zodat de bezorger meteen ziet om welke levering het gaat.',
         'E-mail is er voor zaken die niet vandaag opgelost hoeven te worden: een vraag over onze voorwaarden of privacyverklaring, een opmerking over de website, een zakelijke aanvraag of een terugkoppeling over een eerdere levering. We lezen de mailbox overdag en beantwoorden berichten op volgorde van binnenkomst, maar niet binnen minuten. Stuur daarom nooit een bestelling of een wijziging per e-mail; die komt mogelijk pas aan als de bezorger al voor de deur heeft gestaan. Het adres staat in het blok naast deze tekst.',
     ],
     'faq': [
@@ -231,7 +231,7 @@ ABOUT = {
         {
             'h2': 'Wie wij zijn',
             'paragraphs': [
-                'Lachgas Holland is een landelijke bezorgservice voor verzegelde lachgastanks, actief in alle twaalf provincies van Nederland. We verkopen drie formaten, 2KG, 4KG en 10KG, en verder niets: geen patronen, geen crackers, geen accessoires. Je vindt hier geen oprichtingsverhaal en geen cijfers over hoeveel mensen we hebben bediend, omdat die voor jouw bestelling niets veranderen. Wat wel telt, is dat je vooraf weet wat je krijgt, wat het kost en onder welke voorwaarden we leveren. Daarom besteden we op deze site veel ruimte aan informatie, ook aan de kanten van lachgas die niet aangenaam zijn. Liever een bezoeker die goed geïnformeerd afziet van een bestelling dan een klant die achteraf verrast is.',
+                'Lachgas Holland is een landelijke bezorgservice voor verzegelde lachgastanks, actief in alle twaalf provincies van Nederland. We verkopen vier formaten, 2KG, 4KG, 6KG en 10KG, en verder niets: geen patronen, geen crackers, geen accessoires. Je vindt hier geen oprichtingsverhaal en geen cijfers over hoeveel mensen we hebben bediend, omdat die voor jouw bestelling niets veranderen. Wat wel telt, is dat je vooraf weet wat je krijgt, wat het kost en onder welke voorwaarden we leveren. Daarom besteden we op deze site veel ruimte aan informatie, ook aan de kanten van lachgas die niet aangenaam zijn. Liever een bezoeker die goed geïnformeerd afziet van een bestelling dan een klant die achteraf verrast is.',
             ],
         },
         {

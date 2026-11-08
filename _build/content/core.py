@@ -3,12 +3,12 @@
 
 HOME = {
     "title": "Lachgas bestellen in heel Nederland | Lachgas Holland",
-    "description": "Verzegelde lachgastanks van 2KG, 4KG en 10KG bezorgd in alle twaalf provincies, meestal binnen 15 tot 25 minuten. Bestel via WhatsApp. 18+.",
+    "description": "Verzegelde lachgastanks van 2KG, 4KG, 6KG en 10KG bezorgd in alle twaalf provincies, meestal binnen 15 tot 25 minuten. Bestel via WhatsApp. 18+.",
     "kicker": "Bezorgers in alle twaalf provincies",
     "h1": "Lachgas bestellen, overal in Nederland bezorgd",
     "lead": "Van Groningen tot Maastricht brengt een bezorger in de buurt je verzegelde lachgastank aan de deur, meestal binnen 15 tot 25 minuten. Bestellen gaat via WhatsApp.",
     "checks": [
-        "Lachgastanks 2KG, 4KG en 10KG, altijd verzegeld",
+        "Lachgastanks 2KG, 4KG, 6KG en 10KG, altijd verzegeld",
         "Bestellen via WhatsApp, prijs vooraf in de chat bevestigd",
         "Contant of via Tikkie betalen bij levering",
     ],
@@ -34,7 +34,7 @@ HOME = {
                   "chips_h3": "Buurten met een eigen pagina",
                   "chips": [("/lachgas-bezorgen/amsterdam/de-pijp/", "De Pijp"), ("/lachgas-bezorgen/amsterdam/jordaan/", "Jordaan"), ("/lachgas-bezorgen/amsterdam/grachtengordel/", "Grachtengordel"), ("/lachgas-bezorgen/amsterdam/oud-west/", "Oud-West"), ("/lachgas-bezorgen/amsterdam/oud-zuid/", "Oud-Zuid"), ("/lachgas-bezorgen/amsterdam/noord/", "Noord"), ("/lachgas-bezorgen/amsterdam/ijburg/", "IJburg"), ("/lachgas-bezorgen/amsterdam/zuidoost/", "Zuidoost")]},
     "city_slugs": ["amsterdam", "rotterdam", "den-haag", "utrecht", "eindhoven", "groningen", "nijmegen", "zwolle", "maastricht", "leeuwarden", "almere", "middelburg"],
-    "tanks_h2": "Drie formaten lachgastank",
+    "tanks_h2": "Vier formaten lachgastank",
     "tanks_text": "Je kiest uit tanks met 2, 4 of 10 kilo N2O, die we allemaal verzegeld afleveren. Losse patronen en crackers hebben we niet in het assortiment. Weet je niet welk formaat past, stel je vraag dan gewoon in de chat.",
     "steps_h2": "Bestellen in drie stappen",
     "steps_text": "Een WhatsApp-bericht is het begin en het einde van je bestelling: geen webshop, geen account en geen vooruitbetaling.",
@@ -79,7 +79,7 @@ AREA_INDEX = {
     "intro": [
         """Nederland telt twaalf provincies en in elk daarvan zijn bezorgers van Lachgas Holland actief. In het westen bedienen we onder meer Amsterdam, Haarlem, Rotterdam, Den Haag, Leiden en Utrecht; in het zuiden Eindhoven, Tilburg, Breda, Maastricht en Venlo; in het oosten Nijmegen, Arnhem, Enschede en Zwolle; en in het noorden Groningen, Leeuwarden, Assen en Emmen. Flevoland en Zeeland hebben hun eigen pagina’s met onder andere Almere, Lelystad, Middelburg en Vlissingen. Elke provinciepagina toont de gemeenten en kernen die we bedienen, met een korte toelichting per plaats. Zo vind je in een paar klikken de informatie die bij jouw adres hoort.""",
         """De levertijd is in het hele land gelijk: meestal binnen 15 tot 25 minuten nadat je bestelling in de chat is bevestigd. Dat kan omdat we niet vanuit één punt rijden, maar in elke regio bezorgers hebben die vanuit de buurt vertrekken. Wat de tijd wel kan beïnvloeden, zijn drukke avonden op vrijdag en zaterdag, grote evenementen zoals Koningsdag of carnaval, files en slecht weer. In die gevallen zeggen we het vooraf via WhatsApp en noemen we een realistisch tijdvak. Dat tijdvak, en niet een algemeen gemiddelde, is waar je op mag rekenen. Hoe we tot die inschatting komen, staat beschreven bij <a href="/service/bezorgtijden-per-regio/">bezorgtijden in heel Nederland</a>.""",
-        """Bestellen gaat in elke provincie op dezelfde manier. Je appt je adres, het formaat uit ons <a href="/lachgas-tanks/">aanbod lachgastanks</a> van 2KG, 4KG of 10KG en het aantal. Wij koppelen je bestelling aan een bezorger in de regio, bevestigen de prijs en geven een tijdvak door. Bij de deur controleer je samen de zegel, toon je desgevraagd een identiteitsbewijs en betaal je contant of via Tikkie. We leveren uitsluitend op privéadressen aan personen van 18 jaar en ouder. Woon je in een kern die niet in de lijsten staat, stuur dan toch een bericht; de kans is groot dat een bezorger in de buurt langs kan komen. Lees vooraf ook onze <a href="/service/bezorgvoorwaarden/">bezorgvoorwaarden</a>.""",
+        """Bestellen gaat in elke provincie op dezelfde manier. Je appt je adres, het formaat uit ons <a href="/lachgas-tanks/">aanbod lachgastanks</a> van 2KG, 4KG, 6KG of 10KG en het aantal. Wij koppelen je bestelling aan een bezorger in de regio, bevestigen de prijs en geven een tijdvak door. Bij de deur controleer je samen de zegel, toon je desgevraagd een identiteitsbewijs en betaal je contant of via Tikkie. We leveren uitsluitend op privéadressen aan personen van 18 jaar en ouder. Woon je in een kern die niet in de lijsten staat, stuur dan toch een bericht; de kans is groot dat een bezorger in de buurt langs kan komen. Lees vooraf ook onze <a href="/service/bezorgvoorwaarden/">bezorgvoorwaarden</a>.""",
     ],
     "faq": [
         ["Bezorgen jullie echt in alle twaalf provincies?",
