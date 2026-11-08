@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lachgasholland.nl/sitemap.xml
+Sitemap: https://www.lachgasholland.nl/sitemap.xml

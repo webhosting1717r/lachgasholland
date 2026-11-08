@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Site-instellingen voor lachgasholland.nl (gelezen door provgen/build.py via common.configure()).
 SITECFG = {
-    "SITE": "https://lachgasholland.nl",
+    "SITE": "https://www.lachgasholland.nl",
     "BRAND": "Lachgas Holland",
     "BRAND_EM": "Holland",
     "REGION": "Nederland",
@@ -18,7 +18,7 @@ SITECFG = {
     "BUSINESS_DESC": "Lachgas Holland bezorgt lachgastanks aan volwassenen in heel Nederland, in alle twaalf provincies. Bestellen via WhatsApp, prijs vooraf bevestigd, uitsluitend 18+.",
     "WA_TEXT": "Hoi, ik wil graag lachgas bestellen.",
     "OG_IMAGE": "/assets/og-lachgas-holland.png",
-    "CNAME": "lachgasholland.nl",
+    "CNAME": "www.lachgasholland.nl",
     "FOOTER_PLACES": [("/lachgas-bezorgen/amsterdam/", "Lachgas bezorgen Amsterdam")],
     "MANIFEST_DESC": "Lachgas Holland: lachgastanks bezorgd in heel Nederland, bestellen via WhatsApp.",
     "LLMS_BLURB": "bezorgt lachgastanks aan volwassenen (18+) in heel Nederland, in alle twaalf provincies. Bestellen via WhatsApp, prijs vooraf bevestigd, betalen bij levering.",

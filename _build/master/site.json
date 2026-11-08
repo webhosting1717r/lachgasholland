@@ -1,8 +1,8 @@
 {
  "key": "holland",
  "brand": "Lachgas Holland",
- "host": "lachgasholland.nl",
- "site": "https://lachgasholland.nl",
+ "host": "www.lachgasholland.nl",
+ "site": "https://www.lachgasholland.nl",
  "word": "Holland",
  "wa": "447441484283",
  "mail": "info@lachgasholland.nl",
@@ -20,7 +20,7 @@
  "same_as": [],
  "extra_service": [],
  "family": "prov",
- "domain": "https://lachgasholland.nl",
+ "domain": "https://www.lachgasholland.nl",
  "area_dirs": [
   "lachgas-bezorgen"
  ],

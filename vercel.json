@@ -9,7 +9,7 @@
           "value": "lachgasholland\\.vercel\\.app"
         }
       ],
-      "destination": "https://lachgasholland.nl/$1",
+      "destination": "https://www.lachgasholland.nl/$1",
       "permanent": true
     },
     {
