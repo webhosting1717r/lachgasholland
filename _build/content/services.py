@@ -84,7 +84,7 @@ SERVICE_PAGES = [
             },
         ],
         "note": "Ook na middernacht bezorgen we meestal binnen 15 tot 25 minuten. Bij veel aanvragen tegelijk staat een aangepast tijdvak vooraf in je bevestiging.",
-        "related": ["spoedbezorging", "weekendbezorging", "leeftijdscontrole-18-plus", "lachgas-en-alcohol"],
+        "related": ["lachgas-24-7", "spoedbezorging", "weekendbezorging", "leeftijdscontrole-18-plus"],
         "faq": [
             ["Is er een tijdstip waarna ik niet meer kan bestellen?", "Nee. WhatsApp wordt de hele nacht door gelezen. Zolang een bezorger in jouw regio beschikbaar is, krijg je een bevestiging met een tijdvak, ook om vier uur ’s nachts."],
             ["Hoe merk ik dat de bezorger er is als hij niet aanbelt?", "Hij stuurt een WhatsApp-bericht zodra hij voor je deur staat, dus houd je telefoon bij je. Blijft een reactie uit, dan volgt één korte bel en verder niets."],
@@ -128,7 +128,7 @@ SERVICE_PAGES = [
             },
         ],
         "note": "In het weekend is de levertijd meestal binnen 15 tot 25 minuten. Lopen er op vrijdag- of zaterdagavond veel ritten tegelijk, dan noemen we vooraf een aangepast tijdvak.",
-        "related": ["bezorgtijden-per-regio", "nachtbezorging", "feestdagen-en-evenementen", "bestellen-via-whatsapp"],
+        "related": ["lachgas-24-7", "bezorgtijden-per-regio", "nachtbezorging", "feestdagen-en-evenementen"],
         "faq": [
             ["Kan ik een tijdvak voor zaterdag al op donderdag vastleggen?", "Ja. Stuur je aanvraag met de gewenste dag en tijd via WhatsApp. Wij bevestigen prijs en tijdvak, en je betaalt pas als de bezorger de tank overhandigt."],
             ["Waarom noemen jullie op vrijdagavond soms een later tijdvak?", "Omdat in die uren veel aanvragen uit het hele land tegelijk binnenkomen en bezorgers meerdere adressen na elkaar rijden. Zien we dat aankomen, dan staat een eerlijke verwachting direct in je bevestiging."],
@@ -384,6 +384,56 @@ SERVICE_PAGES = [
             ["Wat als ik tijdens het tijdvak toch niet thuis blijk te zijn?", "Meld het zo snel mogelijk in dezelfde chat. Is de bezorger nog niet vertrokken, dan verschuiven we; staat hij al voor de deur zonder dat iemand reageert, dan gaat de tank mee terug en plannen we een nieuw moment."],
         ],
     },
+        {
+            "slug": "lachgas-24-7",
+            "label": "24/7",
+            "title": "Lachgas 24/7 dag en nacht bestellen | Lachgas Holland",
+            "description": "24/7 lachgas bestellen via WhatsApp: lees hoe bestellen op elk uur werkt, waarom de afspraken dag en nacht gelijk zijn en hoe we discreet leveren.",
+            "h1": "Lachgas 24/7: dag en nacht bestellen en bezorgd",
+            "lead": "Onze bezorgservice kent geen openingstijden. Je bestelt 24/7 via WhatsApp en een bezorger in de buurt levert dag en nacht volgens dezelfde afspraken, in elke provincie van Nederland.",
+            "sections": [
+                {"h2": "Wat 24/7 bij Lachgas Holland betekent", "paragraphs": [
+                        "24/7 betekent voor ons meer dan een chat waarin je altijd een bericht kunt achterlaten. Het gaat om het hele plaatje: een chat die op elk moment wordt beantwoord, bezorgers in de regio die ook op dinsdagochtend en zondagnacht rijden, en voorwaarden die op geen enkel uur veranderen. De levertijd is op elk moment meestal binnen 15 tot 25 minuten, de prijs uit de chat is de prijs die je betaalt, en betalen doe je altijd pas contant of via Tikkie bij levering.",
+                        "Ook het aanbod is op elk uur gelijk: verzegelde lachgastanks van 2KG, 4KG, 6KG en 10KG, te vinden op <a href=\"/lachgas-tanks/\">het overzicht van onze tanks</a>. Een nachtelijke bestelling levert geen kleinere keuze op en een bestelling op zondagmiddag geen toeslag. De enige kanttekening geldt voor alle uren: op vrijdag- en zaterdagavond, rond evenementen, bij slecht weer of files is het soms drukker dan normaal. Verwachten we zo'n drukker moment, dan laten we het vooraf via WhatsApp weten."
+                    ]},
+                {"h2": "Zo verloopt een bestelling op elk uur van de dag", "paragraphs": [
+                        "Je stuurt via WhatsApp je adres inclusief huisnummer en toevoeging, het formaat tank dat je wilt en hoe je wilt betalen. Wie op dat moment dienst heeft, stuurt één bevestiging terug met de prijs, het verwachte tijdvak en een korte herhaling van de afspraken. Rijden doet een bezorger in de buurt pas als jij akkoord hebt gegeven. Dat is op woensdagmiddag niet anders dan op zaterdag om half vier 's nachts.",
+                        "Aan de deur verloopt de overdracht altijd hetzelfde. De bezorger laat je zien dat de verzegeling intact is, kijkt op je geldige identiteitsbewijs of je 18 of ouder bent en neemt daarna de betaling aan. Wil je tussendoor iets veranderen, dan kan dat in dezelfde chat; tot wanneer staat op <a href=\"/service/bestelling-wijzigen-of-annuleren/\">de pagina over wijzigen of annuleren</a>."
+                    ]},
+                {"h2": "Weekend, feestdagen en evenementen: dag en nacht dezelfde afspraken", "paragraphs": [
+                        "Een 24/7-service bewijst zich op de momenten dat veel mensen tegelijk iets willen. Voor de drukke avonden en de rustigere zondag is er een aparte pagina over <a href=\"/service/weekendbezorging/\">weekendbezorging</a>, en voor Oud en Nieuw, Koningsdag, carnaval en Pride lees je op <a href=\"/service/feestdagen-en-evenementen/\">de pagina over feestdagen en evenementen</a> waarom vooraf reserveren verstandig is. Op die dagen is de chat net zo goed bemand als doordeweeks; wat kan veranderen, is hooguit het tijdvak dat we eerlijk vooraf noemen.",
+                        "Wie na middernacht bestelt, vindt op de pagina over <a href=\"/service/nachtbezorging/\">nachtbezorging</a> hoe een bezorger zich in de kleine uurtjes meldt en waarom we dan terughoudend zijn met aanbellen. Heb je haast, lees dan eerst hoe je een <a href=\"/service/spoedbezorging/\">spoedbezorging</a> voorbereidt. Deze pagina gaat over wat al die momenten gemeen hebben: op elk moment bereikbaar, op elk moment dezelfde regels."
+                    ]},
+                {"h2": "Discreet en veilig op late uren", "paragraphs": [
+                        "Een bezorging om twee uur 's nachts vraagt om een andere manier van aankomen dan een bezorging om twee uur 's middags. We vragen je daarom vooraf naar bijzonderheden: een gezamenlijk trappenhuis, een bel die hard doorklinkt bij de buren, een portiek met meerdere voordeuren. Zo kiest de bezorger de rustigste weg naar jouw deur. Jij blijft binnen, houdt je telefoon bij de hand en doet open zodra hij zich meldt.",
+                        "We leveren op elk uur uitsluitend op een privéadres. Niet op straat, niet in een park, niet bij een café of club en niet op een festivalterrein. Lachgas staat sinds 1 januari 2023 op lijst II van de Opiumwet, met uitzonderingen voor medisch, technisch en voedingsgebruik, en veel gemeenten hebben daarnaast eigen regels voor gebruik in de openbare ruimte. Wat dat voor jou betekent, lees je in <a href=\"/informatie/is-lachgas-legaal-in-nederland/\">het artikel over de wet</a> en op <a href=\"https://www.rijksoverheid.nl\">rijksoverheid.nl</a>. Hoe je een avond thuis houdt zonder dat de buurt er iets van merkt, staat in <a href=\"/informatie/feest-thuis-zonder-overlast/\">het artikel over feesten zonder overlast</a>."
+                    ]},
+                {"h2": "24/7 in de grote steden en daarbuiten", "paragraphs": [
+                        "In een stad als Amsterdam, Rotterdam, Utrecht of Den Haag is de nacht nooit helemaal stil. Voor de hoofdstad is er daarom een eigen pagina: <a href=\"/lachgas-bezorgen/amsterdam/24-7/\">lachgas Amsterdam 24/7</a> beschrijft hoe we dag en nacht in alle zeven stadsdelen bezorgen, van portiekwoning tot bovenhuis. Voor andere steden kijk je op de pagina's voor <a href=\"/lachgas-bezorgen/rotterdam/\">Rotterdam</a>, <a href=\"/lachgas-bezorgen/utrecht/\">Utrecht</a> en <a href=\"/lachgas-bezorgen/den-haag/\">Den Haag</a>, of in <a href=\"/bezorggebied/\">het overzicht van het bezorggebied</a>.",
+                        "Buiten de grote steden is 24/7 precies even waar. Doordat er in elke regio bezorgers onderweg zijn en niemand vanuit één punt het land in hoeft, geldt in Emmen, Goes of Hoorn 's nachts dezelfde indicatie als overal: meestal binnen 15 tot 25 minuten. Een vraag over een adres of tijdstip stel je via <a href=\"/contact/\">de contactpagina</a> of direct in de chat waarin je bestelt."
+                    ]}
+            ],
+            "note": "Je bestelt 24/7 via WhatsApp en de levertijd is dag en nacht meestal binnen 15 tot 25 minuten. Bij drukte op vrijdag- en zaterdagavond, evenementen, slecht weer of files laten we het vooraf via WhatsApp weten.",
+            "faq": [
+                [
+                    "Is 24/7 echt 24/7, ook op maandagochtend of op eerste kerstdag?",
+                    "Ja. De chat wordt op elk uur van elke dag gelezen en bezorgers in de regio rijden ook dan. Je krijgt altijd eerst een bevestiging met prijs en tijdvak."
+                ],
+                [
+                    "Betaal ik 's nachts, in het weekend of op een feestdag meer?",
+                    "Nee. De prijs die we in de chat bevestigen is op elk moment dezelfde en je betaalt pas contant of via Tikkie bij levering. Een toeslag voor het tijdstip kennen we niet."
+                ],
+                [
+                    "Waar vind ik de 24/7-informatie voor mijn eigen stad?",
+                    "Voor Amsterdam staat alles op <a href=\"/lachgas-bezorgen/amsterdam/24-7/\">de pagina lachgas Amsterdam 24/7</a>. Voor andere plaatsen kijk je op de plaatspagina via <a href=\"/bezorggebied/\">het bezorggebied</a>; de afspraken van deze pagina gelden daar ook."
+                ],
+                [
+                    "Kan ik 's nachts ook een 6KG of 10KG bestellen?",
+                    "Ja. Het aanbod is op elk uur hetzelfde: verzegelde lachgastanks 2KG, 4KG, 6KG en 10KG. Noem het formaat in je eerste bericht, dan staat het meteen in de bevestiging."
+                ]
+            ],
+            "related": ["nachtbezorging", "weekendbezorging", "spoedbezorging", "bestellen-via-whatsapp"],
+        },
 ]
 
 SERVICE_INDEX = {
