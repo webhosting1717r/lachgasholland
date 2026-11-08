@@ -7,7 +7,7 @@ AREAS = [
  "region": "noord-holland",
  "gemeente": "Amsterdam",
  "hero": "/assets/amsterdam-gracht",
- "title": "Lachgas bestellen Amsterdam | Bezorgd via WhatsApp",
+ "title": "Lachgas Amsterdam | Lachgas Holland",
  "description": "Lachgas bestellen in Amsterdam: lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld thuisbezorgd in alle stadsdelen, meestal binnen 15 tot 25 minuten. Alleen 18+.",
  "h1": "Lachgas Amsterdam bestellen en thuisbezorgd in alle stadsdelen",
  "lead": "Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld aan de deur in heel Amsterdam. Prijs en tijdvak bevestigen we vooraf via WhatsApp en je betaalt pas bij levering.",

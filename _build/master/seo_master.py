@@ -265,6 +265,8 @@ def new_title(old, path, c, place, noindex):
     if noindex:
         return old
     if place:
+        if old == "Lachgas %s | %s" % (place, brand):
+            return old  # bewust korte titel in de content (bijv. Amsterdam): niet aanvullen met "bestellen"
         for cand in ("Lachgas %s bestellen | %s" % (place, brand), "Lachgas %s | %s" % (place, brand), "Lachgas %s bestellen" % place):
             if len(cand) <= 60:
                 return cand
