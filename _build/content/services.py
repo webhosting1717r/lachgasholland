@@ -21,7 +21,7 @@ SERVICE_PAGES = [
             {
                 "h2": "Wat wij aan onze kant doen",
                 "paragraphs": [
-                    "Zodra je bericht binnen is, zoeken we de bezorger die op dat moment het dichtst bij jouw adres rijdt. Omdat we in elke regio van Nederland bezorgers hebben, is dat iemand uit de buurt, of je nu in Leeuwarden, Enschede, Middelburg of Amsterdam woont. Je krijgt vervolgens één bevestiging met de prijs, het verwachte tijdvak en de betaalwijze. Een spoedaanvraag pakken we direct op zodra hij compleet is en krijgt in de planning geen plek achteraan.",
+                    "Zodra je bericht binnen is, zoeken we de bezorger die op dat moment het dichtst bij jouw adres rijdt. Omdat we in elke regio van Nederland bezorgers hebben, is dat iemand uit de buurt, of je nu in Leeuwarden, Enschede, Middelburg of Amsterdam woont. Bestel je vanuit de hoofdstad, kijk dan ook op onze pagina over <a href=\"/lachgas-bezorgen/amsterdam/\">lachgas bezorgen in Amsterdam</a>. Je krijgt vervolgens één bevestiging met de prijs, het verwachte tijdvak en de betaalwijze. Een spoedaanvraag pakken we direct op zodra hij compleet is en krijgt in de planning geen plek achteraan.",
                     "De levertijd is bij spoed dezelfde als altijd: meestal binnen 15 tot 25 minuten na de bevestiging. Spoed betekent dus niet dat we harder rijden, maar dat we jouw aanvraag meteen afhandelen en geen tijd verliezen met berichten heen en weer. Verandert er onderweg iets, bijvoorbeeld door een file op de A2 of een afgesloten straat, dan hoor je dat in dezelfde chat met een aangepaste verwachting. Hoe wij een tijdvak inschatten, lees je op <a href=\"/service/bezorgtijden-per-regio/\">de pagina over bezorgtijden</a>.",
                 ],
             },
@@ -58,7 +58,7 @@ SERVICE_PAGES = [
             {
                 "h2": "Bereikbaar op elk uur",
                 "paragraphs": [
-                    "Berichten die om drie uur ’s nachts binnenkomen, worden gelezen door iemand die op dat moment dienst heeft. Je krijgt dus ook dan een bevestiging met prijs, tijdvak en betaalwijze, en je hoort direct of er een bezorger in jouw regio beschikbaar is. Dat geldt in Groningen en Maastricht net zo als in Utrecht of Den Haag, want we werken met bezorgers verspreid over het hele land. De levertijd blijft ’s nachts wat hij overdag is: meestal binnen 15 tot 25 minuten.",
+                    "Berichten die om drie uur ’s nachts binnenkomen, worden gelezen door iemand die op dat moment dienst heeft. Je krijgt dus ook dan een bevestiging met prijs, tijdvak en betaalwijze, en je hoort direct of er een bezorger in jouw regio beschikbaar is. Dat geldt in Groningen en Maastricht net zo als in Utrecht of Den Haag, want we werken met bezorgers verspreid over het hele land. Ook <a href=\"/lachgas-bezorgen/amsterdam/\">'s nachts lachgas bestellen in Amsterdam</a> gaat via dezelfde chat en met dezelfde afspraken; op onze pagina voor de hoofdstad lees je hoe we daar bezorgen. De levertijd blijft ’s nachts wat hij overdag is: meestal binnen 15 tot 25 minuten.",
                     "Stuur bij een nachtelijke bestelling direct alle gegevens mee: adres met huisnummer en toevoeging, het gewenste formaat en een voornaam voor aan de deur. Elke vraag die wij ’s nachts terug moeten sturen, is er een te veel. Hoe een compleet bericht eruitziet, lees je op <a href=\"/service/bestellen-via-whatsapp/\">de pagina over bestellen via WhatsApp</a>. Komen er in de late uren veel aanvragen tegelijk binnen, dan noemen we in de bevestiging een realistischer tijdvak.",
                 ],
             },
@@ -123,7 +123,7 @@ SERVICE_PAGES = [
             {
                 "h2": "Overal dezelfde levertijd",
                 "paragraphs": [
-                    "Of je nu in Rotterdam, Zwolle, Venlo of Assen woont, in het weekend geldt dezelfde indicatie als op elke andere dag: meestal binnen 15 tot 25 minuten. Wat dat kan beïnvloeden, zijn drukte op vrijdag- en zaterdagavond, een evenement in de buurt, slecht weer of een file; in al die gevallen krijg je vooraf via WhatsApp een aangepast tijdvak. Op <a href=\"/service/bezorgtijden-per-regio/\">de pagina over bezorgtijden</a> staat hoe die inschatting tot stand komt.",
+                    "Of je nu in Rotterdam, Zwolle, Venlo of Assen woont, in het weekend geldt dezelfde indicatie als op elke andere dag: meestal binnen 15 tot 25 minuten. Wat dat kan beïnvloeden, zijn drukte op vrijdag- en zaterdagavond, een evenement in de buurt, slecht weer of een file; in al die gevallen krijg je vooraf via WhatsApp een aangepast tijdvak. Op <a href=\"/service/bezorgtijden-per-regio/\">de pagina over bezorgtijden</a> staat hoe die inschatting tot stand komt. Bestel je in het weekend vanuit de hoofdstad, dan lees je op de pagina <a href=\"/lachgas-bezorgen/amsterdam/\">lachgas Amsterdam</a> hoe we daar bezorgen.",
                 ],
             },
         ],
@@ -165,7 +165,7 @@ SERVICE_PAGES = [
             {
                 "h2": "Pride, festivals en andere evenementen",
                 "paragraphs": [
-                    "Pride in Amsterdam en andere steden, de grote zomerfestivals en stadsfeesten trekken veel bezoekers, en uit die hoek komen ook aanvragen bij ons binnen. We bezorgen niet op of bij een festivalterrein, in een park of bij een podium, maar alleen op een privéadres achter een voordeur. Organisatoren en gemeenten verbieden lachgas op evenementen doorgaans via de huisregels of de APV; de achtergrond daarvan lees je in <a href=\"/informatie/lachgas-op-festivals-en-evenementen/\">het artikel over festivals en evenementen</a>. Wil je na een evenement thuis bestellen, houd dan rekening met extra verkeer en afsluitingen rond het centrum.",
+                    "Pride in Amsterdam en andere steden, de grote zomerfestivals en stadsfeesten trekken veel bezoekers, en uit die hoek komen ook aanvragen bij ons binnen. We bezorgen niet op of bij een festivalterrein, in een park of bij een podium, maar alleen op een privéadres achter een voordeur. Organisatoren en gemeenten verbieden lachgas op evenementen doorgaans via de huisregels of de APV; de achtergrond daarvan lees je in <a href=\"/informatie/lachgas-op-festivals-en-evenementen/\">het artikel over festivals en evenementen</a>. Wil je na een evenement thuis bestellen, houd dan rekening met extra verkeer en afsluitingen rond het centrum. Meer over <a href=\"/lachgas-bezorgen/amsterdam/\">lachgas bestellen in Amsterdam</a> en de buurten die we daar beschrijven, vind je op onze pagina voor de hoofdstad.",
                 ],
             },
             {
@@ -293,7 +293,7 @@ SERVICE_PAGES = [
                 "h2": "Welke gegevens we nodig hebben",
                 "paragraphs": [
                     "We vragen niet meer dan wat de bezorger nodig heeft om bij de juiste deur uit te komen: straat, huisnummer met toevoeging, postcode en plaats, een voornaam en het gewenste tijdvak. Bij een appartement, een studentenhuis of een adres op een bedrijventerrein helpt een korte aanwijzing, zoals welke bel werkt of waar de ingang zit. Je geboortedatum of een kopie van je ID stuur je niet via de chat; de leeftijd controleert de bezorger ter plekke.",
-                    "Eén compleet bericht werkt sneller dan vijf losse. Vooral op drukke avonden maakt dat verschil, omdat we bevestigen in de volgorde waarin aanvragen compleet zijn. Hoe de levertijd wordt ingeschat, lees je op <a href=\"/service/bezorgtijden-per-regio/\">de pagina over bezorgtijden</a>. Twijfel je of we op jouw adres komen, kijk dan even op <a href=\"/bezorggebied/\">het overzicht van het bezorggebied</a>; daar staan alle provincies en de plaatsen die we beschrijven.",
+                    "Eén compleet bericht werkt sneller dan vijf losse. Vooral op drukke avonden maakt dat verschil, omdat we bevestigen in de volgorde waarin aanvragen compleet zijn. Hoe de levertijd wordt ingeschat, lees je op <a href=\"/service/bezorgtijden-per-regio/\">de pagina over bezorgtijden</a>. Twijfel je of we op jouw adres komen, kijk dan even op <a href=\"/bezorggebied/\">het overzicht van het bezorggebied</a>; daar staan alle provincies en de plaatsen die we beschrijven. Wil je bijvoorbeeld een <a href=\"/lachgas-bezorgen/amsterdam/\">lachgastank laten bezorgen in Amsterdam</a>, dan vind je op onze pagina voor de hoofdstad ook de buurten die we daar beschrijven.",
                 ],
             },
             {
@@ -334,7 +334,7 @@ SERVICE_PAGES = [
             {
                 "h2": "Eén levertijd voor het hele land",
                 "paragraphs": [
-                    "Of je adres nu in Amsterdam, Emmen, Terneuzen of Heerlen ligt, we noemen dezelfde levertijd: meestal binnen 15 tot 25 minuten na je bevestiging. We delen het land niet op in zones of tijdbanden en er is geen centraal depot waar elke rit begint. In plaats daarvan rijden er bezorgers in elke regio van Nederland, zodat er bij een bestelling vrijwel altijd iemand in de buurt is. Het woord ‘meestal’ is bewust gekozen: het is een eerlijke verwachting, geen klok.",
+                    "Of je adres nu in Amsterdam, Emmen, Terneuzen of Heerlen ligt, we noemen dezelfde levertijd: meestal binnen 15 tot 25 minuten na je bevestiging. Dezelfde indicatie vind je terug op <a href=\"/lachgas-bezorgen/amsterdam/\">de pagina voor Amsterdam</a> en op elke andere plaatspagina. We delen het land niet op in zones of tijdbanden en er is geen centraal depot waar elke rit begint. In plaats daarvan rijden er bezorgers in elke regio van Nederland, zodat er bij een bestelling vrijwel altijd iemand in de buurt is. Het woord ‘meestal’ is bewust gekozen: het is een eerlijke verwachting, geen klok.",
                 ],
             },
             {
