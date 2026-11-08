@@ -73,6 +73,7 @@ ul,ol{margin:0 0 1em;padding-left:1.25em}
 .phead .wrap{position:relative}
 .phead-img{padding:64px 0 56px;min-height:380px}
 .phead-bg{position:absolute;top:0;right:0;bottom:0;z-index:0;pointer-events:none}
+.phead-bg picture{display:block;height:100%}
 .phead-bg img{display:block;height:100%;width:auto;max-width:none;-webkit-mask-image:linear-gradient(90deg,transparent 22%,#000 58%);mask-image:linear-gradient(90deg,transparent 22%,#000 58%)}
 .phead-img .wrap{z-index:1}
 .phead-img .wrap>*{max-width:54%}
@@ -124,6 +125,12 @@ a.card:hover{text-decoration:none;transform:translateY(-2px);box-shadow:0 14px 3
 .faq details[open] summary::after{content:"\2212"}
 .faq .a{padding:0 20px 18px;color:var(--ink-2);font-size:.9625rem}
 .card .chips{margin-top:12px}
+.card .sd-pic{display:block;margin:-22px -22px 16px;overflow:hidden;border-radius:var(--radius) var(--radius) 0 0}
+.card .sd-img{display:block;width:100%;height:auto}
+.infographic{margin:28px 0 0}
+.infographic>a{display:block}
+.infographic img{display:block;width:100%;height:auto;border-radius:var(--radius);border:1px solid var(--line)}
+.infographic figcaption{color:var(--muted);font-size:.9rem;margin-top:10px}
 .card-img{display:grid;place-items:center;padding:14px}
 .card-img img{max-width:200px;height:auto;display:block}
 .prijzen table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}

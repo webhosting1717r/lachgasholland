@@ -225,9 +225,9 @@ def crumbs(items):
     return '<nav aria-label="Kruimelpad"><ol class="crumbs">%s</ol></nav>' % "".join(lis)
 
 
-def hero_srcset(base):
-    """base: pad zonder extensie, bijv. /assets/amsterdam-gracht (bestanden <base>.webp 1600x900 en <base>-800.webp 800x450)."""
-    return "%s-800.webp 800w, %s.webp 1600w" % (base, base)
+def hero_srcset(base, ext="webp"):
+    """base: pad zonder extensie, bijv. /assets/amsterdam-gracht (bestanden <base>.webp/.avif 1600x900 en <base>-800.webp/.avif 800x450)."""
+    return "%s-800.%s 800w, %s.%s 1600w" % (base, ext, base, ext)
 
 
 def hero_og(base, alt):
@@ -236,13 +236,13 @@ def hero_og(base, alt):
 
 
 def hero_preload(base):
-    return '<link rel="preload" as="image" href="%s.webp" imagesrcset="%s" imagesizes="(max-width:860px) 100vw, 720px" fetchpriority="high">' % (base, hero_srcset(base))
+    return '<link rel="preload" as="image" type="image/avif" imagesrcset="%s" imagesizes="(max-width:860px) 100vw, 720px" fetchpriority="high">' % hero_srcset(base, "avif")
 
 
 def page_head(crumb_items, kicker, h1, lead, image=None):
     """image: basispad van een achtergrondafbeelding achter de titel (zie hero_srcset); decoratief, dus lege alt."""
-    bg = ('<div class="phead-bg" aria-hidden="true"><img src="%s.webp" srcset="%s" sizes="(max-width:860px) 100vw, 720px" width="1600" height="900" alt="" fetchpriority="high" decoding="async"></div>'
-          % (image, hero_srcset(image))) if image else ""
+    bg = ('<div class="phead-bg" aria-hidden="true"><picture><source type="image/avif" srcset="%s" sizes="(max-width:860px) 100vw, 720px"><img src="%s.webp" srcset="%s" sizes="(max-width:860px) 100vw, 720px" width="1600" height="900" alt="" fetchpriority="high" decoding="async"></picture></div>'
+          % (hero_srcset(image, "avif"), image, hero_srcset(image))) if image else ""
     return ('<section class="phead%s">%s<div class="wrap">%s<span class="kicker">%s</span><h1>%s</h1><p class="lead">%s</p></div></section>'
             % (" phead-img" if image else "", bg, crumbs(crumb_items), esc(kicker), esc(h1), lead))
 

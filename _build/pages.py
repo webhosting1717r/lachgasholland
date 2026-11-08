@@ -159,7 +159,9 @@ class Site:
             blocks = []
             for sd in p["stadsdelen"]:
                 links = [l for l in (self.sub_link(p["slug"], b) for b in sd["buurten"]) if l]
-                blocks.append('<div class="card"><h3>%s</h3><p>%s</p>%s</div>' % (esc(sd["naam"]), sd["tekst"], chips(links) if links else ""))
+                img = ('<picture class="sd-pic"><source type="image/avif" srcset="%s" sizes="(max-width:640px) 100vw, 560px"><img class="sd-img" src="%s-800.webp" srcset="%s" sizes="(max-width:640px) 100vw, 560px" width="800" height="450" alt="%s" loading="lazy" decoding="async"></picture>'
+                       % (C.hero_srcset(sd["img"], "avif"), sd["img"], C.hero_srcset(sd["img"]), esc(sd.get("img_alt") or "Amsterdam %s" % sd["naam"]))) if sd.get("img") else ""
+                blocks.append('<div class="card">%s<h3>%s</h3><p>%s</p>%s</div>' % (img, esc(sd["naam"]), sd["tekst"], chips(links) if links else ""))
             out["stadsdelen"] = section(sec_head("Stadsdelen", "Lachgas bezorgen per stadsdeel in %s" % name, "Elke buurt heeft een eigen pagina met straten, bereikbaarheid en veelgestelde vragen.")
                                         + '<div class="grid g2 stadsdelen">%s</div>' % "".join(blocks), alt=True)
         if p.get("ontvangst"):
@@ -168,7 +170,12 @@ class Site:
             items = "".join('<div class="card"><h3>%s</h3><p>%s</p></div>' % (esc(o["titel"]), o["tekst"]) for o in p["ontvangst"])
             out["ontvangst"] = section(sec_head("Aan de deur", "Wat je ontvangt in %s" % name) + '<div class="grid g3 ontvangst">%s%s</div>' % (img, items))
         if p.get("regels"):
-            out["regels"] = section('<div class="narrow prose">' + sec_head("Regels", "Regels voor lachgas in %s" % name) + para(p["regels"]) + "</div>", alt=True)
+            fig = ""
+            if p.get("regels_img"):
+                ri = p["regels_img"]
+                fig = ('<figure class="infographic"><a href="%s-vol.webp" target="_blank" rel="noopener"><picture><source type="image/avif" srcset="%s-800.avif 800w, %s.avif 1200w" sizes="(max-width:860px) 100vw, 800px"><img src="%s.webp" srcset="%s-800.webp 800w, %s.webp 1200w" sizes="(max-width:860px) 100vw, 800px" width="1200" height="800" alt="%s" loading="lazy" decoding="async"></picture></a><figcaption>%s</figcaption></figure>'
+                       % (ri["src"], ri["src"], ri["src"], ri["src"], ri["src"], ri["src"], esc(ri["alt"]), ri["caption"]))
+            out["regels"] = section('<div class="narrow prose">' + sec_head("Regels", "Regels voor lachgas in %s" % name) + para(p["regels"]) + fig + "</div>", alt=True)
         return out
 
     def sub_places_section(self, p):
