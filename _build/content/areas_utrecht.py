@@ -4,7 +4,7 @@ AREAS = [
     {
         "slug": "utrecht", "name": "Utrecht", "kind": "stad", "region": "utrecht", "gemeente": "Utrecht",
         "title": "Lachgas Utrecht | Bezorgd aan huis via WhatsApp",
-        "description": "Lachgas bestellen in Utrecht? Lachgas Holland bezorgt verzegelde lachgastanks 2KG, 4KG, 6KG en 10KG aan huis, van Lombok tot Leidsche Rijn. Alleen 18+.",
+        "description": "Lachgas bestellen in Utrecht? Lachgas Holland bezorgt verzegelde lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG aan huis, van Lombok tot Leidsche Rijn. Alleen 18+.",
         "h1": "Lachgas bezorgen in Utrecht",
         "lead": "Een verzegelde lachgastank aan de deur in Utrecht, van de binnenstad tot Leidsche Rijn: bestel via WhatsApp en een bezorger in de regio is er meestal binnen 15 tot 25 minuten.",
         "intro": [
@@ -25,7 +25,7 @@ AREAS = [
     {
         "slug": "amersfoort", "name": "Amersfoort", "kind": "stad", "region": "utrecht", "gemeente": "Amersfoort",
         "title": "Lachgas Amersfoort | Snel bezorgd via WhatsApp",
-        "description": "Lachgas bestellen in Amersfoort? Verzegelde lachgastanks 2KG, 4KG, 6KG en 10KG aan huis, van het Soesterkwartier tot Vathorst en Hoogland. Alleen 18+.",
+        "description": "Lachgas bestellen in Amersfoort? Verzegelde lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG aan huis, van het Soesterkwartier tot Vathorst en Hoogland. Alleen 18+.",
         "h1": "Lachgas bezorgen in Amersfoort",
         "lead": "Lachgastanks verzegeld thuisbezorgd in Amersfoort, Hoogland en Vathorst: via WhatsApp besteld, door een bezorger in de regio gebracht en meestal binnen 15 tot 25 minuten bij je.",
         "intro": [
@@ -46,13 +46,13 @@ AREAS = [
     {
         "slug": "veenendaal", "name": "Veenendaal", "kind": "stad", "region": "utrecht", "gemeente": "Veenendaal",
         "title": "Lachgas Veenendaal | Bezorgd aan huis via WhatsApp",
-        "description": "Lachgas bestellen in Veenendaal? Verzegelde lachgastanks 2KG, 4KG, 6KG en 10KG aan huis, van het Franse Gat tot Petenbos en Veenendaal-Oost. Alleen 18+.",
+        "description": "Lachgas bestellen in Veenendaal? Verzegelde lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG aan huis, van het Franse Gat tot Petenbos en Veenendaal-Oost. Alleen 18+.",
         "h1": "Lachgas bezorgen in Veenendaal",
         "lead": "Een verzegelde lachgastank thuis in Veenendaal, van de Hoofdstraat tot Veenendaal-Oost: besteld via WhatsApp en meestal binnen 15 tot 25 minuten bij je.",
         "intro": [
             "Veenendaal ligt in de Gelderse Vallei, tegen de oostflank van de Utrechtse Heuvelrug en pal op de grens met Gelderland. Het is van oudsher een plaats van wol en sigaren, nu vooral bekend als winkelstad met de lange Hoofdstraat en de Markt in het midden. Rondom het centrum liggen het Franse Gat, Engelenburg, ’t Hoorntje en het Schrijverspark, aan de zuidkant Petenbos en de Componistenbuurt, en ten oosten van de Rondweg-Oost de nieuwe buurten Buurtstede en Veenderij in Veenendaal-Oost. Ook Dragonder en De Pol horen bij ons werkgebied. Bestellen doe je door via WhatsApp je adres, het gewenste formaat tank en een tijdstip te sturen; je ontvangt daarna een bevestiging met de prijs.",
             "De A12 loopt vlak langs de zuidkant van Veenendaal, met afritten die rechtstreeks op de Rondweg-West en de Rondweg-Oost uitkomen, en vanaf daar is elke wijk snel bereikt. Bezorgers in de regio weten bovendien dat de Cuneraweg vanuit Rhenen en de route vanuit Ede langs De Klomp op drukke momenten een goed alternatief zijn. Je lachgastank staat daardoor meestal binnen 15 tot 25 minuten voor de deur, van het Franse Gat tot Veenderij. De stations Veenendaal Centrum en Veenendaal West liggen midden in de woonwijken, maar met een verzegelde tank stap je liever niet in de sprinter; wij bezorgen hem gewoon thuis. Op Lampegietersavond en op drukke weekendavonden kan het verkeer in het centrum stroperig zijn; eventuele vertraging melden we vooraf.",
-            "Een avond met een paar vrienden in een flat in het Schrijverspark vraagt een kleiner formaat dan een tuinfeest in een nieuwbouwhuis in Veenderij. In ons <a href=\"/lachgas-tanks/\">overzicht van lachgastanks</a> zie je wat de 2KG, 4KG, 6KG en 10KG van elkaar onderscheidt, zodat je niet te veel of te weinig bestelt. Je betaalt pas als de tank er is, contant of via Tikkie, voor het bedrag dat je al in de chat hebt gezien. Elke tank is verzegeld en wordt uitsluitend afgegeven aan iemand van 18 jaar of ouder; houd je ID bij de hand. Omdat de tank rechtop en koel moet staan, is <a href=\"/informatie/lachgastank-bewaren-en-vervoeren/\">lachgastank bewaren en vervoeren</a> handig om vooraf te lezen.",
+            "Een avond met een paar vrienden in een flat in het Schrijverspark vraagt een kleiner formaat dan een tuinfeest in een nieuwbouwhuis in Veenderij. In ons <a href=\"/lachgas-tanks/\">overzicht van lachgastanks</a> zie je wat de 2KG, 4KG, 6KG, 8KG en 10KG van elkaar onderscheidt, zodat je niet te veel of te weinig bestelt. Je betaalt pas als de tank er is, contant of via Tikkie, voor het bedrag dat je al in de chat hebt gezien. Elke tank is verzegeld en wordt uitsluitend afgegeven aan iemand van 18 jaar of ouder; houd je ID bij de hand. Omdat de tank rechtop en koel moet staan, is <a href=\"/informatie/lachgastank-bewaren-en-vervoeren/\">lachgastank bewaren en vervoeren</a> handig om vooraf te lezen.",
         ],
         "wijken": "Centrum, Franse Gat, Engelenburg, ’t Hoorntje, Schrijverspark, Petenbos, Componistenbuurt, Dragonder, De Pol, Veenendaal-Oost",
         "levertijd": "meestal binnen 15 tot 25 minuten",
@@ -67,7 +67,7 @@ AREAS = [
     {
         "slug": "nieuwegein", "name": "Nieuwegein", "kind": "stad", "region": "utrecht", "gemeente": "Nieuwegein",
         "title": "Lachgas Nieuwegein | Bezorgd aan huis via WhatsApp",
-        "description": "Lachgas bestellen in Nieuwegein? Verzegelde lachgastanks 2KG, 4KG, 6KG en 10KG aan huis in Jutphaas, Vreeswijk, Batau en Galecop. Uitsluitend voor 18+.",
+        "description": "Lachgas bestellen in Nieuwegein? Verzegelde lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG aan huis in Jutphaas, Vreeswijk, Batau en Galecop. Uitsluitend voor 18+.",
         "h1": "Lachgas bezorgen in Nieuwegein",
         "lead": "Bestel je lachgastank via WhatsApp en een bezorger in de regio brengt hem meestal binnen 15 tot 25 minuten verzegeld naar je adres in Nieuwegein, van Vreeswijk tot Galecop.",
         "intro": [
@@ -88,7 +88,7 @@ AREAS = [
     {
         "slug": "zeist", "name": "Zeist", "kind": "stad", "region": "utrecht", "gemeente": "Zeist",
         "title": "Lachgas Zeist | Bezorgd aan huis op de Heuvelrug",
-        "description": "Lachgas bestellen in Zeist? Verzegelde lachgastanks 2KG, 4KG, 6KG en 10KG aan huis, van het Lyceumkwartier tot Vollenhove en Den Dolder. Alleen 18+.",
+        "description": "Lachgas bestellen in Zeist? Verzegelde lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG aan huis, van het Lyceumkwartier tot Vollenhove en Den Dolder. Alleen 18+.",
         "h1": "Lachgas bezorgen in Zeist",
         "lead": "Lachgastanks verzegeld aan de deur in Zeist, Den Dolder, Bosch en Duin en Austerlitz: via WhatsApp besteld en meestal binnen 15 tot 25 minuten gebracht door een bezorger in de regio.",
         "intro": [
@@ -109,13 +109,13 @@ AREAS = [
     {
         "slug": "houten", "name": "Houten", "kind": "stad", "region": "utrecht", "gemeente": "Houten",
         "title": "Lachgas Houten | Bezorgd aan huis via WhatsApp",
-        "description": "Lachgas bestellen in Houten? Verzegelde lachgastanks 2KG, 4KG, 6KG en 10KG aan huis, van Het Rond tot Castellum en Schalkwijk. Via WhatsApp, alleen 18+.",
+        "description": "Lachgas bestellen in Houten? Verzegelde lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG aan huis, van Het Rond tot Castellum en Schalkwijk. Via WhatsApp, alleen 18+.",
         "h1": "Lachgas bezorgen in Houten",
         "lead": "Fietsstad Houten, Houten-Zuid en de dorpen aan de Lek: bestel via WhatsApp en een bezorger in de regio brengt je lachgastank meestal binnen 15 tot 25 minuten verzegeld thuis.",
         "intro": [
             "Houten groeide vanaf de jaren zeventig van een dorp aan de spoorlijn uit tot een stad van ongeveer vijftigduizend inwoners, ontworpen rond de fiets: auto’s rijden via de Rondweg om de woonwijken heen, fietsers gaan binnendoor. Houten-Noord heeft het winkelcentrum Het Rond bij het station en buurten met namen als De Hoeven, De Gaarden, De Akkers, De Weiden en De Campen; Houten-Zuid heeft Castellum als tweede centrum met daaromheen De Waters, De Meren, De Muren en De Bogen rond de Rietplas. Buiten de Rondweg liggen Schalkwijk, ’t Goy en Tull en ’t Waal in het rivierenlandschap van de Lek. Lachgas Holland bezorgt in de hele gemeente; je stuurt via WhatsApp je adres, het formaat tank en het tijdstip waarop je thuis bent.",
             "Voor een bezorger in de regio is Houten overzichtelijk: via de afrit Houten van de A27 kom je direct op de Rondweg, en vanaf daar leidt elke inprikker naar een eigen groep buurten. Zo staat je lachgastank meestal binnen 15 tot 25 minuten voor de deur, of je nu bij Het Rond woont of aan de rand van Houten-Zuid bij Castellum. De sprinters stoppen op de stations Houten en Houten Castellum, maar een verzegelde tank hoort niet op het perron of op de fiets, dus wij brengen hem gewoon tot aan je voordeur. Op vrijdag- en zaterdagavond, bij file op de A27 richting Utrecht of bij evenementen rond de Rietplas kan het later worden; dat hoor je dan vooraf in de WhatsApp-chat.",
-            "In een appartement boven de winkels bij Castellum is een kleiner formaat op zijn plaats dan bij een tuinfeest in een boerderij in Schalkwijk. Bekijk in ons <a href=\"/lachgas-tanks/\">assortiment lachgastanks</a> hoe de 2KG, 4KG, 6KG en 10KG zich tot elkaar verhouden en kies wat bij je groep past. Alle tanks komen verzegeld aan, de prijs is vooraf in de chat bevestigd en je betaalt bij levering, contant of via Tikkie. Levering is uitsluitend aan volwassenen van 18 jaar of ouder; bij twijfel over je leeftijd vraagt de bezorger een geldig ID. Wil je weten wat er met een lege tank moet gebeuren, lees dan <a href=\"/informatie/lege-lachgastank-inleveren/\">lege lachgastank inleveren</a>; bij het restafval hoort hij in elk geval niet.",
+            "In een appartement boven de winkels bij Castellum is een kleiner formaat op zijn plaats dan bij een tuinfeest in een boerderij in Schalkwijk. Bekijk in ons <a href=\"/lachgas-tanks/\">assortiment lachgastanks</a> hoe de 2KG, 4KG, 6KG, 8KG en 10KG zich tot elkaar verhouden en kies wat bij je groep past. Alle tanks komen verzegeld aan, de prijs is vooraf in de chat bevestigd en je betaalt bij levering, contant of via Tikkie. Levering is uitsluitend aan volwassenen van 18 jaar of ouder; bij twijfel over je leeftijd vraagt de bezorger een geldig ID. Wil je weten wat er met een lege tank moet gebeuren, lees dan <a href=\"/informatie/lege-lachgastank-inleveren/\">lege lachgastank inleveren</a>; bij het restafval hoort hij in elk geval niet.",
         ],
         "wijken": "Het Rond, De Hoeven, De Gaarden, De Akkers, De Weiden, De Campen, Castellum, De Waters, De Meren, Schalkwijk",
         "levertijd": "meestal binnen 15 tot 25 minuten",
@@ -130,7 +130,7 @@ AREAS = [
     {
         "slug": "ijsselstein", "name": "IJsselstein", "kind": "stad", "region": "utrecht", "gemeente": "IJsselstein",
         "title": "Lachgas IJsselstein | Bezorgd aan huis via WhatsApp",
-        "description": "Lachgas bestellen in IJsselstein? Verzegelde lachgastanks 2KG, 4KG, 6KG en 10KG aan huis, van de Binnenstad tot IJsselveld en Zenderpark. Alleen 18+.",
+        "description": "Lachgas bestellen in IJsselstein? Verzegelde lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG aan huis, van de Binnenstad tot IJsselveld en Zenderpark. Alleen 18+.",
         "h1": "Lachgas bezorgen in IJsselstein",
         "lead": "Een verzegelde lachgastank aan de deur in IJsselstein, van de Binnenstad tot Zenderpark: bestel via WhatsApp en een bezorger in de regio is er meestal binnen 15 tot 25 minuten.",
         "intro": [
@@ -151,7 +151,7 @@ AREAS = [
     {
         "slug": "woerden", "name": "Woerden", "kind": "stad", "region": "utrecht", "gemeente": "Woerden",
         "title": "Lachgas Woerden | Bezorgd aan huis in het Groene Hart",
-        "description": "Lachgas bestellen in Woerden? Verzegelde lachgastanks 2KG, 4KG, 6KG en 10KG aan huis, van de Binnenstad tot Molenvliet, Harmelen en Kamerik. Alleen 18+.",
+        "description": "Lachgas bestellen in Woerden? Verzegelde lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG aan huis, van de Binnenstad tot Molenvliet, Harmelen en Kamerik. Alleen 18+.",
         "h1": "Lachgas bezorgen in Woerden",
         "lead": "Lachgastanks verzegeld thuisbezorgd in Woerden, Harmelen, Kamerik en Zegveld: besteld via WhatsApp en meestal binnen 15 tot 25 minuten gebracht door een bezorger in de regio.",
         "intro": [
@@ -172,7 +172,7 @@ AREAS = [
     {
         "slug": "soest", "name": "Soest", "kind": "dorp", "region": "utrecht", "gemeente": "Soest",
         "title": "Lachgas Soest | Bezorgd aan huis via WhatsApp",
-        "description": "Lachgas bestellen in Soest? Verzegelde lachgastanks 2KG, 4KG, 6KG en 10KG aan huis, van Soestdijk tot Soest-Zuid, Overhees en Soesterberg. Alleen 18+.",
+        "description": "Lachgas bestellen in Soest? Verzegelde lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG aan huis, van Soestdijk tot Soest-Zuid, Overhees en Soesterberg. Alleen 18+.",
         "h1": "Lachgas bezorgen in Soest",
         "lead": "Soest, Soestdijk en Soesterberg: bestel je lachgastank via WhatsApp en een bezorger in de regio brengt hem meestal binnen 15 tot 25 minuten verzegeld bij je thuis.",
         "intro": [
@@ -193,13 +193,13 @@ AREAS = [
     {
         "slug": "leusden", "name": "Leusden", "kind": "dorp", "region": "utrecht", "gemeente": "Leusden",
         "title": "Lachgas Leusden | Bezorgd aan huis via WhatsApp",
-        "description": "Lachgas bestellen in Leusden? Verzegelde lachgastanks 2KG, 4KG, 6KG en 10KG aan huis, van de Hamershof tot Tabaksteeg en Achterveld. Alleen 18+.",
+        "description": "Lachgas bestellen in Leusden? Verzegelde lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG aan huis, van de Hamershof tot Tabaksteeg en Achterveld. Alleen 18+.",
         "h1": "Lachgas bezorgen in Leusden",
         "lead": "Een verzegelde lachgastank thuis in Leusden, Leusden-Zuid of Achterveld: via WhatsApp besteld en meestal binnen 15 tot 25 minuten gebracht door een bezorger in de regio.",
         "intro": [
             "Leusden ligt direct ten zuidoosten van Amersfoort, ingeklemd tussen de A28, de bossen van landgoed Den Treek en het Valleikanaal met de Grebbelinie. Het huidige centrum rond winkelcentrum De Hamershof groeide uit het oude Hamersveld; het oorspronkelijke dorp Leusden heet tegenwoordig Leusden-Zuid. Daartussen en daaromheen liggen buurten als Alandsbeek, Claverenblad, Groenhouten, Rozendaal, Rozenboom, ’t Vliet en de jongere wijk Tabaksteeg, en verder naar het oosten de dorpen Achterveld en Stoutenburg. Lachgas Holland bezorgt in de hele gemeente Leusden. Een bestelling plaats je via WhatsApp met je adres, het formaat tank en het tijdstip waarop iemand van 18 jaar of ouder thuis is.",
             "Een bezorger in de regio Leusden komt via de afrit Leusden-Zuid van de A28 of over de Groene Zoom vanuit Amersfoort, en is vanaf daar in een paar minuten in elke buurt. Daardoor staat je lachgastank meestal binnen 15 tot 25 minuten voor de deur, of je nu bij De Hamershof woont of aan de rand van het bos in Leusden-Zuid. Een treinstation heeft Leusden niet; de bussen naar Amersfoort Centraal rijden regelmatig, maar een verzegelde tank hoort niet in de bus en daarom komen wij aan huis. Op een drukke vrijdag- of zaterdagavond of bij file op de A28 kan het tijdvak verschuiven; dat laten we dan vooraf via WhatsApp weten, zodat je weet waar je aan toe bent.",
-            "Een avond met vrienden in een appartement bij De Biezenkamp vraagt een ander formaat dan een tuinfeest in een vrijstaand huis in Leusden-Zuid of een schuurfeest in Achterveld. Op de pagina <a href=\"/lachgas-tanks/\">lachgastanks</a> zie je de 2KG, 4KG, 6KG en 10KG naast elkaar met wat ze inhouden. De tank komt verzegeld aan, de prijs staat vooraf vast in de chat en betalen doe je bij levering, contant of via Tikkie. We leveren alleen aan volwassenen van 18 jaar of ouder en vragen zo nodig een ID. Nog nooit besteld? Bij <a href=\"/informatie/eerste-keer-lachgas-bestellen/\">eerste keer lachgas bestellen</a> staat stap voor stap wat je kunt verwachten, van je eerste bericht tot de tank aan de deur.",
+            "Een avond met vrienden in een appartement bij De Biezenkamp vraagt een ander formaat dan een tuinfeest in een vrijstaand huis in Leusden-Zuid of een schuurfeest in Achterveld. Op de pagina <a href=\"/lachgas-tanks/\">lachgastanks</a> zie je de 2KG, 4KG, 6KG, 8KG en 10KG naast elkaar met wat ze inhouden. De tank komt verzegeld aan, de prijs staat vooraf vast in de chat en betalen doe je bij levering, contant of via Tikkie. We leveren alleen aan volwassenen van 18 jaar of ouder en vragen zo nodig een ID. Nog nooit besteld? Bij <a href=\"/informatie/eerste-keer-lachgas-bestellen/\">eerste keer lachgas bestellen</a> staat stap voor stap wat je kunt verwachten, van je eerste bericht tot de tank aan de deur.",
         ],
         "wijken": "Hamersveld, De Hamershof, Alandsbeek, Claverenblad, Groenhouten, Rozendaal, Rozenboom, Tabaksteeg, Leusden-Zuid, Achterveld",
         "levertijd": "meestal binnen 15 tot 25 minuten",

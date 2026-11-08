@@ -13,7 +13,7 @@ SERVICE_PAGES = [
             {
                 "h2": "Voor welke organisaties dit geldt",
                 "paragraphs": [
-                    "Zakelijk bestellen is bedoeld voor iedereen die niet voor zichzelf thuis bestelt, maar voor een gelegenheid die een organisatie draagt: een eetcafé dat de verjaardag van een stamgast verzorgt, een roeivereniging die na een toernooi het clubhuis openhoudt, of een bedrijf met een afsluitende borrel op kantoor. Het assortiment is voor organisaties niet anders dan voor particulieren; ook hier gaat het om verzegelde lachgastanks van 2KG, 4KG, 6KG en 10KG. Omdat Lachgas Holland in alle twaalf provincies bezorgers in de regio heeft, kan elke organisatie in Nederland bij ons terecht.",
+                    "Zakelijk bestellen is bedoeld voor iedereen die niet voor zichzelf thuis bestelt, maar voor een gelegenheid die een organisatie draagt: een eetcafé dat de verjaardag van een stamgast verzorgt, een roeivereniging die na een toernooi het clubhuis openhoudt, of een bedrijf met een afsluitende borrel op kantoor. Het assortiment is voor organisaties niet anders dan voor particulieren; ook hier gaat het om verzegelde lachgastanks van 2KG, 4KG, 6KG, 8KG en 10KG. Omdat Lachgas Holland in alle twaalf provincies bezorgers in de regio heeft, kan elke organisatie in Nederland bij ons terecht.",
                     "Twee grenzen trekken we vooraf. Tanks die bedoeld zijn om door te verkopen of uit te delen aan bezoekers van een voor publiek toegankelijk evenement, leveren we niet; wij zijn geen groothandel en bezorgen uitsluitend aan het adres van de organisatie zelf. Patronen of crackers hebben we niet, ook niet voor keukens; zie <a href=\"/informatie/tank-versus-patronen/\">tank versus patronen</a>. Waarom festivals en openbare evenementen voor ons buiten beeld blijven, lees je in <a href=\"/informatie/lachgas-op-festivals-en-evenementen/\">lachgas op festivals en evenementen</a>.",
                 ],
             },
@@ -173,7 +173,7 @@ SERVICE_PAGES = [
                     "Het gesprek start via de WhatsApp-knop op deze website of op <a href=\"/contact/\">de contactpagina</a>; wij benaderen niemand uit onszelf.",
                     "Je ontvangt vooraf een bevestiging met formaat, prijs, tijdvak en betaalwijze, en pas daarna gaat een bezorger rijden.",
                     "Betalen doe je contant of via Tikkie bij levering, nadat je de verzegelde tank hebt bekeken; een betaalverzoek vooraf bestaat bij ons niet.",
-                    "De tank is een verzegelde 2KG, 4KG, 6KG of 10KG; patronen of crackers bieden wij niet aan.",
+                    "De tank is een verzegelde 2KG, 4KG, 6KG, 8KG of 10KG; patronen of crackers bieden wij niet aan.",
                     "De bezorger vraagt bij de deur naar een legitimatiebewijs en overhandigt de tank alleen aan iemand van 18 jaar of ouder.",
                 ],
             },

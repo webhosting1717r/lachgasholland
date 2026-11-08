@@ -14,7 +14,7 @@ SERVICE_PAGES = [
             {
                 "h2": "Zo bereid je een spoedbestelling voor",
                 "paragraphs": [
-                    "Bij haast telt elk bericht dat we niet hoeven te sturen. Zet daarom in je eerste WhatsApp-bericht meteen alles bij elkaar: straat, huisnummer met toevoeging, postcode en plaats, het formaat dat je wilt hebben en de voornaam van degene die opendoet. Heb je nog niet gekozen tussen 2KG, 4KG, 6KG en 10KG, bekijk dan eerst kort <a href=\"/lachgas-tanks/\">het overzicht van onze tanks</a>, zodat je aanvraag in één keer compleet is. Vermeld ook of je contant of via Tikkie wilt betalen; dan hoeft de bezorger daar aan de deur niet meer naar te vragen.",
+                    "Bij haast telt elk bericht dat we niet hoeven te sturen. Zet daarom in je eerste WhatsApp-bericht meteen alles bij elkaar: straat, huisnummer met toevoeging, postcode en plaats, het formaat dat je wilt hebben en de voornaam van degene die opendoet. Heb je nog niet gekozen tussen 2KG, 4KG, 6KG, 8KG en 10KG, bekijk dan eerst kort <a href=\"/lachgas-tanks/\">het overzicht van onze tanks</a>, zodat je aanvraag in één keer compleet is. Vermeld ook of je contant of via Tikkie wilt betalen; dan hoeft de bezorger daar aan de deur niet meer naar te vragen.",
                     "Houd daarna je telefoon in de buurt en controleer of de meldingen van WhatsApp aanstaan. De bezorger laat weten wanneer hij vertrekt en meldt zich opnieuw zodra hij bijna in je straat is. Leg een geldig identiteitsbewijs klaar, want ook bij een spoedrit kijken we naar je leeftijd voordat de tank van hand wisselt. Woon je in een flat of op een hofje, geef dan vooraf aan welke ingang of welke bel de bezorger moet gebruiken.",
                 ],
             },
@@ -66,7 +66,7 @@ SERVICE_PAGES = [
                 "h2": "Hoe een nachtlevering gaat",
                 "paragraphs": [
                     "Na je akkoord rijdt de bezorger naar je adres en stuurt een bericht zodra hij voor de deur staat. Bellen doen we ’s nachts niet, zodat huisgenoten en buren niet wakker worden van een telefoon. Aan de deur laat je een geldig identiteitsbewijs zien, bekijk je samen de verzegeling en betaal je contant of via Tikkie. De hele overdracht is in een paar minuten klaar en gebeurt in de deuropening, niet op straat.",
-                    "Het aanbod is ’s nachts gelijk aan overdag: verzegelde tanks van 2KG, 4KG, 6KG en 10KG, niets anders. Welk formaat bij jouw avond past, vind je op <a href=\"/lachgas-tanks/\">het overzicht van onze tanks</a>. Zet een tank direct na ontvangst rechtop op een koele plek binnen, uit de buurt van kachels en kaarsen. In <a href=\"/informatie/lachgastank-bewaren-en-vervoeren/\">het artikel over bewaren en vervoeren</a> staat hoe je dat thuis het beste doet.",
+                    "Het aanbod is ’s nachts gelijk aan overdag: verzegelde tanks van 2KG, 4KG, 6KG, 8KG en 10KG, niets anders. Welk formaat bij jouw avond past, vind je op <a href=\"/lachgas-tanks/\">het overzicht van onze tanks</a>. Zet een tank direct na ontvangst rechtop op een koele plek binnen, uit de buurt van kachels en kaarsen. In <a href=\"/informatie/lachgastank-bewaren-en-vervoeren/\">het artikel over bewaren en vervoeren</a> staat hoe je dat thuis het beste doet.",
                 ],
             },
             {
@@ -110,7 +110,7 @@ SERVICE_PAGES = [
                 "h2": "Slim plannen",
                 "paragraphs": [
                     "Weet je op woensdag al dat je zaterdag een tank wilt, stuur de aanvraag dan op woensdag. We zetten een tijdvak voor je vast en bevestigen de prijs; betalen doe je nog steeds pas aan de deur, contant of via Tikkie. Zo rijdt een bezorger op een moment dat het rustig is en hoef jij zaterdagnacht niet in de wachtrij. Een gereserveerd tijdvak kun je tot het vertrek van de bezorger kosteloos verschuiven of annuleren in dezelfde chat.",
-                    "Kies waar het kan voor de vroege avond of de middag. Om vijf uur op zaterdagmiddag lopen er minder aanvragen tegelijk dan om één uur ’s nachts, waardoor de kans groter is dat we precies het tijdvak kunnen bevestigen dat je vraagt. Twijfel je nog tussen 2KG, 4KG, 6KG en 10KG, bekijk dan vooraf <a href=\"/lachgas-tanks/\">het overzicht van onze tanks</a>, zodat de bevestiging in één keer kan.",
+                    "Kies waar het kan voor de vroege avond of de middag. Om vijf uur op zaterdagmiddag lopen er minder aanvragen tegelijk dan om één uur ’s nachts, waardoor de kans groter is dat we precies het tijdvak kunnen bevestigen dat je vraagt. Twijfel je nog tussen 2KG, 4KG, 6KG, 8KG en 10KG, bekijk dan vooraf <a href=\"/lachgas-tanks/\">het overzicht van onze tanks</a>, zodat de bevestiging in één keer kan.",
                 ],
             },
             {
@@ -282,7 +282,7 @@ SERVICE_PAGES = [
                     "Bestellen bestaat uit vijf korte stappen die alle in dezelfde chat plaatsvinden. Je hoeft nergens iets te registreren en je kunt op elk moment teruglezen wat er is afgesproken. Hieronder staat de volgorde zoals we die dagelijks hanteren, van het eerste bericht tot de overdracht aan de deur.",
                 ],
                 "bullets": [
-                    "Kies een formaat: 2KG, 4KG, 6KG of 10KG. Een vergelijking staat op <a href=\"/lachgas-tanks/\">het overzicht van onze tanks</a>.",
+                    "Kies een formaat: 2KG, 4KG, 6KG, 8KG of 10KG. Een vergelijking staat op <a href=\"/lachgas-tanks/\">het overzicht van onze tanks</a>.",
                     "Stuur via WhatsApp je volledige adres, de gewenste dag en tijd, het formaat en of je contant of via Tikkie betaalt.",
                     "Wacht op onze bevestiging met de prijs, het verwachte tijdvak en de betaalwijze, en reageer daarop met een akkoord.",
                     "De bezorger uit jouw regio vertrekt en stuurt een bericht zodra hij bijna bij je adres is.",
@@ -394,7 +394,7 @@ SERVICE_PAGES = [
             "sections": [
                 {"h2": "Wat 24/7 bij Lachgas Holland betekent", "paragraphs": [
                         "24/7 betekent voor ons meer dan een chat waarin je altijd een bericht kunt achterlaten. Het gaat om het hele plaatje: een chat die op elk moment wordt beantwoord, bezorgers in de regio die ook op dinsdagochtend en zondagnacht rijden, en voorwaarden die op geen enkel uur veranderen. De levertijd is op elk moment meestal binnen 15 tot 25 minuten, de prijs uit de chat is de prijs die je betaalt, en betalen doe je altijd pas contant of via Tikkie bij levering.",
-                        "Ook het aanbod is op elk uur gelijk: verzegelde lachgastanks van 2KG, 4KG, 6KG en 10KG, te vinden op <a href=\"/lachgas-tanks/\">het overzicht van onze tanks</a>. Een nachtelijke bestelling levert geen kleinere keuze op en een bestelling op zondagmiddag geen toeslag. De enige kanttekening geldt voor alle uren: op vrijdag- en zaterdagavond, rond evenementen, bij slecht weer of files is het soms drukker dan normaal. Verwachten we zo'n drukker moment, dan laten we het vooraf via WhatsApp weten."
+                        "Ook het aanbod is op elk uur gelijk: verzegelde lachgastanks van 2KG, 4KG, 6KG, 8KG en 10KG, te vinden op <a href=\"/lachgas-tanks/\">het overzicht van onze tanks</a>. Een nachtelijke bestelling levert geen kleinere keuze op en een bestelling op zondagmiddag geen toeslag. De enige kanttekening geldt voor alle uren: op vrijdag- en zaterdagavond, rond evenementen, bij slecht weer of files is het soms drukker dan normaal. Verwachten we zo'n drukker moment, dan laten we het vooraf via WhatsApp weten."
                     ]},
                 {"h2": "Zo verloopt een bestelling op elk uur van de dag", "paragraphs": [
                         "Je stuurt via WhatsApp je adres inclusief huisnummer en toevoeging, het formaat tank dat je wilt en hoe je wilt betalen. Wie op dat moment dienst heeft, stuurt één bevestiging terug met de prijs, het verwachte tijdvak en een korte herhaling van de afspraken. Rijden doet een bezorger in de buurt pas als jij akkoord hebt gegeven. Dat is op woensdagmiddag niet anders dan op zaterdag om half vier 's nachts.",
@@ -429,7 +429,7 @@ SERVICE_PAGES = [
                 ],
                 [
                     "Kan ik 's nachts ook een 6KG of 10KG bestellen?",
-                    "Ja. Het aanbod is op elk uur hetzelfde: verzegelde lachgastanks 2KG, 4KG, 6KG en 10KG. Noem het formaat in je eerste bericht, dan staat het meteen in de bevestiging."
+                    "Ja. Het aanbod is op elk uur hetzelfde: verzegelde lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG. Noem het formaat in je eerste bericht, dan staat het meteen in de bevestiging."
                 ]
             ],
             "related": ["nachtbezorging", "weekendbezorging", "spoedbezorging", "bestellen-via-whatsapp"],

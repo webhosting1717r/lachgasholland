@@ -3,25 +3,25 @@
 
 TANKS = {
     'INDEX': {
-        'title': 'Lachgastank kiezen: 2KG, 4KG, 6KG of 10KG | Lachgas Holland',
-        'description': 'Alle lachgastanks van Lachgas Holland op een rij: 2KG, 4KG, 6KG en 10KG met netto-inhoud en passende gelegenheid. Verzegeld bezorgd in heel Nederland, 18+.',
-        'h1': 'Lachgastanks: kies 2KG, 4KG, 6KG of 10KG',
-        'lead': 'Vier tankformaten, in alle twaalf provincies verzegeld aan de deur gebracht. Dit overzicht helpt je het formaat te kiezen dat bij jouw gelegenheid past.',
+        'title': 'Lachgastank kiezen: van 2KG tot 10KG | Lachgas Holland',
+        'description': 'Alle lachgastanks van Lachgas Holland op een rij: 2KG, 4KG, 6KG, 8KG en 10KG met netto-inhoud en passende gelegenheid. Verzegeld bezorgd in heel Nederland, 18+.',
+        'h1': 'Lachgastanks: kies 2KG, 4KG, 6KG, 8KG of 10KG',
+        'lead': 'Vijf tankformaten, in alle twaalf provincies verzegeld aan de deur gebracht. Dit overzicht helpt je het formaat te kiezen dat bij jouw gelegenheid past.',
         'intro': [
-            'Lachgas Holland levert vier lachgastanks: 2KG, 4KG, 6KG en 10KG, met respectievelijk 2, 4, 6 en 10 kilo N2O als netto-inhoud. Patronen of crackers voeren wij niet. De formaten verschillen alleen in de hoeveelheid gas en in het gewicht dat je moet tillen; de herkomst, de controle vooraf en de zegel op de kraan zijn voor alle vier hetzelfde. Kies je formaat op basis van het aantal gasten en de duur van de avond. Een klein gezelschap komt met de 2KG uit, een volle huiskamer vraagt eerder om de 4KG, een groot huisfeest of een lang weekend om de 6KG, en voor een groot feest op een privéadres is de 10KG gemaakt.',
+            'Lachgas Holland levert vijf lachgastanks: 2KG, 4KG, 6KG, 8KG en 10KG, met respectievelijk 2, 4, 6, 8 en 10 kilo N2O als netto-inhoud. Patronen of crackers voeren wij niet. De formaten verschillen alleen in de hoeveelheid gas en in het gewicht dat je moet tillen; de herkomst, de controle vooraf en de zegel op de kraan zijn voor alle vijf hetzelfde. Kies je formaat op basis van het aantal gasten en de duur van de avond. Een klein gezelschap komt met de 2KG uit, een volle huiskamer vraagt eerder om de 4KG, een groot huisfeest of een lang weekend om de 6KG, een groot feest met veel gasten om de 8KG, en voor een groot feest of evenement op een privéadres is de 10KG gemaakt.',
             'Bestellen doe je door via WhatsApp je adres en het gewenste formaat door te geven. Een bezorger in de buurt gaat pas rijden nadat wij de prijs en een tijdvak hebben bevestigd, en is dan meestal binnen 15 tot 25 minuten bij je, waar je ook woont in Nederland. Op vrijdag- en zaterdagavond, bij evenementen of slecht weer kan het anders lopen; dat laten we je vooraf in de chat weten. Afrekenen gebeurt contant of via Tikkie bij levering, nooit vooraf. Omdat we alleen aan volwassenen leveren, controleert de bezorger bij elke overdracht een legitimatiebewijs. Lees meer over <a href="/service/bezorgtijden-per-regio/">bezorgtijden in heel Nederland</a> of stel je vraag gewoon in het gesprek.',
         ],
         'table_h2': 'Welke tank past bij welke gelegenheid',
         'table_text': 'In drie regels zie je de netto-inhoud, de gelegenheid waarvoor elk formaat bedoeld is en hoe je de tank verplaatst en neerzet.',
-        'table_head': ['Kenmerk', '2KG', '4KG', '6KG', '10KG'],
+        'table_head': ['Kenmerk', '2KG', '4KG', '6KG', '8KG', '10KG'],
         'table': [
-            ['Netto-inhoud', '2 kilo N2O', '4 kilo N2O', '6 kilo N2O', '10 kilo N2O'],
-            ['Bedoeld voor', 'Een klein gezelschap thuis', 'Een volle huiskamer of een lange avond', 'Een groot huisfeest of een lang weekend', 'Een groot feest of evenement op een privéadres'],
-            ['Verplaatsen en neerzetten', 'Licht, met één hand te dragen; rechtop en koel', 'Door één volwassene te tillen; rechtop op een vaste plek', 'Zwaarder; op een trap met twee personen; rechtop en vastgezet', 'Zwaar, met twee personen of een steekwagen; rechtop en vastgezet'],
+            ['Netto-inhoud', '2 kilo N2O', '4 kilo N2O', '6 kilo N2O', '8 kilo N2O', '10 kilo N2O'],
+            ['Bedoeld voor', 'Een klein gezelschap thuis', 'Een volle huiskamer of een lange avond', 'Een groot huisfeest of een lang weekend', 'Een groot feest met veel gasten, zonder reservering', 'Een groot feest of evenement op een privéadres'],
+            ['Verplaatsen en neerzetten', 'Licht, met één hand te dragen; rechtop en koel', 'Door één volwassene te tillen; rechtop op een vaste plek', 'Zwaarder; op een trap met twee personen; rechtop en vastgezet', 'Zwaar; met twee personen tillen; rechtop op een vaste plek', 'Zwaar, met twee personen of een steekwagen; rechtop en vastgezet'],
         ],
         'faq': [
             ['Welk formaat kies ik als ik het niet zeker weet?', 'Kies bij twijfel liever een maat groter dan je denkt nodig te hebben, want later op de avond bijbestellen betekent opnieuw wachten. Vertel in je bericht hoeveel gasten je verwacht en hoe lang jullie samen zijn, dan geven we een nuchter advies.'],
-            ['Leveren jullie overal in Nederland dezelfde tanks?', 'Ja, in alle twaalf provincies bezorgen we dezelfde vier formaten uit dezelfde voorraad. Kijk op <a href="/bezorggebied/">bezorggebied</a> voor de plaatsen waar bezorgers in de regio actief zijn.'],
+            ['Leveren jullie overal in Nederland dezelfde tanks?', 'Ja, in alle twaalf provincies bezorgen we dezelfde vijf formaten uit dezelfde voorraad. Kijk op <a href="/bezorggebied/">bezorggebied</a> voor de plaatsen waar bezorgers in de regio actief zijn.'],
             ['Waarom verkopen jullie geen patronen of crackers?', 'Een tank is overzichtelijker, geeft minder afval en kunnen we verzegeld overdragen, zodat je ziet dat hij ongeopend is. De achtergrond van die keuze staat in <a href="/informatie/tank-versus-patronen/">tank versus patronen</a>.'],
             ['Wat gebeurt er met de lege tank?', 'Een lege tank hoort niet bij het huisvuil. Breng hem naar de milieustraat van je gemeente of vraag bij je volgende bestelling of de bezorger hem mee kan nemen. In <a href="/informatie/lege-lachgastank-inleveren/">lege lachgastank inleveren</a> leggen we uit hoe dat werkt.'],
         ],
@@ -100,7 +100,7 @@ TANKS = {
             'image': '/assets/lachgastank-6kg',
             'image_alt': 'Lachgastank 6KG van Lachgas Holland, verzegeld geleverd: 6 kilo N2O',
             'title': 'Lachgastank 6KG voor een groot huisfeest | Lachgas Holland',
-            'description': 'Lachgastank 6KG met 6 kilo N2O: het formaat tussen 4KG, 6KG en 10KG in, voor een groot huisfeest of een lang weekend. Verzegeld bezorgd via WhatsApp, alleen 18+.',
+            'description': 'Lachgastank 6KG met 6 kilo N2O: het formaat tussen 4KG, 6KG, 8KG en 10KG in, voor een groot huisfeest of een lang weekend. Verzegeld bezorgd via WhatsApp, alleen 18+.',
             'h1': 'Lachgastank 6KG',
             'lead': 'Met 6 kilo N2O is dit de tank voor een groot huisfeest of een lang weekend: ruim meer dan de 4KG, maar nog zonder de logistiek van de 10KG.',
             'facts': [['Inhoud', '6 kilo N2O'], ['Levering', 'Verzegeld, in alle twaalf provincies'], ['Bestellen', 'WhatsApp, 24 uur per dag'], ['Betalen', 'Contant of Tikkie bij overdracht'], ['Leeftijd', 'Alleen 18+, met legitimatie'], ['Prijs', 'Op aanvraag, vooraf bevestigd']],
@@ -127,7 +127,41 @@ TANKS = {
                 ['Kan ik een 6KG alleen naar boven dragen?', 'Op een vlakke vloer wel, rechtop en met twee handen. Op een smalle trap of naar een hoge verdieping raden we aan om met twee personen te tillen, zodat de tank niet valt of tegen de leuning slaat. Zet hem boven direct rechtop op een vaste plek.'],
                 ['Kan ik de 6KG vooraf reserveren voor een feest in het weekend?', 'Ja. Stuur via WhatsApp je adres, het formaat en het gewenste moment, dan plannen we de levering in en bevestigen we de prijs vooraf. Op <a href="/service/feestdagen-en-evenementen/">feestdagen en evenementen</a> lees je hoe we met drukke dagen omgaan.']
             ],
-            'related': ['4kg', '10kg', 'lachgastank-bewaren-en-vervoeren', 'feestdagen-en-evenementen'],
+            'related': ['4kg', '8kg', '10kg', 'lachgastank-bewaren-en-vervoeren', 'feestdagen-en-evenementen'],
+        },
+        {
+            'slug': '8kg',
+            'image': '/assets/lachgastank-8kg',
+            'image_alt': 'Lachgastank 8KG van Lachgas Holland, verzegeld geleverd: 8 kilo N2O',
+            'title': 'Lachgastank 8KG voor een groot feest | Lachgas Holland',
+            'description': 'Lachgastank 8KG met 8 kilo N2O: viermaal de inhoud van de 2KG, voor een groot feest met veel gasten. Verzegeld bezorgd via WhatsApp in heel Nederland, alleen 18+.',
+            'h1': 'Lachgastank 8KG',
+            'lead': 'Met 8 kilo N2O is dit het formaat voor een groot feest met veel gasten: viermaal de inhoud van de 2KG, zonder dat je zoals bij de 10KG vooraf hoeft te reserveren.',
+            'facts': [['Inhoud', '8 kilo N2O'], ['Levering', 'Verzegeld, in alle twaalf provincies'], ['Bestellen', 'WhatsApp, 24 uur per dag'], ['Betalen', 'Contant of Tikkie bij overdracht'], ['Leeftijd', 'Alleen 18+, met legitimatie'], ['Prijs', 'Op aanvraag, vooraf bevestigd']],
+            'sections': [
+                {'h2': 'Voor een groot feest, zonder reservering vooraf', 'paragraphs': [
+                    'De 8KG is er voor avonden waar veel mensen tegelijk komen: een verjaardag met de hele vriendengroep én familie, een housewarming die uit de hand mag lopen, een oudejaarsavond met een volle huiskamer. Met viermaal de inhoud van de <a href="/lachgas-tanks/2kg/">2KG</a> hoef je de hele avond niet meer aan bijbestellen te denken, terwijl je het formaat gewoon op de avond zelf via WhatsApp aanvraagt.',
+                    'Vergeleken met de <a href="/lachgas-tanks/6kg/">6KG</a> is er simpelweg meer ruimte voor een grotere groep; vergeleken met de <a href="/lachgas-tanks/10kg/">10KG</a> hoef je niet vooraf te reserveren en is het geheel makkelijker naar binnen te krijgen. Twijfel je tussen 8KG en 10KG, zeg dan in de chat hoeveel gasten je verwacht en hoe lang het feest duurt; dan adviseren we eerlijk, ook als een kleiner formaat volstaat.'
+                ]},
+                {'h2': 'Van bericht tot overdracht', 'paragraphs': [
+                    'Een bestelling van 8KG verloopt niet anders dan een kleine: je appt je adres en het formaat, wij bevestigen de prijs en een tijdvak, en pas na jouw akkoord vertrekt een bezorger in de buurt. In heel Nederland is die meestal binnen 15 tot 25 minuten bij je, met het gebruikelijke voorbehoud voor drukke vrijdag- en zaterdagavonden, evenementen, slecht weer en files; dan laten we het vooraf via WhatsApp weten. Wil je het tijdvak liever van tevoren vastleggen, bijvoorbeeld voor een feest komend weekend, dan kan dat in dezelfde chat.',
+                    'Bij de deur controleert de bezorger eerst het identiteitsbewijs van een volwassene van 18 jaar of ouder en laat hij de verzegeling zien voordat je afrekent, contant of via Tikkie bij levering. Hoe wijzigen of annuleren werkt als je plannen veranderen, lees je bij <a href="/service/bestelling-wijzigen-of-annuleren/">wijzigen of annuleren</a>.'
+                ]},
+                {'h2': 'Een plek kiezen en veilig bewaren', 'paragraphs': [
+                    'Acht kilo N2O vraagt om een vaste plek: rechtop, op een vlakke ondergrond, uit de looproute en buiten bereik van kinderen. Koel en droog is de regel, dus niet op een zonnig balkon, in een hete auto of naast een kachel of fornuis. Laat de bezorger de tank liever meteen op die plek zetten dan hem later nog een keer door het huis te verplaatsen; op een trap til je met twee personen. Meer over bewaren en vervoeren lees je in <a href="/informatie/lachgastank-bewaren-en-vervoeren/">lachgastank bewaren en vervoeren</a>, en over kou en hitte in <a href="/informatie/lachgas-bij-kou-en-warmte/">lachgas bij kou en warmte</a>.',
+                    'Na afloop hoort een lege tank niet bij het restafval. Bewaar hem rechtop tot je hem inlevert bij de milieustraat, of vraag bij een volgende bestelling of de bezorger hem mee terugneemt; zie <a href="/informatie/lege-lachgastank-inleveren/">lege lachgastank inleveren</a>.'
+                ]},
+                {'h2': 'Veel gasten, duidelijke afspraken', 'paragraphs': [
+                    'Bij een groot feest ben je als organisator verantwoordelijk voor wie er binnen is en wie er bij de tank kan. Houd de tank weg van minderjarigen, zet hem niet midden in de drukte en let op gasten die zich niet goed voelen: frisse lucht, rust en bij twijfel 112. Wie nog rijdt, regelt vooraf een alternatief, want lachgas en verkeer gaan niet samen; lees <a href="/informatie/lachgas-in-het-verkeer/">lachgas in het verkeer</a>. Hoe je de buren te vriend houdt, staat in <a href="/informatie/feest-thuis-zonder-overlast/">feest thuis zonder overlast</a>, en onafhankelijke informatie over risico’s vind je bij <a href="https://www.trimbos.nl">Trimbos</a>.'
+                ]}
+            ],
+            'note': 'De 8KG gaat alleen verzegeld de deur uit en wordt uitsluitend overhandigd aan een volwassene die zich kan legitimeren. Afrekenen doe je bij overdracht, contant of via Tikkie bij levering.',
+            'faq': [
+                ['Wat is het verschil tussen een 8KG en een 10KG?', 'Twee kilo inhoud, en de manier van bestellen: de 8KG vraag je gewoon op de avond zelf aan, terwijl we voor de 10KG liever een dag vooraf plannen. Verwacht je tientallen gasten die tot laat blijven, kies dan de 10KG; voor een groot huisfeest is de 8KG meestal ruim genoeg.'],
+                ['Kan ik een 8KG op een adres met een smalle trap laten bezorgen?', 'Ja. Geef het in je bericht door, dan weet de bezorger wat hem te wachten staat. Til op een trap met twee personen en zet de tank boven direct rechtop op de plek waar hij de hele avond blijft staan.'],
+                ['Kan ik een 8KG vooraf vastleggen voor een feest in het weekend?', 'Ja. Stuur je adres, het formaat en de gewenste dag en tijd via WhatsApp; wij bevestigen prijs en tijdvak vooraf en je betaalt pas bij de overdracht. Op <a href="/service/weekendbezorging/">weekendbezorging</a> lees je hoe je slim plant rond de drukke avonden.']
+            ],
+            'related': ['6kg', '10kg', 'feestdagen-en-evenementen', 'lachgastank-bewaren-en-vervoeren'],
         },
         {
             'slug': '10kg',
@@ -161,7 +195,7 @@ TANKS = {
                 ['Leveren jullie een 10KG op een festivalterrein of in een gehuurde zaal?', 'Nee, we bezorgen alleen op privéadressen. Op festivals en evenementen gelden eigen regels en controles; lees <a href="/informatie/lachgas-op-festivals-en-evenementen/">lachgas op festivals en evenementen</a> voor de achtergrond.'],
                 ['Kan ik meerdere tanks van 10KG tegelijk bestellen?', 'Ja, zet het aantal in je bericht en reserveer dan zeker een dag vooraf. We bevestigen één prijs en één tijdvak, en de bezorger helpt je de tanks veilig rechtop neer te zetten.'],
             ],
-            'related': ['4kg', 'feestdagen-en-evenementen', 'lachgas-regels-per-gemeente', 'lege-lachgastank-inleveren'],
+            'related': ['8kg', '6kg', 'feestdagen-en-evenementen', 'lege-lachgastank-inleveren'],
         },
     ],
 }

@@ -11,13 +11,13 @@ SUB_AREAS = [
  "stadsdeel": "Zuid",
  "hero": "/assets/amsterdam-zuid",
  "title": "Lachgas Sarphatipark Amsterdam | Lachgas Holland",
- "description": "Lachgas bestellen aan het Sarphatipark in De Pijp, Amsterdam? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld aan de deur, meestal binnen 15 tot 25 minuten. Alleen 18+.",
+ "description": "Lachgas bestellen aan het Sarphatipark in De Pijp, Amsterdam? Lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG verzegeld aan de deur, meestal binnen 15 tot 25 minuten. Alleen 18+.",
  "h1": "Lachgas bezorgen rond het Sarphatipark, Amsterdam",
  "lead": "Lachgastanks thuisbezorgd aan het Sarphatipark en in de straten eromheen in De Pijp. Je appt je adres via WhatsApp, wij bevestigen vooraf de prijs en het tijdvak.",
  "intro": [
   "Het Sarphatipark ligt midden in De Pijp, tussen de Albert Cuypmarkt aan de noordkant en de Ceintuurbaan aan de zuidkant. De straat met dezelfde naam loopt rondom het park, met bovenwoningen die uitkijken op het groen; vanaf de Albert Cuyp kom je er via de Eerste Van der Helststraat. Woon, logeer of vier je iets aan het Sarphatipark of in een van de zijstraten, dan brengt een bezorger in de buurt je lachgastank gewoon tot aan je deur. In je WhatsApp-bericht zet je straat en huisnummer, de verdieping of de naam op de bel en het formaat dat je wilt; je krijgt de prijs en een tijdvak terug, en pas na jouw akkoord gaat de bezorger op weg.",
   "De huizen rond het park dateren grotendeels uit het einde van de negentiende eeuw: drie of vier woonlagen, een smalle gezamenlijke trap en een rijtje bellen naast de voordeur. De koerier kijkt daarom eerst naar de naam op de bel en de verdieping die je doorgaf. Parkeren is rondom het park betaald en bijna altijd vol, dus de auto staat even stil aan het begin van een zijstraat terwijl de tank naar je deur gaat. Dankzij bezorgers in de regio heb je je bestelling meestal binnen 15 tot 25 minuten in huis. Op marktdagen en op vrijdag- en zaterdagavond is het rond de Albert Cuyp dringen op de weg; schuift het tijdvak daardoor op, dan hoor je dat vooraf via WhatsApp.",
-  "Een borrel met uitzicht op het park, een verjaardag in een bovenwoning aan de Ceintuurbaan of een avond met huisgenoten in de Gerard Doustraat: voor een klein gezelschap in een compacte bovenwoning is een <a href=\"/lachgas-tanks/2kg/\">2KG</a> vaak genoeg, terwijl een groter feest eerder om een 4KG, 6KG of 10KG vraagt. Elke tank komt verzegeld bij je aan en de koerier laat die verzegeling zien voordat je afrekent. Je betaalt contant of via Tikkie bij levering; vooruitbetalen hoeft nooit. Je bent 18 jaar of ouder en toont dat aan de deur met een geldig identiteitsbewijs. Hoe een bestelling van begin tot eind verloopt, lees je op de pagina <a href=\"/service/bestellen-via-whatsapp/\">bestellen via WhatsApp</a>; de andere buurten vind je op <a href=\"/lachgas-bezorgen/amsterdam/\">de stadspagina voor Amsterdam</a>."],
+  "Een borrel met uitzicht op het park, een verjaardag in een bovenwoning aan de Ceintuurbaan of een avond met huisgenoten in de Gerard Doustraat: voor een klein gezelschap in een compacte bovenwoning is een <a href=\"/lachgas-tanks/2kg/\">2KG</a> vaak genoeg, terwijl een groter feest eerder om een 4KG, 6KG, 8KG of 10KG vraagt. Elke tank komt verzegeld bij je aan en de koerier laat die verzegeling zien voordat je afrekent. Je betaalt contant of via Tikkie bij levering; vooruitbetalen hoeft nooit. Je bent 18 jaar of ouder en toont dat aan de deur met een geldig identiteitsbewijs. Hoe een bestelling van begin tot eind verloopt, lees je op de pagina <a href=\"/service/bestellen-via-whatsapp/\">bestellen via WhatsApp</a>; de andere buurten vind je op <a href=\"/lachgas-bezorgen/amsterdam/\">de stadspagina voor Amsterdam</a>."],
  "straten": "Sarphatipark, Ceintuurbaan, Albert Cuypstraat, Ferdinand Bolstraat, Van Woustraat, Eerste en Tweede Van der Helststraat, Gerard Doustraat, Govert Flinckstraat, Van Ostadestraat, Rustenburgerstraat, Amsteldijk",
  "levertijd": LT,
  "faq": [
@@ -41,7 +41,7 @@ SUB_AREAS = [
  "stadsdeel": "Zuid",
  "hero": "/assets/amsterdam-zuid",
  "title": "Lachgas De Pijp Amsterdam | Lachgas Holland",
- "description": "Lachgas bestellen in De Pijp, Amsterdam? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld aan de deur, meestal binnen 15 tot 25 minuten. Alleen 18+.",
+ "description": "Lachgas bestellen in De Pijp, Amsterdam? Lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG verzegeld aan de deur, meestal binnen 15 tot 25 minuten. Alleen 18+.",
  "h1": "Lachgas bezorgen in De Pijp",
  "lead": "Van de Albert Cuypmarkt tot de Nieuwe Pijp: lachgastanks aan de deur in heel De Pijp. Bestel via WhatsApp en krijg vooraf de prijs en het tijdvak.",
  "intro": [
@@ -71,7 +71,7 @@ SUB_AREAS = [
  "stadsdeel": "Centrum",
  "hero": "/assets/amsterdam-centrum",
  "title": "Lachgas Jordaan Amsterdam | Lachgas Holland",
- "description": "Lachgas bestellen in de Jordaan, Amsterdam? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld aan de deur, meestal binnen 15 tot 25 minuten. Alleen 18+.",
+ "description": "Lachgas bestellen in de Jordaan, Amsterdam? Lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG verzegeld aan de deur, meestal binnen 15 tot 25 minuten. Alleen 18+.",
  "h1": "Lachgas bezorgen in de Jordaan",
  "lead": "Lachgastanks aan de deur in de smalle straten van de Jordaan, van de Westerstraat tot de Rozengracht. Prijs en tijdvak krijg je vooraf via WhatsApp.",
  "intro": [
@@ -101,7 +101,7 @@ SUB_AREAS = [
  "stadsdeel": "Centrum",
  "hero": "/assets/amsterdam-centrum",
  "title": "Lachgas Grachtengordel Amsterdam | Lachgas Holland",
- "description": "Lachgas bestellen in de Grachtengordel of de binnenstad van Amsterdam? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld aan de deur, meestal binnen 15 tot 25 minuten.",
+ "description": "Lachgas bestellen in de Grachtengordel of de binnenstad van Amsterdam? Lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG verzegeld aan de deur, meestal binnen 15 tot 25 minuten.",
  "h1": "Lachgas bezorgen in de Grachtengordel en de binnenstad",
  "lead": "Lachgastanks aan huis aan de Heren-, Keizers- en Prinsengracht en in de rest van het centrum, van het Leidseplein tot de Nieuwmarkt. Prijs en tijdvak vooraf via WhatsApp.",
  "intro": [
@@ -131,7 +131,7 @@ SUB_AREAS = [
  "stadsdeel": "Centrum",
  "hero": "/assets/amsterdam-centrum",
  "title": "Lachgas Haarlemmerbuurt Amsterdam | Lachgas Holland",
- "description": "Lachgas bestellen in de Haarlemmerbuurt of op de Westelijke Eilanden? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld aan de deur, meestal binnen 15 tot 25 minuten.",
+ "description": "Lachgas bestellen in de Haarlemmerbuurt of op de Westelijke Eilanden? Lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG verzegeld aan de deur, meestal binnen 15 tot 25 minuten.",
  "h1": "Lachgas bezorgen in de Haarlemmerbuurt en op de Westelijke Eilanden",
  "lead": "Lachgastanks aan de deur rond de Haarlemmerdijk, op Bickers-, Prinsen- en Realeneiland en op het Westerdokseiland. Prijs en tijdvak vooraf via WhatsApp.",
  "intro": [
@@ -161,7 +161,7 @@ SUB_AREAS = [
  "stadsdeel": "Centrum",
  "hero": "/assets/amsterdam-centrum",
  "title": "Lachgas Plantage Amsterdam | Lachgas Holland",
- "description": "Lachgas bestellen in de Plantage of op de Oostelijke Eilanden, Amsterdam? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld aan de deur, meestal binnen 15 tot 25 minuten.",
+ "description": "Lachgas bestellen in de Plantage of op de Oostelijke Eilanden, Amsterdam? Lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG verzegeld aan de deur, meestal binnen 15 tot 25 minuten.",
  "h1": "Lachgas bezorgen in de Plantage en op de Oostelijke Eilanden",
  "lead": "Lachgastanks aan huis rond Artis, in de Weesperbuurt en op Kattenburg, Wittenburg en Oostenburg. Bestel via WhatsApp en krijg vooraf de prijs en het tijdvak.",
  "intro": [
@@ -191,7 +191,7 @@ SUB_AREAS = [
  "stadsdeel": "West",
  "hero": "/assets/amsterdam-west",
  "title": "Lachgas Oud-West Amsterdam | Lachgas Holland",
- "description": "Lachgas bestellen in Amsterdam Oud-West? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld bezorgd rond de Kinkerstraat, De Hallen en de Overtoom, meestal binnen 15 tot 25 minuten. 18+.",
+ "description": "Lachgas bestellen in Amsterdam Oud-West? Lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG verzegeld bezorgd rond de Kinkerstraat, De Hallen en de Overtoom, meestal binnen 15 tot 25 minuten. 18+.",
  "h1": "Lachgas bezorgen in Oud-West",
  "lead": "Lachgastanks aan de deur in de Kinkerbuurt, de Helmersbuurt, de Da Costabuurt en de Vondelbuurt. Prijs en tijdvak krijg je vooraf via WhatsApp.",
  "intro": [
@@ -221,7 +221,7 @@ SUB_AREAS = [
  "stadsdeel": "Zuid",
  "hero": "/assets/amsterdam-zuid",
  "title": "Lachgas Oud-Zuid Amsterdam | Lachgas Holland",
- "description": "Lachgas bestellen in Amsterdam Oud-Zuid? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld bezorgd in het Museumkwartier, de Apollobuurt en de Stadionbuurt, meestal binnen 15 tot 25 minuten. 18+.",
+ "description": "Lachgas bestellen in Amsterdam Oud-Zuid? Lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG verzegeld bezorgd in het Museumkwartier, de Apollobuurt en de Stadionbuurt, meestal binnen 15 tot 25 minuten. 18+.",
  "h1": "Lachgas bezorgen in Oud-Zuid",
  "lead": "Lachgastanks aan de deur van het Museumplein tot het Olympisch Stadion. Bestel via WhatsApp en krijg vooraf de prijs en het tijdvak.",
  "intro": [
@@ -251,7 +251,7 @@ SUB_AREAS = [
  "stadsdeel": "Zuid",
  "hero": "/assets/amsterdam-zuid",
  "title": "Lachgas Rivierenbuurt Amsterdam | Lachgas Holland",
- "description": "Lachgas bestellen in de Rivierenbuurt, Amsterdam? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld bezorgd van de Scheldestraat tot de Amstelkade, meestal binnen 15 tot 25 minuten. 18+.",
+ "description": "Lachgas bestellen in de Rivierenbuurt, Amsterdam? Lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG verzegeld bezorgd van de Scheldestraat tot de Amstelkade, meestal binnen 15 tot 25 minuten. 18+.",
  "h1": "Lachgas bezorgen in de Rivierenbuurt",
  "lead": "Lachgastanks aan de deur rond de Rijnstraat, de Maasstraat en het Victorieplein. Prijs en tijdvak krijg je vooraf via WhatsApp.",
  "intro": [
@@ -281,13 +281,13 @@ SUB_AREAS = [
  "stadsdeel": "Zuid",
  "hero": "/assets/amsterdam-zuid",
  "title": "Lachgas Zuidas Amsterdam | Lachgas Holland",
- "description": "Lachgas bestellen op de Zuidas in Amsterdam? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld bezorgd rond de Gustav Mahlerlaan en station Zuid, meestal binnen 15 tot 25 minuten. 18+.",
+ "description": "Lachgas bestellen op de Zuidas in Amsterdam? Lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG verzegeld bezorgd rond de Gustav Mahlerlaan en station Zuid, meestal binnen 15 tot 25 minuten. 18+.",
  "h1": "Lachgas bezorgen op de Zuidas",
  "lead": "Lachgastanks aan de deur in de woontorens en appartementen van de Zuidas, van de Gershwinbuurt tot de Prinses Irenebuurt. Prijs en tijdvak vooraf via WhatsApp.",
  "intro": [
   "De Zuidas is het zakendistrict rond station Amsterdam Zuid, maar tussen de kantoortorens wordt volop gewoond: in de Gershwinbuurt rond de George Gershwinlaan, aan de Gustav Mahlerlaan en het Zuidplein, in de nieuwbouw bij het Beatrixpark en in de rustigere Prinses Irenebuurt aan de noordkant. Veel adressen zijn appartementengebouwen met een gedeelde entree. Voor een bestelling op de Zuidas stuur je via WhatsApp de naam van je gebouw of je straat met huisnummer, de verdieping en welke tank je zoekt; wij sturen de prijs en een tijdvak, en pas na jouw akkoord gaat een bezorger in de regio op pad. Doordeweeks, 's avonds en in het weekend verloopt dat precies hetzelfde.",
   "In de woontorens aan de Gustav Mahlerlaan en in de Gershwinbuurt is de voordeur een glazen entree met een videofoon en een paneel met namen of nummers. De koerier belt aan bij jouw woning en komt na het openen met de lift naar boven, of je komt zelf naar beneden; bij een receptie of in een lobby wordt de tank nooit achtergelaten. Stoppen kan kort op de laad- en losplekken voor de gebouwen of in de zijstraten, want de parkeergarages onder de torens zijn afgesloten. Reken erop dat de koerier meestal binnen 15 tot 25 minuten beneden bij de entree staat. Rond de ochtend- en avondspits en bij werkzaamheden aan de A10 en het station kan het tijdvak verschuiven; is dat het geval, dan laten we het vooraf via WhatsApp weten.",
-  "Een housewarming hoog in een toren aan het Zuidplein, een avond met vrienden in een appartement aan de George Gershwinlaan of een verjaardag in de Prinses Irenebuurt: welk formaat daarbij past, lees je op de pagina met <a href=\"/lachgas-tanks/\">lachgastanks</a>, waar 2KG, 4KG, 6KG en 10KG elk een eigen uitleg hebben. Voordat je betaalt, laat de koerier je het ongeopende zegel op de tank zien en vraagt hij om een geldig identiteitsbewijs, omdat we alleen leveren aan wie 18 jaar of ouder is. Daarna reken je af, contant of via Tikkie bij levering; een vooruitbetaling vragen we niet. Waaraan je een serieuze aanbieder herkent, staat in <a href=\"/informatie/betrouwbare-lachgas-bezorgservice-herkennen/\">een betrouwbare bezorgservice herkennen</a>; de buurten rondom de Zuidas staan op <a href=\"/lachgas-bezorgen/amsterdam/\">onze Amsterdam-pagina</a>."],
+  "Een housewarming hoog in een toren aan het Zuidplein, een avond met vrienden in een appartement aan de George Gershwinlaan of een verjaardag in de Prinses Irenebuurt: welk formaat daarbij past, lees je op de pagina met <a href=\"/lachgas-tanks/\">lachgastanks</a>, waar 2KG, 4KG, 6KG, 8KG en 10KG elk een eigen uitleg hebben. Voordat je betaalt, laat de koerier je het ongeopende zegel op de tank zien en vraagt hij om een geldig identiteitsbewijs, omdat we alleen leveren aan wie 18 jaar of ouder is. Daarna reken je af, contant of via Tikkie bij levering; een vooruitbetaling vragen we niet. Waaraan je een serieuze aanbieder herkent, staat in <a href=\"/informatie/betrouwbare-lachgas-bezorgservice-herkennen/\">een betrouwbare bezorgservice herkennen</a>; de buurten rondom de Zuidas staan op <a href=\"/lachgas-bezorgen/amsterdam/\">onze Amsterdam-pagina</a>."],
  "straten": "Gustav Mahlerlaan, George Gershwinlaan, Zuidplein, Strawinskylaan, Parnassusweg, Beethovenstraat, Prinses Irenestraat, De Boelelaan, Beatrixpark, Europaboulevard, Amstelveenseweg",
  "levertijd": LT,
  "faq": [
@@ -311,7 +311,7 @@ SUB_AREAS = [
  "stadsdeel": "Zuid",
  "hero": "/assets/amsterdam-zuid",
  "title": "Lachgas Buitenveldert Amsterdam | Lachgas Holland",
- "description": "Lachgas bestellen in Buitenveldert, Amsterdam? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld bezorgd rond het Gelderlandplein en de Van Boshuizenstraat, meestal binnen 15 tot 25 minuten. 18+.",
+ "description": "Lachgas bestellen in Buitenveldert, Amsterdam? Lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG verzegeld bezorgd rond het Gelderlandplein en de Van Boshuizenstraat, meestal binnen 15 tot 25 minuten. 18+.",
  "h1": "Lachgas bezorgen in Buitenveldert",
  "lead": "Lachgastanks aan de deur in heel Buitenveldert, van de Buitenveldertselaan tot het Amstelpark. Bestel via WhatsApp en krijg vooraf de prijs en het tijdvak.",
  "intro": [
@@ -341,7 +341,7 @@ SUB_AREAS = [
  "stadsdeel": "West",
  "hero": "/assets/amsterdam-west",
  "title": "Lachgas Westerpark Amsterdam | Lachgas Holland",
- "description": "Lachgas bestellen in Westerpark, Amsterdam? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld bezorgd in de Staatsliedenbuurt, de Spaarndammerbuurt en de Zeeheldenbuurt, meestal binnen 15 tot 25 minuten. 18+.",
+ "description": "Lachgas bestellen in Westerpark, Amsterdam? Lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG verzegeld bezorgd in de Staatsliedenbuurt, de Spaarndammerbuurt en de Zeeheldenbuurt, meestal binnen 15 tot 25 minuten. 18+.",
  "h1": "Lachgas bezorgen in Westerpark",
  "lead": "Lachgastanks aan de deur rond de Westergas, in de Staatsliedenbuurt, de Spaarndammerbuurt en de Frederik Hendrikbuurt. Prijs en tijdvak vooraf via WhatsApp.",
  "intro": [
@@ -371,11 +371,11 @@ SUB_AREAS = [
  "stadsdeel": "West",
  "hero": "/assets/amsterdam-west",
  "title": "Lachgas De Baarsjes Amsterdam | Lachgas Holland",
- "description": "Lachgas bestellen in De Baarsjes, Amsterdam? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld bezorgd rond het Mercatorplein en de Jan Evertsenstraat, meestal binnen 15 tot 25 minuten. 18+.",
+ "description": "Lachgas bestellen in De Baarsjes, Amsterdam? Lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG verzegeld bezorgd rond het Mercatorplein en de Jan Evertsenstraat, meestal binnen 15 tot 25 minuten. 18+.",
  "h1": "Lachgas bezorgen in De Baarsjes",
  "lead": "Lachgastanks aan de deur van de Admiralengracht tot het Surinameplein. Bestel via WhatsApp en krijg vooraf de prijs en het tijdvak.",
  "intro": [
-  "De Baarsjes ligt tussen de Kostverlorenvaart, de Jan van Galenstraat, de ring A10 en het Rembrandtpark, met het Mercatorplein en de Jan Evertsenstraat als hart van de buurt. De Hoofdweg en de Admiralengracht delen de buurt op in de Chassébuurt, de Mercatorbuurt en de straten rond de Postjesweg en het Surinameplein, vol bovenwoningen uit de jaren twintig en dertig. Voor een bezorger in de buurt is dat vertrouwd terrein: gesloten bouwblokken, brede lanen en smalle dwarsstraten ertussen. Je stuurt via WhatsApp je straatnaam met huisnummer, de verdieping waar je woont en of je een 2KG, 4KG, 6KG of 10KG wilt. In dezelfde chat lees je daarna de prijs en een tijdvak terug; de koerier stapt pas in de auto zodra jij dat bevestigt.",
+  "De Baarsjes ligt tussen de Kostverlorenvaart, de Jan van Galenstraat, de ring A10 en het Rembrandtpark, met het Mercatorplein en de Jan Evertsenstraat als hart van de buurt. De Hoofdweg en de Admiralengracht delen de buurt op in de Chassébuurt, de Mercatorbuurt en de straten rond de Postjesweg en het Surinameplein, vol bovenwoningen uit de jaren twintig en dertig. Voor een bezorger in de buurt is dat vertrouwd terrein: gesloten bouwblokken, brede lanen en smalle dwarsstraten ertussen. Je stuurt via WhatsApp je straatnaam met huisnummer, de verdieping waar je woont en of je een 2KG, 4KG, 6KG, 8KG of 10KG wilt. In dezelfde chat lees je daarna de prijs en een tijdvak terug; de koerier stapt pas in de auto zodra jij dat bevestigt.",
   "Typisch voor De Baarsjes zijn de portieken van de Amsterdamse School: één voordeur met daarachter een trap naar drie of vier woningen, en naast die deur een rijtje bellen met namen die lang niet altijd kloppen. Noem daarom het huisnummer inclusief toevoeging (zoals 3-hoog) en de naam die werkelijk op de bel staat. Parkeren is in de hele buurt betaald en de vakken langs de Hoofdweg en de Orteliusstraat zijn 's avonds vol; de koerier laat de auto even op de hoek staan en komt lopend naar je portiek. Met bezorgers in de regio heb je je tank meestal binnen 15 tot 25 minuten in handen. Rond het Mercatorplein en de Jan Evertsenstraat is het op vrijdag- en zaterdagavond druk met uitgaand verkeer; verandert daardoor het tijdvak, dan laten we het vooraf via WhatsApp weten.",
   "Een borrel in een etagewoning aan de Admiralengracht, een verjaardag boven een winkel aan de Jan Evertsenstraat of een filmavond met huisgenoten in de Chassébuurt: in De Baarsjes gaat het meestal om een huiskamer van bescheiden formaat, en daar is een <a href=\"/lachgas-tanks/4kg/\">4KG</a> voor een groep vrienden doorgaans ruim genoeg. De tank komt met ongebroken zegel aan en dat zegel bekijk je samen met de koerier voordat je betaalt. Je rekent af contant of via Tikkie bij levering; vooraf hoef je geen cent over te maken. De koerier levert alleen aan wie met een geldig identiteitsbewijs laat zien 18 jaar of ouder te zijn. Is je bezoek al onderweg, kijk dan bij <a href=\"/service/spoedbezorging/\">spoedbezorging</a>. Veelgehoorde misverstanden zetten we recht in <a href=\"/informatie/lachgas-mythes-en-feiten/\">lachgas: mythes en feiten</a>, en <a href=\"/lachgas-bezorgen/amsterdam/\">andere wijken in Amsterdam</a> staan op de stadspagina."],
  "straten": "Mercatorplein, Jan Evertsenstraat, Hoofdweg, Admiralengracht, Postjesweg, Surinameplein, Chassébuurt, Witte de Withstraat, De Clercqstraat, Jan van Galenstraat, Baarsjesweg, Rembrandtpark",
@@ -401,13 +401,13 @@ SUB_AREAS = [
  "stadsdeel": "West",
  "hero": "/assets/amsterdam-west",
  "title": "Lachgas Bos en Lommer Amsterdam | Lachgas Holland",
- "description": "Lachgas bestellen in Bos en Lommer, Amsterdam? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld bezorgd rond het Bos en Lommerplein, in Landlust en de Kolenkitbuurt, meestal binnen 15 tot 25 minuten. 18+.",
+ "description": "Lachgas bestellen in Bos en Lommer, Amsterdam? Lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG verzegeld bezorgd rond het Bos en Lommerplein, in Landlust en de Kolenkitbuurt, meestal binnen 15 tot 25 minuten. 18+.",
  "h1": "Lachgas bezorgen in Bos en Lommer",
  "lead": "Lachgastanks aan de deur in Landlust, de Kolenkitbuurt en rond het Erasmuspark. Prijs en tijdvak krijg je vooraf via WhatsApp.",
  "intro": [
   "Bos en Lommer ligt in het noordwesten van stadsdeel West, tussen de Haarlemmerweg, de ringspoorbaan, de Jan van Galenstraat en de Kostverlorenvaart. Het Bos en Lommerplein met de markt is het middelpunt; daaromheen liggen Landlust met zijn portiekflats, de Kolenkitbuurt met veel nieuwbouw, de Gibraltarbuurt en de straten rond het Erasmuspark. Omdat de A10 dwars door de buurt loopt, wil een bezorger in de buurt graag weten aan welke kant van de snelweg je woont: zet daarom straat, huisnummer, verdieping en het gewenste formaat in één WhatsApp-bericht. De prijs en een tijdvak lees je terug in de chat, en zolang jij nog niet hebt gereageerd, blijft de auto staan.",
   "Landlust bestaat grotendeels uit strokenbouw uit de jaren dertig: portiekflats van vier lagen met een open portiek en de bellen aan de buitenkant, zodat de koerier je naam meteen ziet. In de Kolenkitbuurt en langs de Bos en Lommerweg staat veel recente nieuwbouw met een gesloten entree en intercom; daar belt de koerier aan op je huisnummer. Parkeren is in heel Bos en Lommer betaald, maar bij de flats zijn vaak eigen vakken waar de auto even kan staan. Zeg je ja, dan staat er meestal binnen 15 tot 25 minuten iemand voor je portiek. Staat de markt op het Bos en Lommerplein of is het spits rond de afslag van de A10, dan kan het vollopen; schuift het tijdvak daardoor, dan laten we het vooraf via WhatsApp weten.",
-  "Een spelletjesavond in een portiekwoning in Landlust, een housewarming in een nieuwbouwappartement in de Kolenkitbuurt of een verjaardag in de Gibraltarbuurt: voor een klein gezelschap in een flat met weinig bergruimte is een <a href=\"/lachgas-tanks/2kg/\">2KG</a> het makkelijkst weg te zetten, en op de tankpagina's zie je wanneer 4KG, 6KG of 10KG logischer is. Elke tank wordt met intact zegel overhandigd; is het zegel beschadigd, dan neem je de tank niet aan. Afrekenen kan contant of via Tikkie bij levering, dus je hoeft vooraf niets over te maken; hoe dat precies gaat, staat bij <a href=\"/service/betalen-bij-levering/\">betalen bij levering</a>. Ben je nog geen 18, dan gaat de tank mee terug, want de koerier controleert ieders identiteitsbewijs. Lees ook over de rol van <a href=\"/informatie/lachgas-en-vitamine-b12/\">vitamine B12</a>. Omliggende buurten vind je op <a href=\"/lachgas-bezorgen/amsterdam/\">onze pagina voor heel Amsterdam</a>."],
+  "Een spelletjesavond in een portiekwoning in Landlust, een housewarming in een nieuwbouwappartement in de Kolenkitbuurt of een verjaardag in de Gibraltarbuurt: voor een klein gezelschap in een flat met weinig bergruimte is een <a href=\"/lachgas-tanks/2kg/\">2KG</a> het makkelijkst weg te zetten, en op de tankpagina's zie je wanneer 4KG, 6KG, 8KG of 10KG logischer is. Elke tank wordt met intact zegel overhandigd; is het zegel beschadigd, dan neem je de tank niet aan. Afrekenen kan contant of via Tikkie bij levering, dus je hoeft vooraf niets over te maken; hoe dat precies gaat, staat bij <a href=\"/service/betalen-bij-levering/\">betalen bij levering</a>. Ben je nog geen 18, dan gaat de tank mee terug, want de koerier controleert ieders identiteitsbewijs. Lees ook over de rol van <a href=\"/informatie/lachgas-en-vitamine-b12/\">vitamine B12</a>. Omliggende buurten vind je op <a href=\"/lachgas-bezorgen/amsterdam/\">onze pagina voor heel Amsterdam</a>."],
  "straten": "Bos en Lommerplein, Bos en Lommerweg, Landlust, Kolenkitbuurt, Gibraltarbuurt, Erasmuspark, Admiraal de Ruijterweg, Jan van Galenstraat, Burgemeester de Vlugtlaan, Hoofdweg, Haarlemmerweg, Erasmusgracht",
  "levertijd": LT,
  "faq": [
@@ -431,7 +431,7 @@ SUB_AREAS = [
  "stadsdeel": "Nieuw-West",
  "hero": "/assets/amsterdam-nieuw-west",
  "title": "Lachgas Slotervaart Amsterdam | Lachgas Holland",
- "description": "Lachgas bestellen in Slotervaart, Amsterdam Nieuw-West? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld bezorgd rond de Johan Huizingalaan en Overtoomse Veld, meestal binnen 15 tot 25 minuten. 18+.",
+ "description": "Lachgas bestellen in Slotervaart, Amsterdam Nieuw-West? Lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG verzegeld bezorgd rond de Johan Huizingalaan en Overtoomse Veld, meestal binnen 15 tot 25 minuten. 18+.",
  "h1": "Lachgas bezorgen in Slotervaart",
  "lead": "Lachgastanks aan de deur van Overtoomse Veld tot Nieuw Sloten en het Delflandplein. Bestel via WhatsApp en krijg vooraf de prijs en het tijdvak.",
  "intro": [
@@ -461,13 +461,13 @@ SUB_AREAS = [
  "stadsdeel": "Nieuw-West",
  "hero": "/assets/amsterdam-nieuw-west",
  "title": "Lachgas Osdorp Amsterdam | Lachgas Holland",
- "description": "Lachgas bestellen in Osdorp, Amsterdam Nieuw-West? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld bezorgd rond het Osdorpplein, in De Aker en De Punt, meestal binnen 15 tot 25 minuten. 18+.",
+ "description": "Lachgas bestellen in Osdorp, Amsterdam Nieuw-West? Lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG verzegeld bezorgd rond het Osdorpplein, in De Aker en De Punt, meestal binnen 15 tot 25 minuten. 18+.",
  "h1": "Lachgas bezorgen in Osdorp",
  "lead": "Lachgastanks aan de deur in heel Osdorp, van het Osdorpplein tot De Aker. Prijs en tijdvak krijg je vooraf via WhatsApp.",
  "intro": [
   "Osdorp is het westelijkste deel van Nieuw-West, tussen de Sloterplas, de Ookmeerweg en de polders richting Haarlemmermeer. Het Osdorpplein met winkelcentrum en bibliotheek is het centrum; daaromheen liggen Osdorp-Oost aan de Sloterplas, Osdorp-Midden, De Punt, de Wildemanbuurt en de nieuwere wijk De Aker aan de westkant. Veel adressen zijn portiekflats en eengezinswoningen aan rustige hoven. Omdat veel ingangen in Osdorp op elkaar lijken, vragen we je om in je WhatsApp-bericht behalve straat en huisnummer ook de wijk of een herkenningspunt te noemen, plus het gewenste formaat. Prijs en tijdvak volgen in de chat, en een bezorger in de buurt komt pas in beweging als jij akkoord geeft.",
   "In De Aker woon je in rijtjeshuizen uit de jaren negentig aan lussen en doodlopende straatjes, vaak met een eigen oprit of een parkeerplek voor de deur; hier belt de koerier gewoon bij je voordeur aan. Rond het Osdorpplein en langs de Tussen Meer staan hogere flats met een afgesloten entree en soms een parkeergarage eronder; dan wacht de koerier bij de buitendeur tot jij opendoet. De Wildemanbuurt en Osdorp-Midden hebben portiekflats rond groene hoven, met de bellen aan de straatkant. Welke woonvorm het ook is, je tank is er meestal binnen 15 tot 25 minuten. Op koopavond en op vrijdag- en zaterdagavond is het rond het winkelcentrum druk, en bij mooi weer ook bij het strand aan de Sloterplas; heeft dat gevolgen voor je tijdvak, dan laten we het vooraf via WhatsApp weten.",
-  "Een tuinfeest bij een rijtjeshuis in De Aker, een verjaardag in een flat aan Meer en Vaart of een avond met huisgenoten in De Punt: het aantal gasten bepaalt of 2KG, 4KG, 6KG of 10KG past, en het verschil zie je in één oogopslag op de pagina met <a href=\"/lachgas-tanks/\">lachgastanks</a>. De tank wordt verzegeld aangereikt en je controleert het zegel voordat je betaalt. Betalen gaat contant of via Tikkie bij levering; wij vragen geen cent vooruit. De koerier wil van iedereen die de tank aanneemt een geldig identiteitsbewijs zien, want onder de 18 leveren we niet. Hoe je de buren te vriend houdt, lees je in <a href=\"/informatie/feest-thuis-zonder-overlast/\">feest thuis zonder overlast</a>; plan je voor het weekend, kijk dan bij <a href=\"/service/weekendbezorging/\">weekendbezorging</a>. Alle <a href=\"/lachgas-bezorgen/amsterdam/\">stadsdelen van Amsterdam</a> staan op de stadspagina."],
+  "Een tuinfeest bij een rijtjeshuis in De Aker, een verjaardag in een flat aan Meer en Vaart of een avond met huisgenoten in De Punt: het aantal gasten bepaalt of 2KG, 4KG, 6KG, 8KG of 10KG past, en het verschil zie je in één oogopslag op de pagina met <a href=\"/lachgas-tanks/\">lachgastanks</a>. De tank wordt verzegeld aangereikt en je controleert het zegel voordat je betaalt. Betalen gaat contant of via Tikkie bij levering; wij vragen geen cent vooruit. De koerier wil van iedereen die de tank aanneemt een geldig identiteitsbewijs zien, want onder de 18 leveren we niet. Hoe je de buren te vriend houdt, lees je in <a href=\"/informatie/feest-thuis-zonder-overlast/\">feest thuis zonder overlast</a>; plan je voor het weekend, kijk dan bij <a href=\"/service/weekendbezorging/\">weekendbezorging</a>. Alle <a href=\"/lachgas-bezorgen/amsterdam/\">stadsdelen van Amsterdam</a> staan op de stadspagina."],
  "straten": "Osdorpplein, Tussen Meer, Meer en Vaart, Pieter Calandlaan, Ookmeerweg, Baden Powellweg, De Aker, De Punt, Wildemanbuurt, Osdorp-Midden, Osdorp-Oost, Hoekenes",
  "levertijd": LT,
  "faq": [
@@ -491,7 +491,7 @@ SUB_AREAS = [
  "stadsdeel": "Nieuw-West",
  "hero": "/assets/amsterdam-nieuw-west",
  "title": "Lachgas Geuzenveld-Slotermeer Amsterdam | Lachgas Holland",
- "description": "Lachgas bestellen in Geuzenveld of Slotermeer, Amsterdam Nieuw-West? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld bezorgd rond Plein '40-'45 en de Sloterplas, meestal binnen 15 tot 25 minuten. 18+.",
+ "description": "Lachgas bestellen in Geuzenveld of Slotermeer, Amsterdam Nieuw-West? Lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG verzegeld bezorgd rond Plein '40-'45 en de Sloterplas, meestal binnen 15 tot 25 minuten. 18+.",
  "h1": "Lachgas bezorgen in Geuzenveld en Slotermeer",
  "lead": "Lachgastanks aan de deur rond Plein '40-'45, de Burgemeester Röellstraat en het Lambertus Zijlplein. Bestel via WhatsApp en krijg vooraf de prijs en het tijdvak.",
  "intro": [
@@ -521,7 +521,7 @@ SUB_AREAS = [
  "stadsdeel": "Noord",
  "hero": "/assets/amsterdam-noord",
  "title": "Lachgas Amsterdam-Noord | Lachgas Holland",
- "description": "Lachgas bestellen in Amsterdam-Noord? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld bezorgd van de NDSM-werf tot Buikslotermeer en Nieuwendam, meestal binnen 15 tot 25 minuten. 18+.",
+ "description": "Lachgas bestellen in Amsterdam-Noord? Lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG verzegeld bezorgd van de NDSM-werf tot Buikslotermeer en Nieuwendam, meestal binnen 15 tot 25 minuten. 18+.",
  "h1": "Lachgas bezorgen in Amsterdam-Noord",
  "lead": "Lachgastanks aan de deur aan de overkant van het IJ: Overhoeks, Buiksloterham, Buikslotermeer, Nieuwendam, de Banne en Tuindorp Oostzaan. Prijs en tijdvak vooraf via WhatsApp.",
  "intro": [
@@ -551,13 +551,13 @@ SUB_AREAS = [
  "stadsdeel": "Oost",
  "hero": "/assets/amsterdam-oost",
  "title": "Lachgas Oosterparkbuurt Amsterdam | Lachgas Holland",
- "description": "Lachgas bestellen in de Oosterparkbuurt, de Dapperbuurt of de Transvaalbuurt in Amsterdam-Oost? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld aan de deur, meestal binnen 15 tot 25 minuten. 18+.",
+ "description": "Lachgas bestellen in de Oosterparkbuurt, de Dapperbuurt of de Transvaalbuurt in Amsterdam-Oost? Lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG verzegeld aan de deur, meestal binnen 15 tot 25 minuten. 18+.",
  "h1": "Lachgas bezorgen in de Oosterparkbuurt en Oud-Oost",
  "lead": "Lachgastanks aan de deur rond het Oosterpark, de Dappermarkt, de Wibautstraat en de Weesperzijde. Bestel via WhatsApp en krijg vooraf de prijs en het tijdvak.",
  "intro": [
   "Oud-Oost is het stuk van stadsdeel Oost dat direct tegen het centrum aan ligt: de Oosterparkbuurt rond het park en het OLVG, de Dapperbuurt met de Dappermarkt, de Transvaalbuurt achter de Linnaeusstraat en de Weesperzijde langs de Amstel. De Wibautstraat en de Linnaeusstraat zijn de brede doorgaande wegen; daartussen liggen smallere straten vol bovenwoningen en studentenhuizen. Woon je hier, of ben je een avond te gast bij vrienden aan de Eerste Oosterparkstraat, dan regel je een lachgastank met één WhatsApp-bericht: straat en huisnummer, de etage of wat er op de bel staat, en het formaat dat je wilt. Je krijgt de prijs en een tijdvak terug, en de bezorger gaat pas rijden als jij daarop akkoord geeft.",
   "Veel adressen in Oud-Oost zijn studentenhuizen of gesplitste bovenwoningen waar één voordeur toegang geeft tot meerdere kamers en etages. Omdat de koerier de tank alleen aan jou persoonlijk overhandigt, is het handig als je zelf opendoet of beneden staat zodra er wordt aangebeld. Op marktdagen staat de Dapperstraat vol kramen; de koerier parkeert dan kort in de Wagenaarstraat of de Commelinstraat en loopt het laatste stuk. Rondom het OLVG en het Oosterpark is parkeerruimte schaars, dus ook daar stopt de auto maar even. Een bezorger in de buurt is er meestal binnen 15 tot 25 minuten. Bij evenementen in het Oosterpark, zoals Keti Koti, en op vrijdag- en zaterdagavond rond het Beukenplein kan de buurt vollopen; verwachten we daardoor vertraging, dan laten we het vooraf via WhatsApp weten.",
-  "Een huisfeest op een gedeelde etage aan de Tweede Oosterparkstraat, een verjaardag aan de Weesperzijde of een rustige avond in de Transvaalbuurt: in een studentenkamer of kleine bovenwoning is een <a href=\"/lachgas-tanks/2kg/\">2KG</a> het makkelijkst weg te zetten; voor een vollere woonkamer kies je 4KG, 6KG of 10KG. De tank komt met een onbeschadigd zegel bij je aan, en dat zegel laat de koerier zien voordat je afrekent. Afrekenen doe je contant of via Tikkie bij levering; vooraf hoef je niets over te maken. Wie de tank aanneemt, is 18 jaar of ouder en laat dat aan de deur met een geldig identiteitsbewijs zien. Hoe lachgas kan doorwerken op je stemming, lees je in ons artikel over <a href=\"/informatie/lachgas-en-mentale-gezondheid/\">lachgas en mentale gezondheid</a>; praktische antwoorden staan bij de <a href=\"/veelgestelde-vragen/bestellen/\">veelgestelde vragen over bestellen</a>. Wil je <a href=\"/lachgas-bezorgen/amsterdam/\">elders in Amsterdam bestellen</a>, dan vind je daar elke buurt."],
+  "Een huisfeest op een gedeelde etage aan de Tweede Oosterparkstraat, een verjaardag aan de Weesperzijde of een rustige avond in de Transvaalbuurt: in een studentenkamer of kleine bovenwoning is een <a href=\"/lachgas-tanks/2kg/\">2KG</a> het makkelijkst weg te zetten; voor een vollere woonkamer kies je 4KG, 6KG, 8KG of 10KG. De tank komt met een onbeschadigd zegel bij je aan, en dat zegel laat de koerier zien voordat je afrekent. Afrekenen doe je contant of via Tikkie bij levering; vooraf hoef je niets over te maken. Wie de tank aanneemt, is 18 jaar of ouder en laat dat aan de deur met een geldig identiteitsbewijs zien. Hoe lachgas kan doorwerken op je stemming, lees je in ons artikel over <a href=\"/informatie/lachgas-en-mentale-gezondheid/\">lachgas en mentale gezondheid</a>; praktische antwoorden staan bij de <a href=\"/veelgestelde-vragen/bestellen/\">veelgestelde vragen over bestellen</a>. Wil je <a href=\"/lachgas-bezorgen/amsterdam/\">elders in Amsterdam bestellen</a>, dan vind je daar elke buurt."],
  "straten": "Oosterpark, Eerste Oosterparkstraat, Dapperstraat, Dappermarkt, Linnaeusstraat, Wibautstraat, Weesperzijde, Transvaalbuurt, Pretoriusstraat, Mauritskade, Beukenplein, Krugerplein",
  "levertijd": LT,
  "faq": [
@@ -581,7 +581,7 @@ SUB_AREAS = [
  "stadsdeel": "Oost",
  "hero": "/assets/amsterdam-oost",
  "title": "Lachgas Indische Buurt Amsterdam | Lachgas Holland",
- "description": "Lachgas bestellen in de Indische Buurt, Amsterdam-Oost? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld bezorgd rond de Javastraat, het Javaplein en het Flevopark, meestal binnen 15 tot 25 minuten. 18+.",
+ "description": "Lachgas bestellen in de Indische Buurt, Amsterdam-Oost? Lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG verzegeld bezorgd rond de Javastraat, het Javaplein en het Flevopark, meestal binnen 15 tot 25 minuten. 18+.",
  "h1": "Lachgas bezorgen in de Indische Buurt",
  "lead": "Lachgastanks aan de deur van het Muiderpoortstation tot het Flevopark. Prijs en tijdvak krijg je vooraf via WhatsApp.",
  "intro": [
@@ -611,7 +611,7 @@ SUB_AREAS = [
  "stadsdeel": "Oost",
  "hero": "/assets/amsterdam-oost",
  "title": "Lachgas Watergraafsmeer Amsterdam | Lachgas Holland",
- "description": "Lachgas bestellen in de Watergraafsmeer, Amsterdam-Oost? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld bezorgd rond de Middenweg, in Betondorp en bij Science Park, meestal binnen 15 tot 25 minuten. 18+.",
+ "description": "Lachgas bestellen in de Watergraafsmeer, Amsterdam-Oost? Lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG verzegeld bezorgd rond de Middenweg, in Betondorp en bij Science Park, meestal binnen 15 tot 25 minuten. 18+.",
  "h1": "Lachgas bezorgen in de Watergraafsmeer",
  "lead": "Lachgastanks aan de deur van Park Frankendael tot Betondorp en Science Park. Bestel via WhatsApp en krijg vooraf de prijs en het tijdvak.",
  "intro": [
@@ -641,12 +641,12 @@ SUB_AREAS = [
  "stadsdeel": "Oost",
  "hero": "/assets/amsterdam-oost",
  "title": "Lachgas Oostelijk Havengebied Amsterdam | Lachgas Holland",
- "description": "Lachgas bestellen in het Oostelijk Havengebied of op Zeeburgereiland, Amsterdam? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld aan de deur, meestal binnen 15 tot 25 minuten.",
+ "description": "Lachgas bestellen in het Oostelijk Havengebied of op Zeeburgereiland, Amsterdam? Lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG verzegeld aan de deur, meestal binnen 15 tot 25 minuten.",
  "h1": "Lachgas bezorgen in het Oostelijk Havengebied",
  "lead": "Lachgastanks aan de deur op de eilanden langs het IJ: Java, KNSM, Borneo, Sporenburg, Cruquius en Zeeburgereiland. Prijs en tijdvak vooraf via WhatsApp.",
  "intro": [
   "Woon je op een van de eilanden ten oosten van het Centraal Station? Het Oostelijk Havengebied bestaat uit Java-eiland en KNSM-eiland aan de IJ-kant, Borneo-eiland en Sporenburg met hun smalle kadewoningen, het Cruquiuseiland met nieuwe appartementen, en op de vaste wal de Oostelijke Handelskade en de Rietlanden; verderop ligt Zeeburgereiland met de Sportheldenbuurt. Het zijn adressen met lange kades en huisnummers die ver doorlopen, dus een bezorger in de buurt wil graag precies weten waar je voordeur zit. Stuur via WhatsApp je kade of straat met huisnummer, of je op een verdieping woont of een eigen deur hebt, en het formaat dat je zoekt; de prijs en een tijdvak volgen in de chat, en de rit start pas na jouw akkoord.",
-  "Eerst de zakelijke kant. Je betaalt niets vooruit: afrekenen gebeurt contant of via Tikkie bij levering, voor het bedrag dat eerder in de chat is bevestigd. De tank wordt verzegeld overhandigd en de koerier laat het zegel zien voordat je betaalt; is het niet intact, dan hoef je de tank niet aan te nemen. Wie de deur opent, is 18 jaar of ouder en toont een geldig identiteitsbewijs. Welk formaat bij je past, hangt af van de ruimte: in een pakhuisappartement op KNSM-eiland met lift is een 10KG goed te doen, in een kadewoning op Borneo met een smalle trap is een 2KG of 4KG handiger. Alle vier vind je op de pagina met <a href=\"/lachgas-tanks/\">lachgastanks</a>; hoe de betaling in zijn werk gaat, staat bij <a href=\"/service/betalen-bij-levering/\">betalen bij levering</a>.",
+  "Eerst de zakelijke kant. Je betaalt niets vooruit: afrekenen gebeurt contant of via Tikkie bij levering, voor het bedrag dat eerder in de chat is bevestigd. De tank wordt verzegeld overhandigd en de koerier laat het zegel zien voordat je betaalt; is het niet intact, dan hoef je de tank niet aan te nemen. Wie de deur opent, is 18 jaar of ouder en toont een geldig identiteitsbewijs. Welk formaat bij je past, hangt af van de ruimte: in een pakhuisappartement op KNSM-eiland met lift is een 10KG goed te doen, in een kadewoning op Borneo met een smalle trap is een 2KG of 4KG handiger. Alle vijf vind je op de pagina met <a href=\"/lachgas-tanks/\">lachgastanks</a>; hoe de betaling in zijn werk gaat, staat bij <a href=\"/service/betalen-bij-levering/\">betalen bij levering</a>.",
   "Dan de praktijk op de eilanden. Op Java-eiland rijdt de koerier alleen over de Javakade en de Sumatrakade; de woningen aan de binnengrachten bereikt hij te voet over de bruggetjes. Op KNSM-eiland staan grote woonblokken met een centrale entree en intercom; op straat is er weinig plek. De koerier stopt daarom kort aan de kade en loopt het laatste stuk. Dankzij bezorgers in de regio is de tank meestal binnen 15 tot 25 minuten op het eiland. Bij concerten en evenementen aan de Piet Heinkade of op vrijdag- en zaterdagavond kan het daar vastlopen; zien we dat aankomen, dan laten we het vooraf via WhatsApp weten. Lees ook ons artikel over <a href=\"/informatie/lachgas-bijwerkingen-en-eerste-hulp/\">bijwerkingen en eerste hulp</a>; de buurten op de wal staan op <a href=\"/lachgas-bezorgen/amsterdam/\">de hoofdpagina voor Amsterdam</a>."],
  "straten": "Java-eiland, KNSM-eiland, KNSM-laan, Borneo-eiland, Sporenburg, Cruquiuseiland, Czaar Peterbuurt, Entrepot-West, Piet Heinkade, Panamalaan, Zeeburgereiland, Sportheldenbuurt, Levantkade",
  "levertijd": LT,
@@ -671,7 +671,7 @@ SUB_AREAS = [
  "stadsdeel": "Oost",
  "hero": "/assets/amsterdam-oost",
  "title": "Lachgas IJburg Amsterdam | Lachgas Holland",
- "description": "Lachgas bestellen op IJburg, Amsterdam? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld bezorgd op Haveneiland, Steigereiland, de Rieteilanden en Centrumeiland, meestal binnen 15 tot 25 minuten. 18+.",
+ "description": "Lachgas bestellen op IJburg, Amsterdam? Lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG verzegeld bezorgd op Haveneiland, Steigereiland, de Rieteilanden en Centrumeiland, meestal binnen 15 tot 25 minuten. 18+.",
  "h1": "Lachgas bezorgen op IJburg",
  "lead": "Lachgastanks aan de deur op alle eilanden van IJburg, van Steigereiland tot Strandeiland. Bestel via WhatsApp en krijg vooraf de prijs en het tijdvak.",
  "intro": [
@@ -701,7 +701,7 @@ SUB_AREAS = [
  "stadsdeel": "Zuidoost",
  "hero": "/assets/amsterdam-zuidoost",
  "title": "Lachgas Amsterdam Zuidoost | Lachgas Holland",
- "description": "Lachgas bestellen in Amsterdam Zuidoost? Lachgastanks 2KG, 4KG, 6KG en 10KG verzegeld bezorgd in de Bijlmer, Venserpolder, Holendrecht, Reigersbos en Gein, meestal binnen 15 tot 25 minuten. 18+.",
+ "description": "Lachgas bestellen in Amsterdam Zuidoost? Lachgastanks 2KG, 4KG, 6KG, 8KG en 10KG verzegeld bezorgd in de Bijlmer, Venserpolder, Holendrecht, Reigersbos en Gein, meestal binnen 15 tot 25 minuten. 18+.",
  "h1": "Lachgas bezorgen in Amsterdam Zuidoost",
  "lead": "Lachgastanks aan de deur in de Bijlmer en Gaasperdam, van de Amsterdamse Poort tot Gein. Prijs en tijdvak krijg je vooraf via WhatsApp.",
  "intro": [
