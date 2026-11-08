@@ -208,7 +208,7 @@ class Site:
                 % (esc(pp["crumb"]), "".join("<div><dt>%s</dt><dd>%s</dd></div>" % (esc(k), esc(v)) for k, v in facts), C.wa_link(wa_text), ICON["wa"]))
         subs = [(sub_href(p["slug"], sp["slug"]), sp["name"]) for sp in self.subs_by_parent.get(p["slug"], [])]
         rel = self.related_links(pp.get("related", []))
-        body = (page_head(crumbs, pp.get("label", "Service"), pp["h1"], pp["lead"], image=hero)
+        body = (page_head(crumbs, pp.get("label", "Service"), pp["h1"], pp["lead"], image=hero, variant=pp.get("hero_variant"))
                 + section('<div class="two">%s%s</div>' % (article_body(pp["sections"], pp.get("note"), with_toc=False), side))
                 + section(sec_head("Assortiment", "Lachgastanks in %s" % p["name"], "Verzegeld geleverd, prijs vooraf bevestigd via WhatsApp.") + products(), alt=True)
                 + section('<div class="narrow">' + sec_head("Vragen", "Veelgestelde vragen") + faq(pp["faq"]) + "</div>")
@@ -307,10 +307,11 @@ class Site:
         path = "/service/%s/" % s["slug"]
         crumbs = [("Home", "/"), ("Service", "/service/"), (s["h1"], None)]
         rel = self.related_links(s.get("related", []))
-        body = (page_head(crumbs, s["label"], s["h1"], s["lead"]) + section(article_body(s["sections"], s.get("note"), with_toc=False))
+        hero = s.get("hero")
+        body = (page_head(crumbs, s["label"], s["h1"], s["lead"], image=hero, variant=s.get("hero_variant")) + section(article_body(s["sections"], s.get("note"), with_toc=False))
                 + section('<div class="narrow">' + sec_head("Vragen", "Veelgestelde vragen") + faq(s["faq"]) + "</div>", alt=True)
                 + (section(sec_head("Verder lezen", "Gerelateerde pagina's") + chips(rel)) if rel else "") + cta())
-        self.add(path=path, title=s["title"], description=s["description"], body=body, priority="0.8",
+        self.add(path=path, title=s["title"], description=s["description"], body=body, priority="0.8", preload=C.hero_preload(hero) if hero else "", og_image=C.hero_og(hero, s["h1"]),
                  schemas=[C.crumbs_schema([("Home", "/"), ("Service", "/service/"), (s["h1"], path)]), C.service_schema(s["h1"], s["description"], path, C.REGION, C.AREA_TYPE), C.faq_schema(s["faq"])])
 
     def service_index(self):

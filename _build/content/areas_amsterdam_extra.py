@@ -5,6 +5,8 @@ PLACE_PAGES = [
     {
         "parent": "amsterdam",
         "slug": "24-7",
+        "hero": "/assets/lachgas-24-7",
+        "hero_variant": "side",
         "crumb": "Amsterdam 24/7",
         "chip": "Lachgas Amsterdam 24/7",
         "label": "24/7",

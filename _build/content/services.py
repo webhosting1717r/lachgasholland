@@ -386,6 +386,8 @@ SERVICE_PAGES = [
     },
         {
             "slug": "lachgas-24-7",
+            "hero": "/assets/lachgas-24-7",
+            "hero_variant": "side",
             "label": "24/7",
             "title": "Lachgas 24/7 dag en nacht bestellen | Lachgas Holland",
             "description": "24/7 lachgas bestellen via WhatsApp: lees hoe bestellen op elk uur werkt, waarom de afspraken dag en nacht gelijk zijn en hoe we discreet leveren.",

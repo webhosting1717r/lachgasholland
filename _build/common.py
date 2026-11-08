@@ -239,12 +239,13 @@ def hero_preload(base):
     return '<link rel="preload" as="image" type="image/avif" imagesrcset="%s" imagesizes="(max-width:860px) 100vw, 720px" fetchpriority="high">' % hero_srcset(base, "avif")
 
 
-def page_head(crumb_items, kicker, h1, lead, image=None):
+def page_head(crumb_items, kicker, h1, lead, image=None, variant=None):
     """image: basispad van een achtergrondafbeelding achter de titel (zie hero_srcset); decoratief, dus lege alt."""
     bg = ('<div class="phead-bg" aria-hidden="true"><picture><source type="image/avif" srcset="%s" sizes="(max-width:860px) 100vw, 720px"><img src="%s.webp" srcset="%s" sizes="(max-width:860px) 100vw, 720px" width="1600" height="900" alt="" fetchpriority="high" decoding="async"></picture></div>'
           % (hero_srcset(image, "avif"), image, hero_srcset(image))) if image else ""
+    cls = (" phead-img" if image else "") + (" phead-side" if image and variant == "side" else "")
     return ('<section class="phead%s">%s<div class="wrap">%s<span class="kicker">%s</span><h1>%s</h1><p class="lead">%s</p></div></section>'
-            % (" phead-img" if image else "", bg, crumbs(crumb_items), esc(kicker), esc(h1), lead))
+            % (cls, bg, crumbs(crumb_items), esc(kicker), esc(h1), lead))
 
 
 def section(inner, alt=False, id_=None):
