@@ -178,7 +178,7 @@ def mobile_menu(path):
     return ('<nav class="menu-panel" aria-label="Mobiel menu">'
             '<div class="mm-status"><span class="mm-dot"></span><span><strong>24/7 bereikbaar via WhatsApp</strong><br>%s</span></div>'
             '<div class="mm-tiles">%s</div>'
-            '<a class="mm-prod" href="/lachgas-tanks/2kg/"><img src="/assets/lachgastank-2kg-160.webp" width="56" height="56" alt="" loading="lazy" decoding="async"><span><strong>Lachgastank 2KG</strong><small>Verzegeld geleverd &middot; bekijk de tank</small></span></a>'
+            '<a class="mm-prod" href="/lachgas-tanks/2kg/"><img src="/assets/fastgas-2kg-doos-160.webp" width="56" height="56" alt="" loading="lazy" decoding="async"><span><strong>Lachgastank 2KG</strong><small>Verzegeld geleverd &middot; bekijk de tank</small></span></a>'
             '%s<div class="mm-foot"><a class="btn btn-wa" href="%s" target="_blank" rel="noopener">%s WhatsApp ons nu</a>'
             '<p class="mm-trust"><span>18+ met legitimatie</span><span>Verzegeld</span><span>Betalen aan de deur</span></p></div></nav>'
             % (esc(STATUS_LINE), tiles, groups, wa_link(), ICON["wa"]))
@@ -186,11 +186,11 @@ def mobile_menu(path):
 
 def product_feature(heading="h3"):
     facts = PF_FACTS
-    return ('<div class="pf"><div class="pf-img"><img src="/assets/lachgastank-2kg.webp" srcset="/assets/lachgastank-2kg-300.webp 300w, /assets/lachgastank-2kg.webp 480w" sizes="(min-width: 768px) 300px, 70vw" width="480" height="640" alt="Verzegelde lachgastank 2KG van %s" loading="lazy" decoding="async"></div>'
+    return ('<div class="pf"><div class="pf-img"><picture><source type="image/avif" srcset="/assets/fastgas-2kg-doos-480.avif 480w, /assets/fastgas-2kg-doos.avif 960w" sizes="(min-width: 768px) 420px, 90vw"><img src="/assets/fastgas-2kg-doos.webp" srcset="/assets/fastgas-2kg-doos-480.webp 480w, /assets/fastgas-2kg-doos.webp 960w" sizes="(min-width: 768px) 420px, 90vw" width="960" height="640" alt="FastGas 2KG-lachgastank met de doos waarin hij geleverd wordt" loading="lazy" decoding="async"></picture></div>'
             '<div><span class="badge">Uitgelicht</span><%s>Lachgastank 2KG</%s><p>%s</p>'
             '<dl class="pf-facts">%s</dl><div class="pf-ctas"><a class="btn btn-dark" href="/lachgas-tanks/2kg/">Bekijk de 2KG</a><a class="btn btn-wa" href="%s" target="_blank" rel="noopener">%s Bestel via WhatsApp</a></div>'
             '<p class="pf-note">Uitsluitend voor 18+, met legitimatie aan de deur.</p></div></div>'
-            % (esc(BRAND), heading, heading, esc(PF_TEXT), "".join("<div><dt>%s</dt><dd>%s</dd></div>" % (esc(k), esc(v)) for k, v in facts), wa_link("Hoi, ik wil graag een lachgastank 2KG bestellen."), ICON["wa"]))
+            % (heading, heading, esc(PF_TEXT), "".join("<div><dt>%s</dt><dd>%s</dd></div>" % (esc(k), esc(v)) for k, v in facts), wa_link("Hoi, ik wil graag een lachgastank 2KG bestellen."), ICON["wa"]))
 
 
 # --- componenten --------------------------------------------------------
@@ -228,6 +228,13 @@ def crumbs(items):
 def hero_srcset(base, ext="webp"):
     """base: pad zonder extensie, bijv. /assets/amsterdam-gracht (bestanden <base>.webp/.avif 1600x900 en <base>-800.webp/.avif 800x450)."""
     return "%s-800.%s 800w, %s.%s 1600w" % (base, ext, base, ext)
+
+
+def product_picture(sizes):
+    """Productfoto van de FastGas 2KG-tank met doos (AVIF + WebP, 480/960 breed)."""
+    alt = "FastGas 2KG-lachgastank met de doos waarin hij geleverd wordt"
+    return ('<picture><source type="image/avif" srcset="/assets/fastgas-2kg-doos-480.avif 480w, /assets/fastgas-2kg-doos.avif 960w" sizes="' + sizes + '">'
+            '<img src="/assets/fastgas-2kg-doos.webp" srcset="/assets/fastgas-2kg-doos-480.webp 480w, /assets/fastgas-2kg-doos.webp 960w" sizes="' + sizes + '" width="960" height="640" alt="' + esc(alt) + '" loading="lazy" decoding="async"></picture>')
 
 
 def hero_og(base, alt):

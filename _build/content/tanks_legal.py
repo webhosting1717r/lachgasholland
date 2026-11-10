@@ -56,8 +56,8 @@ TANKS = {
     "TANKS": [
         {
             "slug": "2kg",
-            "image": "/assets/lachgastank-2kg-foto",
-            "image_alt": "Lachgastank 2KG van Lachgas Holland, verzegeld geleverd: 2 kilo N2O",
+            "image": "/assets/fastgas-2kg-doos",
+            "image_alt": "FastGas 2KG-lachgastank met de doos waarin hij geleverd wordt",
             "title": "Lachgastank 2KG van FastGas, verzegeld | Lachgas Holland",
             "description": "De lachgastank 2KG van Lachgas Holland is één verzegelde FastGas-tank met 2 kilo N2O, voor een klein gezelschap. Bezorgd in heel Nederland, 18+.",
             "h1": "Lachgastank 2KG",

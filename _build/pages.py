@@ -173,8 +173,7 @@ class Site:
             out["stadsdelen"] = section(sec_head("Stadsdelen", "Lachgas bezorgen per stadsdeel in %s" % name, "Elke buurt heeft een eigen pagina met straten, bereikbaarheid en veelgestelde vragen.")
                                         + '<div class="grid g2 stadsdelen">%s</div>' % "".join(blocks), alt=True)
         if p.get("ontvangst"):
-            img = ('<div class="card card-img"><img src="/assets/lachgastank-2kg.webp" srcset="/assets/lachgastank-2kg-300.webp 300w, /assets/lachgastank-2kg.webp 480w" sizes="(max-width:640px) 60vw, 200px" width="480" height="640" alt="%s" loading="lazy" decoding="async"></div>'
-                   % esc("Verzegelde lachgastank 2KG zoals bezorgd in %s" % name))
+            img = '<div class="card card-img">' + C.product_picture("(max-width:640px) 100vw, 360px") + '</div>'
             items = "".join('<div class="card"><h3>%s</h3><p>%s</p></div>' % (esc(o["titel"]), o["tekst"]) for o in p["ontvangst"])
             out["ontvangst"] = section(sec_head("Aan de deur", "Wat je ontvangt in %s" % name) + '<div class="grid g3 ontvangst">%s%s</div>' % (img, items))
         if p.get("regels"):
@@ -346,6 +345,7 @@ class Site:
                   **({"image": C.SITE + img + ".webp"} if img else {}),
                   "offers": {"@type": "Offer", "availability": "https://schema.org/InStock", "priceCurrency": "EUR", "url": C.SITE + path, "seller": {"@id": C.SITE + "/#business"}, "priceSpecification": {"@type": "PriceSpecification", "priceCurrency": "EUR", "description": "Prijs op aanvraag via WhatsApp"}}}
         self.add(path=path, title=t["title"], description=t["description"], body=body, priority="0.8",
+                 og_image=({"url": C.SITE + img + ".webp", "width": 960, "height": 640, "alt": t.get("image_alt") or t["h1"]} if img else None),
                  schemas=[C.crumbs_schema([("Home", "/"), ("Lachgas tanks", "/lachgas-tanks/"), (t["h1"], path)]), schema, C.faq_schema(t["faq"])])
 
     # -- FAQ -----------------------------------------------------------------------
