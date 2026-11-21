@@ -32,6 +32,9 @@ def load_content(cdir):
                 faq_topics=collect("FAQ_TOPICS"), tanks=first("TANKS"), pages=pages, topic_hubs=collect("TOPIC_HUBS"), sub_places=collect("SUB_AREAS"), place_pages=collect("PLACE_PAGES"))
 
 
+WA_OVERRIDES = {"/lachgas-bezorgen/amsterdam/": ("31685436044", "+31 6 85 43 60 44")}
+
+
 def write(rel, data, binary=False):
     p = os.path.join(ROOT, rel.lstrip("/")); os.makedirs(os.path.dirname(p), exist_ok=True)
     with open(p, "wb" if binary else "w", **({} if binary else {"encoding": "utf-8"})) as f: f.write(data)
@@ -91,6 +94,11 @@ def main():
             break
     import seo_master
     seo_master.apply_site(ROOT, C.SITE)
+    # afwijkend WhatsApp-nummer per pagina (pad -> (nummer, weergave)), als allerlaatste pas
+    for rel, (num, disp) in WA_OVERRIDES.items():
+        p = os.path.join(ROOT, rel.lstrip("/"), "index.html")
+        with open(p, encoding="utf-8") as f: html = f.read()
+        with open(p, "w", encoding="utf-8") as f: f.write(html.replace(C.WA_NUMBER, num).replace(C.WA_DISPLAY, disp))
     print("%d pagina's gebouwd in %s" % (len(out), ROOT))
 
 
