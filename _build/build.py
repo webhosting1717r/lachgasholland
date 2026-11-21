@@ -32,7 +32,7 @@ def load_content(cdir):
                 faq_topics=collect("FAQ_TOPICS"), tanks=first("TANKS"), pages=pages, topic_hubs=collect("TOPIC_HUBS"), sub_places=collect("SUB_AREAS"), place_pages=collect("PLACE_PAGES"))
 
 
-WA_OVERRIDES = {"/lachgas-bezorgen/amsterdam/": ("31685436044", "+31 6 85 43 60 44")}
+WA_OVERRIDES = {}
 
 
 def write(rel, data, binary=False):
