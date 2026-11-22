@@ -24,6 +24,15 @@ SITECFG = {
     "LLMS_BLURB": "bezorgt lachgastanks aan volwassenen (18+) in heel Nederland, in alle twaalf provincies. Bestellen via WhatsApp, prijs vooraf bevestigd, betalen bij levering.",
     "WA_NUMBER": "31684426296",
     "WA_DISPLAY": "+31 6 84 42 62 96",
+    # Tweede nummer voor alles buiten het kerngebied (Noord-Holland, Utrecht, Almere/Lelystad en omgeving).
+    # Plaatsen en provincies die hieronder staan houden het hoofdnummer; alle andere plaats- en provinciepagina's krijgen WA_ALT_*.
+    # Algemene pagina's (home, informatie, service, tanks, contact) houden altijd het hoofdnummer.
+    "WA_ALT_NUMBER": "31684626182",
+    "WA_ALT_DISPLAY": "+31 6 84 62 61 82",
+    "WA_MAIN_PLACES": ["amsterdam", "haarlem", "zaandam", "alkmaar", "hilversum", "amstelveen", "hoofddorp", "purmerend", "hoorn", "den-helder", "heerhugowaard", "beverwijk",
+                       "utrecht", "amersfoort", "nieuwegein", "zeist", "houten", "ijsselstein", "woerden", "soest", "leusden",
+                       "almere", "lelystad", "zeewolde", "dronten", "biddinghuizen", "harderwijk", "alphen-aan-den-rijn"],
+    "WA_MAIN_HUBS": ["noord-holland", "utrecht", "flevoland"],
     "EMAIL": "info@lachgasholland.nl",
     "TODAY": "2026-10-12",
     "MONTH_NL": "oktober 2026",

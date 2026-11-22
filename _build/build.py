@@ -32,7 +32,27 @@ def load_content(cdir):
                 faq_topics=collect("FAQ_TOPICS"), tanks=first("TANKS"), pages=pages, topic_hubs=collect("TOPIC_HUBS"), sub_places=collect("SUB_AREAS"), place_pages=collect("PLACE_PAGES"))
 
 
-WA_OVERRIDES = {}
+WA_OVERRIDES = {}  # handmatige uitzonderingen: pad -> (nummer, weergave)
+
+
+def wa_overrides(c):
+    """Pad -> (nummer, weergave) voor pagina's met een afwijkend WhatsApp-nummer.
+    Plaats- en provinciepagina's buiten het kerngebied (WA_MAIN_PLACES / WA_MAIN_HUBS in _site.py) krijgen WA_ALT_*; onderliggende pagina's volgen hun plaats."""
+    out = {}
+    alt = getattr(C, "WA_ALT_NUMBER", None)
+    if alt:
+        pair = (alt, C.WA_ALT_DISPLAY)
+        main_places, main_hubs = set(C.WA_MAIN_PLACES), set(C.WA_MAIN_HUBS)
+        unknown = (main_places - {p["slug"] for p in c["places"]}) | (main_hubs - {r["slug"] for r in c["regions"]})
+        assert not unknown, "onbekende slug in WA_MAIN_PLACES/WA_MAIN_HUBS: %s" % sorted(unknown)
+        for p in c["places"]:
+            if p["slug"] not in main_places: out["/lachgas-bezorgen/%s/" % p["slug"]] = pair
+        for sp in c["sub_places"] + c["place_pages"]:
+            if sp["parent"] not in main_places: out["/lachgas-bezorgen/%s/%s/" % (sp["parent"], sp["slug"])] = pair
+        for r in c["regions"]:
+            if r["slug"] not in main_hubs: out["/bezorggebied/%s/" % r["slug"]] = pair
+    out.update(WA_OVERRIDES)
+    return out
 
 
 def write(rel, data, binary=False):
@@ -95,7 +115,7 @@ def main():
     import seo_master
     seo_master.apply_site(ROOT, C.SITE)
     # afwijkend WhatsApp-nummer per pagina (pad -> (nummer, weergave)), als allerlaatste pas
-    for rel, (num, disp) in WA_OVERRIDES.items():
+    for rel, (num, disp) in wa_overrides(c).items():
         p = os.path.join(ROOT, rel.lstrip("/"), "index.html")
         with open(p, encoding="utf-8") as f: html = f.read()
         with open(p, "w", encoding="utf-8") as f: f.write(html.replace(C.WA_NUMBER, num).replace(C.WA_DISPLAY, disp))
